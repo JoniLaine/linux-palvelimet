@@ -2,6 +2,6 @@
 
 a) ensimmäinen harjoitus luennolla
 
-##  Tässä linkki GitHubin repositorioon
+##  Tänne voisi laittaa linkin sivustolle, kun siellä on sisältöä sekä lisätä jonkin tiedoston
 
-linkki: 
+
