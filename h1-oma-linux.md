@@ -18,6 +18,7 @@ AMD Radeon(TM) Vega 8 Graphics
 Disk/Levy:
 SSD
 
+ ![Add file: Upload](h1_Kuva1.png)
  
 Asennettu Oracle VirtuaBox ja ladattu Debian 12.9.0 versio koneelle (osoitteesta Debian -- The Universal Operating System).
 
