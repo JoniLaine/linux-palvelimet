@@ -1,13 +1,14 @@
-#h1 Oma Linux
-##Raportin kirjoittaminen
+# h1 Oma Linux
 
-##Free Software Foundation, neljä vapautta
+## Raportin kirjoittaminen
+
+## Free Software Foundation, neljä vapautta
 1.
 2.
 3.
 4.
-##Oman Debian on Linux virtuaalikoneen asennus
-###HOST-koneen tiedot:
+## Oman Debian on Linux virtuaalikoneen asennus
+### HOST-koneen tiedot:
 Prosessori:
 AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx     2.00 GHz
 RAM:
