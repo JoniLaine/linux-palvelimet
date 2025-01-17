@@ -24,31 +24,38 @@ Asennettu Oracle VirtuaBox ja ladattu Debian 12.9.0 versio koneelle (osoitteesta
 
 Käynnistetty VirtualBox ja klikattu välilehteä machine ja new… uuden virtuaalikoneen luomista varten.
 
-![Add file: Upload](h1_Kuva2.png)
-
 Annettu tarvittavat käyttöjärjestelmätiedot:
+
 Nimetty kone: OmaLinux
+
 Valittu ISO image: äsken ladattu debian-12.9.0-amd64-netinst.iso
+
 Valittu Next.
- 
-![Add file: Upload](h1_Kuva3.png)
+
+![Add file: Upload](h1_Kuva2.png)
 
 Luotu pääkäyttäjätiedot uudelle virtuaalikoneelle:
 Username: Joni
 Password: (omavalintainen salasana)
 Repeat password: (omavalintainen salasana uudestaan)
 
- 
+![Add file: Upload](h1_Kuva3.png)
 
 Ei tehty oletusasetuksiin tässä vaiheessa muutoksia, valittiin Next.
- 
+
+![Add file: Upload](h1_Kuva4.png)
+
 Ei tehty oletusasetuksiin tässä vaiheessa muutoksia, valittiin Next.
+
+![Add file: Upload](h1_Kuva5.png)
  
 Yhteenveto ja valittu Next:
  
+![Add file: Upload](h1_Kuva6.png)
 
 Virtuaalikone luotu automaattisesti ja käynnistynyt tämän jälkeen valmistuttuaan:
 
+![Add file: Upload](h1_Kuva7.png)
  
 Tässä vaiheessa havaittu virhe käyttäjänimessä, eli username tulee alkaa pienelllä kirjaimella, joten syötetty kirjautumista varten käyttäjänimi oikeassa muodossa.
 Tämän jälkeen kone virtuaalikone asentui ja päivittyi, eikä vaatinut toimenpiteitä tai valintoja, ainoastaan kärsivällisyyttä odottaa asennuksen valmistumista. Asennus itsessään alkoi noin kello 16:25 ja oli kokonaisuudessaan valmis noin kello 16:40.
