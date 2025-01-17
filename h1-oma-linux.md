@@ -76,17 +76,19 @@ Näppäimistön suomalaista layoutin valintaa varten kirjoitettu hakukenttään 
 
 Suljettu Prewiev näkymä rastista ja klikattu Next.
 
-![Add file: Upload](h1_Kuva11.png)
+![Add file: Upload](h1_Kuva14.png)
 
 Annettu oletusasetuksen olla sijainnin suhteen ja klikattu Next.
 
-
+![Add file: Upload](h1_Kuva11.png)
 
 Vaihtoehtona yhdistää koneeseen oma Google, Nextcloud tai Microsoft-tili. Valitaan Skip tältä erää, saa muutettua myöhemmin tarpeen mukaan.
 
+![Add file: Upload](h1_Kuva12.png)
  
 Klikattu nappia Start Using Debian GNU/Linux, jonka jälkeen kone on valmis käytettäväksi. Kone tullut käyttövalmiiksi noin 17:00.
- 
+
+![Add file: Upload](h1_Kuva13.png)
  
  
 
