@@ -10,8 +10,8 @@
 ## Free Software Foundation, neljä vapautta
 0. Vapaus käyttää ohjelmaa mihin tahansa haluamaansa tarkoitukseen ja suorittaa sitä haluamallaa tavalla
 1. Vapaus tutkia, miten ohjelma toimii, ja muokata sitä omiin tarpeisiin sopivaksi
-2. Vapaus jakaa kopioita ohjelmasta, jotta voi auttaa muita
-3. Vapaus jakaa muokattuja versioita ohjelmasta; lähdekoodin tulee kuitenkin olla saatavilla
+2. Vapaus jakaa kopioita ohjelmasta muiden auttamiseksi
+3. Vapaus jakaa muokattuja versioita ohjelmasta, jotta hyöty tavoittaa koko yhteisön
    
 ## Oman Debian on Linux virtuaalikoneen asennus
 
