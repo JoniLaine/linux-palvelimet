@@ -70,7 +70,11 @@ Virtuaalikone luotu automaattisesti ja käynnistynyt tämän jälkeen valmistutt
 
 ![Add file: Upload](h1_Kuva7.png)
  
-Tässä vaiheessa havaittu virhe käyttäjänimessä, eli **username tulee alkaa pienelllä kirjaimella**, joten syötetty kirjautumista varten käyttäjänimi oikeassa muodossa.
+Tässä vaiheessa havaittu virhe käyttäjänimessä, eli **username tulee alkaa pienelllä kirjaimella**.
+
+![Add file: Upload](h1_Kuva16.png)
+
+Painettu Enter, pyyhitty pois käyttäjänimi backspacella/askelpalauttimella ja syötetty kirjautumista varten käyttäjänimi oikeassa muodossa pienellä alkukirjaimella sekä painettu Enter.
 Tämän jälkeen kone virtuaalikone asentui ja päivittyi, eikä vaatinut toimenpiteitä tai valintoja, ainoastaan kärsivällisyyttä odottaa asennuksen valmistumista. Asennus itsessään alkoi noin kello 16:25 ja oli kokonaisuudessaan valmis noin kello 16:40.
 
 Asentumisen valmistuttua valittu juuri luotu käyttäjä ja syötetty valittu salasana, jonka jälkeen painettu enter kirjautumista varten:
