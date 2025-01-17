@@ -24,6 +24,8 @@ Asennettu Oracle VirtuaBox ja ladattu Debian 12.9.0 versio koneelle (osoitteesta
 
 Käynnistetty VirtualBox ja klikattu välilehteä machine ja new… uuden virtuaalikoneen luomista varten.
 
+ ![Add file: Upload](h1_Kuva15.png)
+
 Annettu tarvittavat käyttöjärjestelmätiedot:
 
 Nimetty kone: OmaLinux
@@ -62,17 +64,23 @@ Tämän jälkeen kone virtuaalikone asentui ja päivittyi, eikä vaatinut toimen
 
 Asentumisen valmistuttua valittu juuri luotu käyttäjä ja syötetty valittu salasana, jonka jälkeen painettu enter kirjautumista varten:
 
- 
+![Add file: Upload](h1_Kuva8.png)
 
 Alkunäkymä sekä perusasetusten valinta. Valittu kieleksi englanti (US), joka oli oletuksena ja painettu Next:
 
+![Add file: Upload](h1_Kuva9.png)
  
 Näppäimistön suomalaista layoutin valintaa varten kirjoitettu hakukenttään finnish ja tarkistettu Prewiev-valintaa painamalla, että näppäimistö täsmää haluttuun.
- 
+
+![Add file: Upload](h1_Kuva10.png)
+
 Suljettu Prewiev näkymä rastista ja klikattu Next.
 
+![Add file: Upload](h1_Kuva11.png)
 
 Annettu oletusasetuksen olla sijainnin suhteen ja klikattu Next.
+
+
 
 Vaihtoehtona yhdistää koneeseen oma Google, Nextcloud tai Microsoft-tili. Valitaan Skip tältä erää, saa muutettua myöhemmin tarpeen mukaan.
 
