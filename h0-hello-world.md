@@ -3,5 +3,5 @@
 a) ensimmäinen harjoitus luennolla
 
 ##  Linkki Tero Karvisen kurssin sisältöön
-[https://jonilaine.github.io/linux-palvelimet/](https://terokarvinen.com/linux-palvelimet/](https://terokarvinen.com/linux-palvelimet/)
+[Kurssin sisältö](https://jonilaine.github.io/linux-palvelimet/](https://terokarvinen.com/linux-palvelimet/](https://terokarvinen.com/linux-palvelimet/)
 
