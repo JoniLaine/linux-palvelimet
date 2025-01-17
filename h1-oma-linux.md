@@ -111,7 +111,7 @@ Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 
 
 Tero Karvinen, Raportin kirjoittaminen: (https://terokarvinen.com/2006/raportin-kirjoittaminen-4/)
 
-GNU Operating System, hat is Free Software?: (https://www.gnu.org/philosophy/free-sw.html)
+GNU Operating System, What is Free Software?: (https://www.gnu.org/philosophy/free-sw.html)
 
 
  
