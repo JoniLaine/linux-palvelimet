@@ -1,6 +1,11 @@
 # h1 Oma Linux
 
 ## Raportin kirjoittaminen
+- Raportin tulee olla tarkka ja tositettavissa
+- Raportin tulee olla täsmällinen (sisältää kaikki komennot, valinnat, kellonajat, tarpeeksi kattava kuvaus ongelmasta ja sen korjauksesta)
+- Raportin tulee olla helppolukuinen (kirjoitusvirheettömyys, väliotsikot, mahdollinen alkutiivistelmä)
+- Raportin tulee sisältää lähdeluettelot ja viittaukset niihin
+- Raportti ei saa sisältää plagiointia tai sepitystä (väitteitä tehdyistä toimenpiteistä tai testeistä, joita ei ole tehty)
 
 ## Free Software Foundation, neljä vapautta
 1.
@@ -8,7 +13,13 @@
 3.
 4.
 ## Oman Debian on Linux virtuaalikoneen asennus
+
+Onnistunut Oraclen VirtualBox ja Debian 12.9.0 version asennus. Raportti sisältää myös käyttäjätunnuksen luonnissa tapahtuneen virheen ja jatkotoimet.
+
 ### HOST-koneen tiedot:
+
+HP ProBook 455R G6
+
 Prosessori:
 AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx     2.00 GHz
 RAM:
@@ -87,6 +98,14 @@ Vaihtoehtona yhdistää koneeseen oma Google, Nextcloud tai Microsoft-tili. Vali
 Klikattu nappia Start Using Debian GNU/Linux, jonka jälkeen kone on valmis käytettäväksi. Kone tullut käyttövalmiiksi noin 17:00.
 
 ![Add file: Upload](h1_Kuva12.png)
+
+
+# Lähdeluettelo
+
+Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 tai uudempi) mukaisesti. (http://www.gnu.org/licenses/gpl.html)
+Tero Karvinen, Raportin kirjoittaminen: (https://terokarvinen.com/2006/raportin-kirjoittaminen-4/)
+GNU Operating System, hat is Free Software?: (https://www.gnu.org/philosophy/free-sw.html)
+
 
  
  
