@@ -24,11 +24,14 @@ Asennettu Oracle VirtuaBox ja ladattu Debian 12.9.0 versio koneelle (osoitteesta
 
 Käynnistetty VirtualBox ja klikattu välilehteä machine ja new… uuden virtuaalikoneen luomista varten.
 
+![Add file: Upload](h1_Kuva2.png)
+
 Annettu tarvittavat käyttöjärjestelmätiedot:
 Nimetty kone: OmaLinux
 Valittu ISO image: äsken ladattu debian-12.9.0-amd64-netinst.iso
 Valittu Next.
  
+![Add file: Upload](h1_Kuva3.png)
 
 Luotu pääkäyttäjätiedot uudelle virtuaalikoneelle:
 Username: Joni
