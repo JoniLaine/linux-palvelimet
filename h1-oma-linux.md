@@ -8,10 +8,11 @@
 - Raportti ei saa sisältää plagiointia tai sepitystä (väitteitä tehdyistä toimenpiteistä tai testeistä, joita ei ole tehty)
 
 ## Free Software Foundation, neljä vapautta
-1.
-2.
-3.
-4.
+0. Vapaus käyttää ohjelmaa mihin tahansa haluamaansa tarkoitukseen ja suorittaa sitä haluamallaa tavalla
+1. Vapaus tutkia, miten ohjelma toimii, ja muokata sitä omiin tarpeisiin sopivaksi
+2. Vapaus jakaa kopioita ohjelmasta, jotta voi auttaa muita
+3. Vapaus jakaa muokattuja versioita ohjelmasta; lähdekoodin tulee kuitenkin olla saatavilla
+   
 ## Oman Debian on Linux virtuaalikoneen asennus
 
 Onnistunut Oraclen VirtualBox ja Debian 12.9.0 version asennus. Raportti sisältää myös käyttäjätunnuksen luonnissa tapahtuneen virheen ja jatkotoimet.
