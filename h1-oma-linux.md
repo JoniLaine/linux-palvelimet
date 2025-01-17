@@ -59,7 +59,7 @@ Virtuaalikone luotu automaattisesti ja käynnistynyt tämän jälkeen valmistutt
 
 ![Add file: Upload](h1_Kuva7.png)
  
-Tässä vaiheessa havaittu virhe käyttäjänimessä, eli username tulee alkaa pienelllä kirjaimella, joten syötetty kirjautumista varten käyttäjänimi oikeassa muodossa.
+Tässä vaiheessa havaittu virhe käyttäjänimessä, eli **username tulee alkaa pienelllä kirjaimella**, joten syötetty kirjautumista varten käyttäjänimi oikeassa muodossa.
 Tämän jälkeen kone virtuaalikone asentui ja päivittyi, eikä vaatinut toimenpiteitä tai valintoja, ainoastaan kärsivällisyyttä odottaa asennuksen valmistumista. Asennus itsessään alkoi noin kello 16:25 ja oli kokonaisuudessaan valmis noin kello 16:40.
 
 Asentumisen valmistuttua valittu juuri luotu käyttäjä ja syötetty valittu salasana, jonka jälkeen painettu enter kirjautumista varten:
@@ -77,14 +77,17 @@ Näppäimistön suomalaista layoutin valintaa varten kirjoitettu hakukenttään 
 Suljettu Prewiev näkymä rastista ja klikattu Next.
 
 Annettu oletusasetuksen olla sijainnin suhteen ja klikattu Next.
+
+![Add file: Upload](h1_Kuva13.png)
+
 Vaihtoehtona yhdistää koneeseen oma Google, Nextcloud tai Microsoft-tili. Valitaan Skip tältä erää, saa muutettua myöhemmin tarpeen mukaan.
 
 ![Add file: Upload](h1_Kuva11.png)
  
 Klikattu nappia Start Using Debian GNU/Linux, jonka jälkeen kone on valmis käytettäväksi. Kone tullut käyttövalmiiksi noin 17:00.
+
 ![Add file: Upload](h1_Kuva12.png)
 
-![Add file: Upload](h1_Kuva13.png)
  
  
 
