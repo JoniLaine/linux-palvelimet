@@ -1,7 +1,7 @@
 # h1 Oma Linux
 
 ## Raportin kirjoittaminen
-- Raportin tulee olla tarkka ja tositettavissa
+- Raportin tulee olla tarkka ja toistettavissa
 - Raportin tulee olla täsmällinen (sisältää kaikki komennot, valinnat, kellonajat, tarpeeksi kattava kuvaus ongelmasta ja sen korjauksesta)
 - Raportin tulee olla helppolukuinen (kirjoitusvirheettömyys, väliotsikot, mahdollinen alkutiivistelmä)
 - Raportin tulee sisältää lähdeluettelot ja viittaukset niihin
