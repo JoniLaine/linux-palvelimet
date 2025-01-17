@@ -70,7 +70,7 @@ Virtuaalikone luotu automaattisesti ja käynnistynyt tämän jälkeen valmistutt
 
 ![Add file: Upload](h1_Kuva7.png)
  
-Tässä vaiheessa havaittu virhe käyttäjänimessä, eli **username tulee alkaa pienelllä kirjaimella**.
+Tässä vaiheessa havaittu virhe käyttäjänimessä, eli **username saa sisältää vain pieniä kirjaimia tai numeroita**.
 
 ![Add file: Upload](h1_Kuva16.png)
 
