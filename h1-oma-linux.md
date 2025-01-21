@@ -23,10 +23,13 @@ HP ProBook 455R G6
 
 Prosessori:
 AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx     2.00 GHz
+
 RAM:
 16,0 GB (14,9 GB usable)
+
 GPU:
 AMD Radeon(TM) Vega 8 Graphics
+
 Disk/Levy:
 SSD
 
@@ -90,7 +93,7 @@ Näppäimistön suomalaista layoutin valintaa varten kirjoitettu hakukenttään 
 
 ![Add file: Upload](h1_Kuva10.png)
 
-Suljettu Prewiev näkymä rastista ja klikattu Next.
+Suljettu Preview näkymä rastista ja klikattu Next.
 
 Annettu oletusasetuksen olla sijainnin suhteen ja klikattu Next.
 
