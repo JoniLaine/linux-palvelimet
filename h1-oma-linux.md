@@ -35,7 +35,7 @@ SSD
 
  ![Add file: Upload](h1_Kuva1.png)
  
-Asennettu Oracle VirtuaBox ja ladattu Debian 12.9.0 versio koneelle (osoitteesta Debian -- The Universal Operating System).
+Asennettu Oracle VirtuaBox ja ladattu Debian 12.9.0 versio koneelle osoitteesta: (https://www.debian.org/).
 
 Käynnistetty VirtualBox ja klikattu välilehteä machine ja new… uuden virtuaalikoneen luomista varten.
 
