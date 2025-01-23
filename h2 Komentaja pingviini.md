@@ -29,8 +29,11 @@ Kulunut aika: 0:50
 ## b)	Kolme minulle uutta komentoriviohjelmaa
 
 Päätin kokeilla seuraavien komentoriviohjelmien asennusta ja toimintaa:
+
 nano: tekstieditori
+
 rsync: tiedostojen synkronointityökalu
+
 tmux: mahdollistaa siirtymät usean työkalun välillä samassa terminaalissa
 
 Valintaani vaikuttivat kuvaukset, joita löysin hyödylliseksi koettujen ohjelmien joukosta. Kokemusta minulla ei ollut entuudestaan oikein mistään cmd pohjaisesta ohjelmasta linux-ympäristössä, mutta lähdin liikenteeseen avoimen uteliaasti.
