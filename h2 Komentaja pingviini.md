@@ -50,7 +50,7 @@ Kulunut aika: 1:45
 
 Annoin terminaaliin komennon:
 
-`nano`
+`$nano`
 
 ollessani yhä omassa kotivalikossani.
 
