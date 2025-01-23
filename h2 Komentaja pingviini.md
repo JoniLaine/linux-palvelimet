@@ -26,7 +26,7 @@ Kulunut aika: 0:50
 
 Kulunut aika: 0:50
 
-### b)	Kolme minulle uutta komentoriviohjelmaa
+## b)	Kolme minulle uutta komentoriviohjelmaa
 
 Päätin kokeilla seuraavien komentoriviohjelmien asennusta ja toimintaa:
 
@@ -95,6 +95,67 @@ Ja palaamaan takaisin tekemättä uusia muokkauksia valinnalla `ctrl + X`.
 
 Kulunut aika: 1:15
 
+Lähtiessäni kokeilemaan muita valitsemiani ohjelmia selvisi, että tmux ja rsync eivät olleet järkeviä valintoja sen hetken virtuaalikoneen tiedostomäärälle ja ohjelmamäärälle, joten valitsin asennettavaksi näiden tilalle seuraavat uuden tutkinnan jälkeen:
+
+tree: luo visuaalisen puumaisen rakenteen hakemistosta ja alihakemistoista
+locate: hakuohjelma, joka osaa etsiä vastaavuudet hakemistoista
+
+Asensin uudet valitsemani ohjelmat tällä kertaa erillisillä komennoilla:
+
+`$ sudo apt install tree`
+`$ sudo apt install locate`
+
+Aikaa kulunut 2:15
+
+### Tree
+
+Tree on tarkoitettu helpottamaan hakemistorakenteen hahmottamista muodostamalla puumaisen kaavan hakemistoista (samaan tapaan kuin esimerkiksi resurssienhallinta GUI versiossa).
+
+Kokeilin tree:n toimintaa komennolla:
+
+`$ tree`
+
+ 
+
+Tree mahdollisti myös määritellä, miten syvälle tiedostorakenteeseen halusi nähdä komennolla:
+
+Aikaa kulunut 2:30
+
+`$ tree -L 1` 
+
+[ numeron pystyi korvata haluamallaan määrällä ja se määritti hakemistojen tason, jonne asti puu näytti tulokset]
+
+ 
+
+Tree oli todella positiivinen löytö ja tulen sitä varmasti hyödyntämään jatkossa.
+
+### Locate
+
+Asennus onnistui komennolla:
+
+`$ sudo apt install locate`
+
+Kokeilin locaten toimintaa komennolla:
+
+`$ locate kissa.txt`
+
+, mutta tämä ei toiminut tehnyt yhtään mitään. Tästä löysin nopeasti tiedon jo samasta lähteestä, että toimiakseen locate vaati myös komennon:
+
+`$ sudo updatedb`
+
+Tämän jälkeen kokeilin uudestaan hakua, tällä kertaa toisella tiedostolla:
+
+`$ locate koira.txt`
+
+
+ 
+
+Kokeilin toiminnan myös alkuperäisellä kokeilulla:
+`$ kissa.txt`
+
+ja ohjelma toimi nyt oikein.
+
+Aikaa kulunut 3:00
 
  
 ## f) Raudan selitys ja analysointi
