@@ -10,8 +10,82 @@ Työn aloitus: 0:00
 
 Aikaa kulunut 0:45
 
+## a)	asenna micro
+ 
+ ![Add file: Upload](h2_Kuva1.png)
+
+Kulunut aika: 0:50
+
+Kulunut aika: 0:50
+
+## b)	Kolme minulle uutta komentoriviohjelmaa
+
+Päätin kokeilla seuraavien komentoriviohjelmien asennusta ja toimintaa:
+nano: tekstieditori
+rsync: tiedostojen synkronointityökalu
+tmux: mahdollistaa siirtymät usean työkalun välillä samassa terminaalissa
+
+Valintaani vaikuttivat kuvaukset, joita löysin hyödylliseksi koettujen ohjelmien joukosta. Kokemusta minulla ei ollut entuudestaan oikein mistään cmd pohjaisesta ohjelmasta linux-ympäristössä, mutta lähdin liikenteeseen avoimen uteliaasti.
+
+Kaikki asennukset suoritin yhdellä komennolla:
+
+`$ sudo apt install nano rsync tmux`
+
+Kulunut aika: 1:45
+
+## Nano
 
 
+
+Annoin terminaaliin komennon:
+
+`nano`
+
+ollessani yhä omassa kotivalikossani.
+
+Komennolla avautui tyhjä tekstitiedosto, johon voi alkaa kirjoittamaan suoraan ilman muita lisävalintoja:
+
+ ![Add file: Upload](h2_Kuva2.png)
+
+Tiedoston sai tallennettua suoraan painamalla ctrl + O (näkymässä alareunassa olevan ohjeen mukaan, koska ^O tarkoittaa tätä näppäinyhdistelmää).
+Tämä siirsi valikon tiedoston nimeämiseen, johon voi kirjoittaa suoraan tiedoston nimen ja vahvistaa tämän painamalla Enter.
+
+![Add file: Upload](h2_Kuva3.png)
+
+Tallennus tapahtui painamalla ctrl ja X.
+
+![Add file: Upload](h2_Kuva4.png)
+
+Tekstitiedosto tallentui siihen hakemistoon, jossa olin nanon avaamisen hetkellä. Asian pystyi varmistamaan komennolla:
+
+`$ ls` 
+
+![Add file: Upload](h2_Kuva5.png)
+
+Tiedostoa pääsi muokkaamaan komennolla:
+
+`$ nano nanolla_kirjoitettu_tekstitiedosto.txt`
+
+![Add file: Upload](h2_Kuva6.png)
+
+Muokkauksen tallennus tapahtui samaan tapaan kuin alkuperäisen tiedoston luonti seuraavilla komenoilla:
+
+`ctrl + o`
+
+`enter`
+
+`ctrl + X`
+
+Tekstitiedoston sisällön pystyi tarkistamaan tallentuneen muokattuun muotoon komennolla:
+
+`$ nano nanolla_kirjoitettu_tekstitiedosto.txt`
+
+Ja palaamaan takaisin tekemättä uusia muokkauksia valinnalla `ctrl + X`.
+
+Kulunut aika: 1:15
+
+
+ 
 ## f) Raudan selitys ja analysointi
 
 Tiesin, että koneella ei ollut valmiina asennettua tarvittavaa ohjelmaa, joten asensin sen komennolla:
