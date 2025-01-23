@@ -28,4 +28,4 @@ Ohjelma asentui ja tämän jälkeen annoin komennon:
 ## Lähdeluettelo
 
 
--	Tero Karvinen, Command Line Basics Revisited: (https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited)
+-	Tero Karvinen, Command Line Basics Revisited: [Command line basics revisited](https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited)
