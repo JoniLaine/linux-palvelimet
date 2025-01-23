@@ -11,6 +11,14 @@ Työn aloitus: 0:00
 Aikaa kulunut 0:45
 
 ## a)	asenna micro
+
+Annoin terminaalissa seuraavat komennot:
+
+`$ sudo apt-get update`
+
+(Terminaali pyysi tässä kohtaa salasananaani ja syötin sen, sekä painon enter, jonka jälkeen komento suoritettiin)
+
+`$ sudo apt install micro`
  
  ![Add file: Upload](h2_Kuva1.png)
 
