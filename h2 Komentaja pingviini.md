@@ -26,7 +26,7 @@ Kulunut aika: 0:50
 
 Kulunut aika: 0:50
 
-## b)	Kolme minulle uutta komentoriviohjelmaa
+### b)	Kolme minulle uutta komentoriviohjelmaa
 
 Päätin kokeilla seuraavien komentoriviohjelmien asennusta ja toimintaa:
 
@@ -44,7 +44,7 @@ Kaikki asennukset suoritin yhdellä komennolla:
 
 Kulunut aika: 1:45
 
-## Nano
+### Nano
 
 
 
