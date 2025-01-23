@@ -12,6 +12,16 @@ Aikaa kulunut 0:45
 
 
 
+## f) Raudan selitys ja analysointi
+
+Tiesin, että koneella ei ollut valmiina asennettua tarvittavaa ohjelmaa, joten asensin sen komennolla:
+
+´$ sudo apt install lshw´
+
+Terminaali pyysi salasanaa ja syötin sen ja painoin Enter.
+Ohjelma asentui ja tämän jälkeen annoin komennon:
+
+$ sudo lshw -short -sanitize
 
 
 
