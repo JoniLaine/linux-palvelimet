@@ -21,7 +21,7 @@ Tiesin, että koneella ei ollut valmiina asennettua tarvittavaa ohjelmaa, joten 
 Terminaali pyysi salasanaa ja syötin sen ja painoin Enter.
 Ohjelma asentui ja tämän jälkeen annoin komennon:
 
-$ sudo lshw -short -sanitize
+`$ sudo lshw -short -sanitize`
 
 
 
