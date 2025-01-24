@@ -159,29 +159,65 @@ Aikaa kulunut 3:00
 
 ## c)	Important directories
 
-Root-hakemisto:
+### Root-hakemisto (`/`):
 
-`/`
+Käyttäjäkohtaiseen juurihakemistoon pääsee suoraan kirjoittamalla komennon:
 
-Kotihakemisto (sisältää kaikkien käyttäjien kotihakemistot:
+`$ cd /`
 
-`/home/`
+Root-käyttäjäksi päästäkseen tulee antaa komento:
 
-Tietyn käyttäjän kotihakemisto (tässä tapauksessa joni-nimisen käyttäjän):
+`$ sudo su`
 
-`/home/joni/`
+Jonka jälkeen syötetään oma salasana ja painetaan `Enter`.
+Root-käyttäjyydestä pääsee palaamaan takaisin komennolla:
 
-Järjestelmäasetukset (koko järjestelmän laajuinen):
+`$ exit`
 
-`/etc/`
+![Add file: Upload](h2_Kuva30.png)
 
-Siirrettävät mediatiedostot:
+### Kotihakemisto (`/home/`):
 
-`/media/`
+Sisältää kaikkien käyttäjien kotihakemistot.
+Tietyn käyttäjän kotihakemistoon pääsee (tässä tapauksessa joni-nimisen käyttäjän) seuraavalla komennolla:
 
-Järjestelmälokit (koko järjestelmän laajuinen), josta on mahdollista hakea tietyn järjestelmän lokitiedot:
+`$cd /home/joni`
 
-`/var/log/`
+![Add file: Upload](h2_Kuva31.png)
+
+### Järjestelmäasetukset (`/etc/`):
+
+On koko koneen järjestelmän laajuinen ja sisältää asennus ja kokoonpanotiedostoja. Hakemistoon pääsee komennolla:
+
+`$ cd /etc`
+
+![Add file: Upload](h2_Kuva32.png)
+
+### Siirrettävät mediatiedostot (`/media/`):
+
+Näyttää esimerkiksi USB-tikkujen, ulkoisten kovalevyjen tai muiden ulkoisten tallennuslaitteiden sisällön hakemistona. Hakemistoihin pääsee käsiksi komennolla: 
+
+`$ cd /media`
+
+Ja sisällön saa luettua komennolla:
+
+`$ ls`
+
+(Cdrom on ensisijainen viittaus CD- tai DVD-asemaan. Host-koneessa kyseistä asemaa ei ole, mutta oman tutkimiseni mukaan cdrom:in näkyminen johtuu siitä, että virtuaalikoneen asentamiseen on käytetty ISO-tiedostoa, joka käyttäytyy kuin fyysinen CD-levy.)
+
+![Add file: Upload](h2_Kuva33.png)
+
+### Järjestelmälokit (/var/log/):
+
+On koko järjestelmän laajuinen hakemisto, josta on mahdollista hakea järjestelmien lokitiedot ja määrittää minkä lokin tiedot haluaa nähtäväksi. Hakemistoon pääsee komennolla:
+
+`$ cd /var/log`
+
+Ja sisällön saa luettua komennolla:
+
+`$ ls`
+
+![Add file: Upload](h2_Kuva35.png)
 
 ## d) Grep-komento
 
@@ -321,3 +357,9 @@ Suljin cheat sheetin `ctrl + Q`
 -	Tero Karvinen GitHub: [Cheat plug-in](https://github.com/terokarvinen/micro-cheat)
 
 - GitHub: [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+## Tekijä
+
+Joni Laine
+Haaga-Helia, IT-Tradenomiopiskelija
+
