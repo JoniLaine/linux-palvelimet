@@ -182,7 +182,7 @@ Järjestelmälokit (koko järjestelmän laajuinen), josta on mahdollista hakea t
 
 `/var/log/`
 
-
+## d) Grep-komento
 
  
 ## f) Raudan selitys ja analysointi
