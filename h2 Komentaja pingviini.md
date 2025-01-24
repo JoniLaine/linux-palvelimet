@@ -295,7 +295,9 @@ Seuraavaksi tein Tero Karvisen ohjeen muakiset komennot:
 Palasin takaisin hakemistoon, jossa tekemäni JavaScript-tiedosto oli komennoilla:
 
 `cd ..`
+
 `cd ..`
+
 `cd ..`
 
 Annoin komennon:
@@ -304,7 +306,7 @@ Annoin komennon:
 
 ja painoin `Enter`. Päästyäni takaisin microssa HelloWorld.js tiedostoon painoin `fn + F1` ja sain esille onnistuneesti cheat sheet:n (riippuen näppäinasetuksista pelkkä F1 voi toimia):
 
-![Add file: Upload](h2_Kuva27.png)
+![Add file: Upload](h2_Kuva29.png)
 
 Suljin cheat sheetin `ctrl + Q`
 
