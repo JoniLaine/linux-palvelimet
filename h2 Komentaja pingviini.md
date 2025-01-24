@@ -115,7 +115,7 @@ Kokeilin tree:n toimintaa komennolla:
 
 `$ tree`
 
- 
+ ![Add file: Upload](h2_Kuva7.png)
 
 Tree mahdollisti myös määritellä, miten syvälle tiedostorakenteeseen halusi nähdä komennolla:
 
@@ -125,7 +125,7 @@ Aikaa kulunut 2:30
 
 [ numeron pystyi korvata haluamallaan määrällä ja se määritti hakemistojen tason, jonne asti puu näytti tulokset]
 
- 
+![Add file: Upload](h2_Kuva8.png) 
 
 Tree oli todella positiivinen löytö ja tulen sitä varmasti hyödyntämään jatkossa.
 
@@ -147,7 +147,7 @@ Tämän jälkeen kokeilin uudestaan hakua, tällä kertaa toisella tiedostolla:
 
 `$ locate koira.txt`
 
-
+![Add file: Upload](h2_Kuva9.png)
  
 
 Kokeilin toiminnan myös alkuperäisellä kokeilulla:
@@ -169,7 +169,11 @@ Ohjelma asentui ja tämän jälkeen annoin komennon:
 
 `$ sudo lshw -short -sanitize`
 
+![Add file: Upload](h2_Kuva10.png)
 
+![Add file: Upload](h2_Kuva11.png)
+
+![Add file: Upload](h2_Kuva12.png)
 
 ## Lähdeluettelo
 
