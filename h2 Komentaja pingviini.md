@@ -159,16 +159,27 @@ Aikaa kulunut 3:00
 ## c)	Important directories
 
 Root-hakemisto:
+
 `/`
+
 Kotihakemisto (sisältää kaikkien käyttäjien kotihakemistot:
+
 `/home/`
+
 Tietyn käyttäjän kotihakemisto (tässä tapauksessa joni-nimisen käyttäjän):
+
 `/home/joni/`
+
 Järjestelmäasetukset (koko järjestelmän laajuinen):
+
 `/etc/`
-Siirrettävät mediatiedostot
+
+Siirrettävät mediatiedostot:
+
 `/media/`
+
 Järjestelmälokit (koko järjestelmän laajuinen), josta on mahdollista hakea tietyn järjestelmän lokitiedot:
+
 `/var/log/`
 
 
