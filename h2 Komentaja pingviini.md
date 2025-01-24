@@ -319,3 +319,5 @@ Suljin cheat sheetin `ctrl + Q`
 -	ITsfoss: [Micro editor cheat sheet](https://itsfoss.com/content/images/wordpress/2022/08/micro-command-line-text-editor-cheat-sheet.pdf)
 
 -	Tero Karvinen GitHub: [Cheat plug-in](https://github.com/terokarvinen/micro-cheat)
+
+- GitHub: [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
