@@ -184,6 +184,7 @@ Järjestelmälokit (koko järjestelmän laajuinen), josta on mahdollista hakea t
 
 ## d) Grep-komento
 
+## e) Pipe/putki
  
 ## f) Raudan selitys ja analysointi
 
