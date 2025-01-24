@@ -44,8 +44,6 @@ Kulunut aika: 1:45
 
 ### Nano
 
-
-
 Annoin terminaaliin komennon:
 
 `$nano`
@@ -157,6 +155,24 @@ Kokeilin toiminnan myös alkuperäisellä kokeilulla:
 ja ohjelma toimi nyt oikein.
 
 Aikaa kulunut 3:00
+
+## c)	Important directories
+
+Root-hakemisto:
+`/`
+Kotihakemisto (sisältää kaikkien käyttäjien kotihakemistot:
+`/home/`
+Tietyn käyttäjän kotihakemisto (tässä tapauksessa joni-nimisen käyttäjän):
+`/home/joni/`
+Järjestelmäasetukset (koko järjestelmän laajuinen):
+`/etc/`
+Siirrettävät mediatiedostot
+`/media/`
+Järjestelmälokit (koko järjestelmän laajuinen), josta on mahdollista hakea tietyn järjestelmän lokitiedot:
+`/var/log/`
+
+
+
  
 ## f) Raudan selitys ja analysointi
 
