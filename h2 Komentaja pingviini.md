@@ -10,7 +10,7 @@ Työn aloitus: 0:00
 
 Aikaa kulunut 0:45
 
-## a)	asenna micro
+## a)	Asenna micro
 
 Annoin terminaalissa seuraavat komennot:
 
