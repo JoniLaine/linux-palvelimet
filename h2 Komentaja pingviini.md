@@ -24,8 +24,6 @@ Annoin terminaalissa seuraavat komennot:
 
 Kulunut aika: 0:50
 
-Kulunut aika: 0:50
-
 ## b)	Kolme minulle uutta komentoriviohjelmaa
 
 Päätin kokeilla seuraavien komentoriviohjelmien asennusta ja toimintaa:
