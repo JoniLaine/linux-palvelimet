@@ -187,27 +187,47 @@ Järjestelmälokit (koko järjestelmän laajuinen), josta on mahdollista hakea t
 
 Grep-komennon tyypillisiä käyttötapoja ovat mm. seuraavat:
 
+Hakuja varten avasin terminaalin ja siirryin oikeaan hakemistoon komennoilla:
+
+`$ cd viikonpaivat` 
+
+`$ cd ma`
+
 Tietyn sanan hakeminen tekstitiedostosta:
 
 `$ grep "koira" koira.txt`
+
+![Add file: Upload](h2_Kuva13.png)
 
 Mikäli haluaa jättää huomioimatta, ovatko kirjaimet isolla vai pienellä kirjoitettuja onnistuu haku seuraavalla komennolla:
 
 `$ grep -i "koira" koira.txt`
 
-Komento palauttaa myös esimerkiksi muodossa Koira, kOira, KOIRA olevat vastaavuudet.
+![Add file: Upload](h2_Kuva14.png)
 
-Hakua voi käyttää myös useampaan tiedostoon samassa hakemistossa kerrallaan seuraavalla komennolla:
+Hakua voi käyttää myös useampaan tiedostoon samassa hakemistossa kerrallaan. Siirryin takaisin ylähakemistoon viikonpaivat komennoilla:
+
+`$ cd ..`
+
+`$ cd ..`
+
+Ylähakemistosta saa haettua kaikkien viikonpaivat alahakemistojen tiedostot ja niiden vastaavuudet kerralla komennolla:
 
 `$ grep -r "koira" viikonpaivat/`
+
+![Add file: Upload](h2_Kuva15.png)
 
 Myös tähän on mahdollista soveltaa ylempänä mainittua `-i` hakua:
 
 `$ grep -r -i "koira" viikonpaivat/`
 
-Komennon avulla pystyy myös etimään rivinumerot, joilla hakutulos esiintyy tietyssä tiedostossa:
+![Add file: Upload](h2_Kuva16.png)
+
+Grep-komennon avulla pystyy myös etimään rivinumerot, joilla hakutulos esiintyy tietyssä tiedostossa:
 
 `$ grep -n "koira" koira.txt`
+
+![Add file: Upload](h2_Kuva17.png)
 
 ## e) Pipe/putki
 
