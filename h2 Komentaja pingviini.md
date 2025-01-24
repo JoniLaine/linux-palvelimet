@@ -271,9 +271,40 @@ Loin uuden tiedoston microeditorilla komennolla:
 
 Kirjoitin tiedostoon lyhyen esimerkkikoodin JavaScript-koodista, painoin `ctrl + S` tallenusta varten, annoin tiedostolle nimeksi HelloWorld.java, painoin `Enter`:
 
-![Add file: Upload](h2_Kuva20.png)
+![Add file: Upload](h2_Kuva21.png)
 
-Avasin cheat pluginin painamalla fn + F1 (riippuen näppäinasetuksista pelkkä F1 voi toimia):
+Yritin avata cheat sheet:n painamalla Tero karvisen GitHubin Readme-tiedoston mukaisesti `F1`. Tämä ei toiminut, joten kokeilin myös painaa `fn + F1` saamatta mitään tulosta.
+Suljin tiedoston `ctrl + Q`ja tarkistin pug-in:en tilan komennolla:
+
+`$ micro -plugin list`
+
+Huomasin plugin:in asennuksen epäonnistuneen ja plug-in listalla cheat kohdalla oli ilmoitettu versioksi 0.0.0-unknown.
+
+Siirryin Tero Karvisen Readme-tiedoston seuraavaa ohjetta asennukselle (Alternatively, a development install) ja kirjoitin komennon poistaakseni ensin epäonnistuneen asennuksen:
+
+`$ micro -plugin remove cheat`
+
+Seuraavaksi tein Tero Karvisen ohjeen muakiset komennot:
+
+`$ cd $HOME/.config/micro/plug/`
+
+`$ git clone https://github.com/terokarvinen/micro-cheat`
+
+![Add file: Upload](h2_Kuva26.png)
+
+Palasin takaisin hakemistoon, jossa tekemäni JavaScript-tiedosto oli komennoilla:
+
+`cd ..`
+`cd ..`
+`cd ..`
+
+Annoin komennon:
+
+`$ micro HelloWorld.js`
+
+ja painoin `Enter`. Päästyäni takaisin microssa HelloWorld.js tiedostoon painoin `fn + F1` ja sain esille onnistuneesti cheat sheet:n (riippuen näppäinasetuksista pelkkä F1 voi toimia):
+
+![Add file: Upload](h2_Kuva27.png)
 
 Suljin cheat sheetin `ctrl + Q`
 
@@ -284,3 +315,5 @@ Suljin cheat sheetin `ctrl + Q`
 -	Tero Karvinen, Command Line Basics Revisited: [Command line basics revisited](https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited)
 
 -	(https://itsfoss.com/content/images/wordpress/2022/08/micro-command-line-text-editor-cheat-sheet.pdf)
+
+-	Tero Karvinen GitHub: [Cheat plug-in](https://github.com/terokarvinen/micro-cheat)
