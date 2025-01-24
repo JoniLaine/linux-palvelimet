@@ -93,7 +93,8 @@ Ja palaamaan takaisin tekemättä uusia muokkauksia valinnalla `ctrl + X`.
 
 Kulunut aika: 1:15
 
-Lähtiessäni kokeilemaan muita valitsemiani ohjelmia selvisi, että tmux ja rsync eivät olleet järkeviä valintoja sen hetken virtuaalikoneen tiedostomäärälle ja ohjelmamäärälle, joten valitsin asennettavaksi näiden tilalle seuraavat uuden tutkinnan jälkeen:
+Lähtiessäni kokeilemaan muita valitsemiani ohjelmia selvisi, että tmux ja rsync eivät olleet järkeviä valintoja sen hetken virtuaalikoneen tiedostomäärälle ja ohjelmamäärälle. En poistanut nätä ohjelmia, koska ajattelin niistä olevan amhdollisesti iloa virtuaalikoneen datamäärän kasvaessa.
+Valitsin asennettavaksi näiden tilalle seuraavat uuden tutkinnan jälkeen:
 
 `tree`: luo visuaalisen puumaisen rakenteen hakemistosta ja alihakemistoista
 `locate`: hakuohjelma, joka osaa etsiä vastaavuudet hakemistoista
