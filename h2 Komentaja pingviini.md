@@ -205,7 +205,7 @@ Ja hakemistosisällön saa katsottua komennolla:
 
 (Cdrom on ensisijainen viittaus CD- tai DVD-asemaan. Host-koneessa kyseistä asemaa ei ole, mutta oman tutkimiseni mukaan cdrom:in näkyminen johtuu siitä, että virtuaalikoneen asentamiseen on käytetty ISO-tiedostoa, joka käyttäytyy kuin fyysinen CD-levy.)
 
-![Add file: Upload](h2_Kuva33.png)
+![Add file: Upload](h2_Kuva34.png)
 
 ### Järjestelmälokit (/var/log/):
 
