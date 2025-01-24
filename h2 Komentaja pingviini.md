@@ -57,7 +57,7 @@ Komennolla avautui tyhjä tekstitiedosto, johon voi alkaa kirjoittamaan suoraan 
  ![Add file: Upload](h2_Kuva2.png)
 
 Tiedoston sai tallennettua suoraan painamalla `ctrl + O` (näkymässä alareunassa olevan ohjeen mukaan, koska `^O` tarkoittaa tätä näppäinyhdistelmää).
-Tämä siirsi valikon tiedoston nimeämiseen, johon voi kirjoittaa suoraan tiedoston nimen ja vahvistaa tämän painamalla Enter.
+Tämä siirsi valikon tiedoston nimeämiseen, johon voi kirjoittaa suoraan tiedoston nimen ja vahvistaa tämän painamalla `Enter`.
 
 ![Add file: Upload](h2_Kuva3.png)
 
