@@ -259,8 +259,39 @@ Ohjelma asentui ja tämän jälkeen annoin komennon:
 
 ## h) Plug-in asennus micro-editoriin
 
+Microeditoriin saa asennettua plug-in:n alla olevan komennon syntaksin mukaisesti (esimerkissä käytin cheat-nimistä plug-in:ia):
+
+`$ micro -plugin install cheat`
+
+![Add file: Upload](h2_Kuva19.png)
+
+Loin uuden tiedoston microeditorilla komennolla:
+
+`$ micro`
+
+Kirjoitin tiedostoon lyhyen esimerkkikoodin java-koodista, painoin `ctrl + S`tallenusta varten, annoin tiedostolle nimeksi HelloWorld.java, painoin `Enter`:
+
+![Add file: Upload](h2_Kuva20.png)
+
+Avasin cheat pluginin painamalla fn + F1 (riippuen näppäinasetuksista pelkkä F1 voi toimia):
+
+Suljin cheat sheetin ctrl + Q
+
+
+
+![Add file: Upload](h2_Kuva21.png)
+
+menty tiedostoon microlla ja painettu ctrl+ e annettu komennnot runit ja cheat asentamiseksi. Eivät jostain syystä toimi vieläkään.
+
+Komento
+micro -plugin install runit
+enter
+
+enter enter
 
 ## Lähdeluettelo
 
 
 -	Tero Karvinen, Command Line Basics Revisited: [Command line basics revisited](https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited)
+
+-	(https://itsfoss.com/content/images/wordpress/2022/08/micro-command-line-text-editor-cheat-sheet.pdf)
