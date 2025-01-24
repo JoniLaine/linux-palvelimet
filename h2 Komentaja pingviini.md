@@ -229,6 +229,10 @@ Ohjelma asentui ja tämän jälkeen annoin komennon:
 
 ![Add file: Upload](h2_Kuva12.png)
 
+
+## h) Plug-in asennus micro-editoriin
+
+
 ## Lähdeluettelo
 
 
