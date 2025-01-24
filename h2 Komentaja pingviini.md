@@ -236,6 +236,8 @@ Putkella (pipe, `|` ) voi yhdistää toisen komennon tuloksen käytettäväksi s
 Tässä esimerkki, jossa käytetään ensin `grep`-komentoa etsimään hakemistosta (viikonpaivat) tiedostoja, jotka sisältävät hakunan (koira). Saatu tulos käsitellään tämän jälkeen `|` yhdistyksellä ja hakuosumien rivien määrä palautetaan numerona käyttäen komentoa `wc -l`:
 
 `$ grep -r -i "koira" viikonpaivat/ | wc -l`
+
+![Add file: Upload](h2_Kuva18.png)
  
 ## f) Raudan selitys ja analysointi
 
