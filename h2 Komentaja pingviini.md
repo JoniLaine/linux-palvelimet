@@ -360,6 +360,7 @@ Suljin cheat sheetin `ctrl + Q`
 
 ## Tekijä
 
-Joni Laine
-Haaga-Helia, IT-Tradenomiopiskelija
+### Joni Laine
+
+### Haaga-Helia, IT-Tradenomiopiskelija
 
