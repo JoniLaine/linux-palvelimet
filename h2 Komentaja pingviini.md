@@ -205,6 +205,10 @@ Myös tähän on mahdollista soveltaa ylempänä mainittua `-i` hakua:
 
 `$ grep -r -i "koira" viikonpaivat/`
 
+Komennon avulla pystyy myös etimään rivinumerot, joilla hakutulos esiintyy tietyssä tiedostossa:
+
+`$ grep -n "koira" koira.txt`
+
 ## e) Pipe/putki
 
 Putkella (pipe, `|` ) voi yhdistää toisen komennon tuloksen käytettäväksi seuraavaan komentoon.
