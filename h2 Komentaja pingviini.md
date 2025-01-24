@@ -184,7 +184,33 @@ Järjestelmälokit (koko järjestelmän laajuinen), josta on mahdollista hakea t
 
 ## d) Grep-komento
 
+Grep-komennon tyypillisiä käyttötapoja ovat mm. seuraavat:
+
+Tietyn sanan hakeminen tekstitiedostosta:
+
+`$ grep "koira" koira.txt`
+
+Mikäli haluaa jättää huomioimatta, ovatko kirjaimet isolla vai pienellä kirjoitettuja onnistuu haku seuraavalla komennolla:
+
+`$ grep -i "koira" koira.txt`
+
+Komento palauttaa myös esimerkiksi muodossa Koira, kOira, KOIRA olevat vastaavuudet.
+
+Hakua voi käyttää myös useampaan tiedostoon samassa hakemistossa kerrallaan seuraavalla komennolla:
+
+`$ grep -r "koira" viikonpaivat/`
+
+Myös tähän on mahdollista soveltaa ylempänä mainittua `-i` hakua:
+
+`$ grep -r -i "koira" viikonpaivat/`
+
 ## e) Pipe/putki
+
+Putkella (pipe, `|` ) voi yhdistää toisen komennon tuloksen käytettäväksi seuraavaan komentoon.
+
+Tässä esimerkki, jossa käytetään ensin `grep`-komentoa etsimään hakemistosta (viikonpaivat) tiedostoja, jotka sisältävät hakunan (koira). Saatu tulos käsitellään tämän jälkeen `|` yhdistyksellä ja hakuosumien rivien määrä palautetaan numerona käyttäen komentoa `wc -l`:
+
+`$ grep -r -i "koira" viikonpaivat/ | wc -l`
  
 ## f) Raudan selitys ja analysointi
 
