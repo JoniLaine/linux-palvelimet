@@ -97,11 +97,13 @@ Lähtiessäni kokeilemaan muita valitsemiani ohjelmia selvisi, että tmux ja rsy
 Valitsin asennettavaksi näiden tilalle seuraavat uuden tutkinnan jälkeen:
 
 `tree`: luo visuaalisen puumaisen rakenteen hakemistosta ja alihakemistoista
+
 `locate`: hakuohjelma, joka osaa etsiä vastaavuudet hakemistoista
 
 Asensin uudet valitsemani ohjelmat tällä kertaa erillisillä komennoilla:
 
 `$ sudo apt install tree`
+
 `$ sudo apt install locate`
 
 Aikaa kulunut 2:15
