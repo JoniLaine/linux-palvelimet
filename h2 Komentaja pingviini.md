@@ -199,7 +199,7 @@ Näyttää esimerkiksi USB-tikkujen, ulkoisten kovalevyjen tai muiden ulkoisten 
 
 `$ cd /media`
 
-Ja sisällön saa luettua komennolla:
+Ja hakemistosisällön saa katsottua komennolla:
 
 `$ ls`
 
@@ -213,7 +213,7 @@ On koko järjestelmän laajuinen hakemisto, josta on mahdollista hakea järjeste
 
 `$ cd /var/log`
 
-Ja sisällön saa luettua komennolla:
+Ja hakemistosisällön saa katsottua komennolla:
 
 `$ ls`
 
