@@ -316,6 +316,6 @@ Suljin cheat sheetin `ctrl + Q`
 
 -	Tero Karvinen, Command Line Basics Revisited: [Command line basics revisited](https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited)
 
--	(https://itsfoss.com/content/images/wordpress/2022/08/micro-command-line-text-editor-cheat-sheet.pdf)
+-	ITsfoss: [Micro editor cheat sheet](https://itsfoss.com/content/images/wordpress/2022/08/micro-command-line-text-editor-cheat-sheet.pdf)
 
 -	Tero Karvinen GitHub: [Cheat plug-in](https://github.com/terokarvinen/micro-cheat)
