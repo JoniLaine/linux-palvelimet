@@ -294,11 +294,11 @@ Seuraavaksi tein Tero Karvisen ohjeen muakiset komennot:
 
 Palasin takaisin hakemistoon, jossa tekemäni JavaScript-tiedosto oli komennoilla:
 
-`cd ..`
+`$ cd ..`
 
-`cd ..`
+`$ cd ..`
 
-`cd ..`
+`$ cd ..`
 
 Annoin komennon:
 
