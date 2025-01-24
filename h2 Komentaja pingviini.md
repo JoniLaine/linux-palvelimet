@@ -269,7 +269,7 @@ Loin uuden tiedoston microeditorilla komennolla:
 
 `$ micro`
 
-Kirjoitin tiedostoon lyhyen esimerkkikoodin JavaScript-koodista, painoin `ctrl + S` tallenusta varten, annoin tiedostolle nimeksi HelloWorld.java, painoin `Enter`:
+Kirjoitin tiedostoon lyhyen esimerkkikoodin JavaScript-koodista, painoin `ctrl + S` tallenusta varten, annoin tiedostolle nimeksi HelloWorld.js, painoin `Enter`:
 
 ![Add file: Upload](h2_Kuva21.png)
 
