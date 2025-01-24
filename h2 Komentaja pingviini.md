@@ -16,7 +16,7 @@ Annoin terminaalissa seuraavat komennot:
 
 `$ sudo apt-get update`
 
-(Terminaali pyysi tässä kohtaa salasananaani ja syötin sen, sekä painon enter, jonka jälkeen komento suoritettiin)
+(Terminaali pyysi tässä kohtaa salasananaani ja syötin sen, sekä painon `Enter`, jonka jälkeen komento suoritettiin)
 
 `$ sudo apt install micro`
  
@@ -28,11 +28,11 @@ Kulunut aika: 0:50
 
 Päätin kokeilla seuraavien komentoriviohjelmien asennusta ja toimintaa:
 
-nano: tekstieditori
+`nano`: tekstieditori
 
-rsync: tiedostojen synkronointityökalu
+`rsync`: tiedostojen synkronointityökalu
 
-tmux: mahdollistaa siirtymät usean työkalun välillä samassa terminaalissa
+`tmux`: mahdollistaa siirtymät usean työkalun välillä samassa terminaalissa
 
 Valintaani vaikuttivat kuvaukset, joita löysin hyödylliseksi koettujen ohjelmien joukosta. Kokemusta minulla ei ollut entuudestaan oikein mistään cmd pohjaisesta ohjelmasta linux-ympäristössä, mutta lähdin liikenteeseen avoimen uteliaasti.
 
@@ -56,12 +56,12 @@ Komennolla avautui tyhjä tekstitiedosto, johon voi alkaa kirjoittamaan suoraan 
 
  ![Add file: Upload](h2_Kuva2.png)
 
-Tiedoston sai tallennettua suoraan painamalla ctrl + O (näkymässä alareunassa olevan ohjeen mukaan, koska ^O tarkoittaa tätä näppäinyhdistelmää).
+Tiedoston sai tallennettua suoraan painamalla `ctrl` + O (näkymässä alareunassa olevan ohjeen mukaan, koska `^O` tarkoittaa tätä näppäinyhdistelmää).
 Tämä siirsi valikon tiedoston nimeämiseen, johon voi kirjoittaa suoraan tiedoston nimen ja vahvistaa tämän painamalla Enter.
 
 ![Add file: Upload](h2_Kuva3.png)
 
-Tallennus tapahtui painamalla ctrl ja X.
+Tallennus tapahtui painamalla `ctrl + X`.
 
 ![Add file: Upload](h2_Kuva4.png)
 
@@ -81,7 +81,7 @@ Muokkauksen tallennus tapahtui samaan tapaan kuin alkuperäisen tiedoston luonti
 
 `ctrl + o`
 
-`enter`
+`Enter`
 
 `ctrl + X`
 
@@ -95,8 +95,8 @@ Kulunut aika: 1:15
 
 Lähtiessäni kokeilemaan muita valitsemiani ohjelmia selvisi, että tmux ja rsync eivät olleet järkeviä valintoja sen hetken virtuaalikoneen tiedostomäärälle ja ohjelmamäärälle, joten valitsin asennettavaksi näiden tilalle seuraavat uuden tutkinnan jälkeen:
 
-tree: luo visuaalisen puumaisen rakenteen hakemistosta ja alihakemistoista
-locate: hakuohjelma, joka osaa etsiä vastaavuudet hakemistoista
+`tree`: luo visuaalisen puumaisen rakenteen hakemistosta ja alihakemistoista
+`locate`: hakuohjelma, joka osaa etsiä vastaavuudet hakemistoista
 
 Asensin uudet valitsemani ohjelmat tällä kertaa erillisillä komennoilla:
 
@@ -117,15 +117,15 @@ Kokeilin tree:n toimintaa komennolla:
 
 Tree mahdollisti myös määritellä, miten syvälle tiedostorakenteeseen halusi nähdä komennolla:
 
-Aikaa kulunut 2:30
-
 `$ tree -L 1` 
 
 [ numeron pystyi korvata haluamallaan määrällä ja se määritti hakemistojen tason, jonne asti puu näytti tulokset]
 
 ![Add file: Upload](h2_Kuva8.png) 
 
-Tree oli todella positiivinen löytö ja tulen sitä varmasti hyödyntämään jatkossa.
+Tree oli todella positiivinen löytö ja tulen sitä varmasti hyödyntämään jatkossa. Ohjelma on erityisen hyödyllinen, mikäli kansiorakenteen hahmottamisessa on haasteita tai sitä vasta harjoittelee.
+
+Aikaa kulunut 2:30
 
 ### Locate
 
@@ -147,14 +147,13 @@ Tämän jälkeen kokeilin uudestaan hakua, tällä kertaa toisella tiedostolla:
 
 ![Add file: Upload](h2_Kuva9.png)
  
-
 Kokeilin toiminnan myös alkuperäisellä kokeilulla:
+
 `$ kissa.txt`
 
 ja ohjelma toimi nyt oikein.
 
 Aikaa kulunut 3:00
-
  
 ## f) Raudan selitys ja analysointi
 
