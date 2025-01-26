@@ -296,10 +296,10 @@ Komento antaa luettelon koneen ominaisuuksista helposti luettavassa muodossa.
 
 Luetteltuna ovat seuraavat:
 
-	- H/W path (laiteväylän osoite, eli polku jolla pääset kyseiseen resurssiin)
-	- Device (laite)
-	- Class (luokka)
-	- Description (kuvaus)
+- H/W path (laiteväylän osoite, eli polku jolla pääset kyseiseen resurssiin)
+- Device (laite)
+- Class (luokka)
+- Description (kuvaus)
 
 Esimerkkipoiminnat:
 
