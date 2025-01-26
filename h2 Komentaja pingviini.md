@@ -219,6 +219,8 @@ Ja hakemistosisällön saa katsottua komennolla:
 
 ![Add file: Upload](h2_Kuva35.png)
 
+Aikaa kulunut: 3:30
+
 ## d) Grep-komento
 
 Grep-komennon tyypillisiä käyttötapoja ovat mm. seuraavat:
@@ -273,6 +275,8 @@ Tässä esimerkki, jossa käytetään ensin `grep`-komentoa etsimään hakemisto
 
 `$ grep -r -i "koira" viikonpaivat/ | wc -l`
 
+Aikaa kulunut: 4:00
+
 ![Add file: Upload](h2_Kuva18.png)
  
 ## f) Raudan selitys ja analysointi
@@ -307,6 +311,7 @@ Virtuaalikone käyttää 941kB muistia asentuessaan. Virtuaalikoneella riittää
 
 Input:it 0, 2, 3, 4, 5 ja 7 kertovat virtuaalikoneen käyttävän kyseisiä komponentteja host-koneesta.
 
+Aikaa kulunut: 4:15
 
 ## h) Plug-in asennus micro-editoriin
 
@@ -361,6 +366,7 @@ ja painoin `Enter`. Päästyäni takaisin microssa HelloWorld.js tiedostoon pain
 
 Suljin cheat sheetin `ctrl + Q`
 
+Aikaa kulunut: 5:00
 
 ## Lähdeluettelo
 
