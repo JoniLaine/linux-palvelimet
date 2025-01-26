@@ -305,7 +305,7 @@ Esimerkkipoiminnat:
 
 Virtuaalikone käyttää 941kB muistia asentuessaan. Virtuaalikoneella riittää hyvin resurssit tähän.
 
-Input:it 0, 2, 3, 4, 5 ja 7 kertovat virtuaalikoneen käyttävän kyseisiä komponentteja host-koneesta.![image](https://github.com/user-attachments/assets/db357f66-87e3-4d96-83e1-dc4c7665f013)
+Input:it 0, 2, 3, 4, 5 ja 7 kertovat virtuaalikoneen käyttävän kyseisiä komponentteja host-koneesta.
 
 
 ## h) Plug-in asennus micro-editoriin
