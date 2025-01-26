@@ -292,6 +292,21 @@ Ohjelma asentui ja tämän jälkeen annoin komennon:
 
 ![Add file: Upload](h2_Kuva12.png)
 
+Komento antaa luettelon koneen ominaisuuksista helposti luettavassa muodossa.
+
+Luetteltuna ovat seuraavat:
+
+	- H/W path (laiteväylän osoite, eli polku jolla pääset kyseiseen resurssiin)
+	- Device (laite)
+	- Class (luokka)
+	- Description (kuvaus)
+
+Esimerkkipoiminnat:
+
+Virtuaalikone käyttää 941kB muistia asentuessaan. Virtuaalikoneella riittää hyvin resurssit tähän.
+
+Input:it 0, 2, 3, 4, 5 ja 7 kertovat virtuaalikoneen käyttävän kyseisiä komponentteja host-koneesta.![image](https://github.com/user-attachments/assets/db357f66-87e3-4d96-83e1-dc4c7665f013)
+
 
 ## h) Plug-in asennus micro-editoriin
 
