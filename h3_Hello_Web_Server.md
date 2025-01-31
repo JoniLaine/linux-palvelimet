@@ -13,27 +13,37 @@ Komento promptasi salasanan syöttöruudun, johon annoin salasanan ja painoin `E
 
 Kokeilin sivun vastaamisen Firefox-selaimella osoitteella http://localhost sekä https://127.0.0.1
 
-
+Aikaa kulunut: 0:05
 
 ## Loki weppipalvelimella olevan sivun lataamisesta:
 
+Latasin sivustoni kolme kertaa uudestaan Firefox-selaimessa.
+Palasin terminaaliin ja varmistin olevasi kotihakemistossa komennoilla:
 
 `$ cd /`
+`$ pwd`
 
-`$ sudo tail -3 var/log/apache2/error.log`
-
-
+Yritin lukea lokit seuraavalla komennolla:
 
 `$sudo tail -3 var/log/apache2/access.log`
 
-ei antanut ollenkaan tuloksia. tarkistin siis vaihtoehdot:
+ ![Add file: Upload](h3_Kuva2.png)
+
+Komento ei antanut ollenkaan tuloksia. Tarkistin muut lokivaihtoehdot komennolla:
 
 `$ sudo ls var/log/apache2`
 
+ ![Add file: Upload](h3_Kuva2.png)
 
- ja kokeilin lokia other_vhosts_access.log (koska access.log.1 on vanhemmat lokit/historia)
+ Kokeilin lokia other_vhosts_access.logia (koska access.log.1 on vanhemmat lokit/historia):
 
 `$ sudo tail -3 var/log/apache2/other_vhosts_access.log`
+
+ ![Add file: Upload](h3_Kuva2.png)
+
+Komento antoi toivotusti kolme viimeistä lokia nähtäville.
+
+Aikaa kulunut: 0:20
 
 ## Nimipohjainen- vs. IP-pohjainen virtuaali isäntä (host)
 
@@ -52,6 +62,7 @@ ei antanut ollenkaan tuloksia. tarkistin siis vaihtoehdot:
 -	Parempien osuvuuksien saamiseksi erilaisilla sivuston kirjoitusasuilla, tulee tehdä muutokset sekä DNS-palvelimelle että ServerName tai ServerAliakseksi
 -	Nimipohjaisten virtuaali-isäntien avulla on mahdollista ei ainoastaan olla monta weppisivua saman IP-osoitteen takana vaan myös useampia domaineja
 
+Aikaa kulunut: 1:10
 
 ## Lähdeluettelo
 
