@@ -43,7 +43,7 @@ ei antanut ollenkaan tuloksia. tarkistin siis vaihtoehdot:
 -	Nimipohjainen virtuaali-isäntä rajaa ensin osuvimman IP-osoitteen ja etsii sitten sopivimman virtuaali-isännän
 -	Ollessa useampi nimipohjainen isäntä samalla osoitteella ja portilla, jatkuu tarkimman osuman hakeminen ServerNamella ja ServerAliaksella, jos jälkeen mainituista ei löydy osumaa, käytetään ensimmäistä osumaa löydetyltä virtuaali-isäntien listalta
 ## Nimipohjaisten virtuaali-isäntien käyttö
--	Jokainen virtuaali-isäntä -lohko (´<VirtualHost>´) tarvitsee ServerNamen ja DocumentRootin (vähimmäisvaatimus)
+-	Jokainen virtuaali-isäntä -lohko ( ´<VirtualHost>´ ) tarvitsee ServerNamen ja DocumentRootin (vähimmäisvaatimus)
 -	Oletusvirtuaali-isäntä on järkevää luoda, kun olemassa olevaan palvelimeen luodaan uusia virtuaali-isäntiä, joilla käytetään samaa konfiguraatiota
 -	ServerName periytyy peruspalvelimen konfiguraatiosta, mikäli sitä ei ole erikseen määritelty virtuaali-isännälle, tämän vuoksi se on aina syytä tehdä parhaan resoluution saavuttamiseksi
 -	Parempien osuvuuksien saamiseksi erilaisilla sivuston kirjoitusasuilla, tulee tehdä muutokset sekä DNS-palvelimelle että ServerName tai ServerAliakseksi
