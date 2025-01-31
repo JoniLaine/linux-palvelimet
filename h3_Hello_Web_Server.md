@@ -77,15 +77,15 @@ Aikaa kulunut: 1:10
 
 #### sivu.example.com
 
-palvelimen nimi
+Palvelimen nimi.
 
 #### 80
 
-palvelimen portti
+Palvelimen portti, johon pyyntö lähetetään.
 
 #### 127.0.0.1
 
-palvelimelle pyynnön tehneen IP-osoite (127.0.0.1 viittaa samaan laitteeseen kuin missä palvelin sijaitsee)
+Palvelimelle pyynnön tehneen clientin IP-osoite (127.0.0.1 viittaa samaan laitteeseen kuin missä palvelin sijaitsee)
 
 #### [30/jan/2025:18:59:33 +0200]
 
@@ -93,23 +93,23 @@ pyynnön tekoaika (30. tammikuuta 2025; kello 18:59:33 UTC +2)
 
 #### GET  / HTTP/1.1
 
-GET-tyypin http-pyyntö sivun juurisivulle (`/`); http-versio (`1.1`)
+GET-tyypin http-pyyntö sivun juurisivulle (`/`); http-versio (`1.1`). GET on hakupyyntö, eli pyytää tietoja palvelimelta. Tässä tapauksessa weppisivua ja sen sisältöä.
 
 #### 304 
 
-vastauskoodi pyyntöön (304 = sisällössä ei muutosta viimeisimpään pyyntöön)
+Vastauskoodi pyyntöön. Saatu vastauskoodi 304 tarkoittaa, että sisällössä ei ole muutosta viimeisimpään pyyntöön nähtynä.
 
 #### 247
 
-vastauksen koko tavuina (B)
+Vastauksen koko tavuina(B).
 
 #### -
 
-viittauslähde, joka on tyhjä (arvona voisi olla esimerkiksi https://google.com, jos pyynnön tekijä siirtyi sivustolle toisen sivuston linkkiä käyttämällä)
+Viittauslähde, joka on tyhjä tässä tapauksessa. Arvona olisi voinut olla esimerkiksi https://google.com, jos pyynnön tekijä siirtyi sivustolle toisen sivuston linkkiä käyttämällä.
 
 #### Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
 
-käyttäjäagentti: kertoo pyynnön olevan tehty Linux OS:llä ja käyttäen Firefox-selainta
+Käyttäjäagentin jälki (User Agent), joka tässä tapauksessa kertoo pyynnön olevan tehty Linux OS:llä (Linux x86_64) ja käyttäen Firefox-selainta (Firefox/128.0), sekä kummankin versiot. Rivin alun Mozilla/5.0 viittaa Mozilla-selaimeen, joka on nykyään tunnettu nimeltään Firefox. X11 viittaa Unix-pohjaiseen OS:ään, joka on tässä tapauksessa Linux. Rv:128.0 on selaimen versio, joka mainitaan myös jäljen käyttäjäagentin antamassa päätteessä toistamiseen. Gecko/20100101, kertoo kyseessä olevan Mozillan kehittämästä Gecko renderöintimoottorista, joka pystyy mm. verkkosivujen näyttämiseen; 20100101 on tämän kyseisen Geckon versionumero.
 
 
 Aikaa kulunut: 1:40
