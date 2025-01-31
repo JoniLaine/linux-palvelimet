@@ -38,7 +38,7 @@ Komento ei antanut ollenkaan tuloksia. Tarkistin muut lokivaihtoehdot komennolla
 
  ![Add file: Upload](h3_Kuva5.png)
 
- Kokeilin lokia other_vhosts_access.logia (koska access.log.1 on vanhemmat lokit/historia):
+ Kokeilin lokia other_vhosts_access.logia (koska access.log.1 ja other_vhosts_access.log.1 ovat vanhemmat lokit/historia):
 
 `$ sudo tail -3 var/log/apache2/other_vhosts_access.log`
 
