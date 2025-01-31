@@ -27,7 +27,7 @@ Yritin lukea lokit seuraavalla komennolla:
 
 `$sudo tail -3 var/log/apache2/access.log`
 
- ![Add file: Upload](h3_Kuva2.png)
+ ![Add file: Upload](h3_Kuvat/h3_Kuva2.png)
 
 Komento ei antanut ollenkaan tuloksia. Tarkistin muut lokivaihtoehdot komennolla:
 
