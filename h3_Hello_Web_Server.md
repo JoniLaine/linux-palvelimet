@@ -56,3 +56,4 @@ ei antanut ollenkaan tuloksia. tarkistin siis vaihtoehdot:
 ## Lähdeluettelo
 
 - Apache HTTP Server Project, Name based virtual host support: Name-based Virtual Host Support - Apache HTTP Server Version 2.4
+-	Karvinen 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address
