@@ -67,9 +67,52 @@ Aikaa kulunut: 0:20
 
 Aikaa kulunut: 1:10
 
-
+## Lokin analyysi:
 
  ![Add file: Upload](h3_Kuva4.png)
+
+-	Analysoidaan yksi rivi, joka on muodostunut yhdestä weppisivun latauksesta. Tässä tapauksessa tarkastellaan siis kahta alinta riviä komennon antamasta vastauksesta:
+`sivu.example.com:80 127.0.0.1 - - [30/jan/2025:18:59:33 +0200] "GET  / HTTP/1.1" 304 247 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"`
+
+### sivu.example.com: 
+
+palvelimen nimi
+
+### 80: 
+
+palvelimen portti
+
+### 127.0.0.1
+
+palvelimelle pyynnön tehneen IP-osoite (127.0.0.1 viittaa samaan laitteeseen kuin missä palvelin sijaitsee)
+
+### [30/jan/2025:18:59:33 +0200]
+
+pyynnön tekoaika (30. tammikuuta 2025; kello 18:59:33 UTC +2) 
+
+### GET  / HTTP/1.1
+
+GET-tyypin http-pyyntö sivun juurisivulle (`/`); http-versio (`1.1`)
+
+### 304 
+
+vastauskoodi pyyntöön (304 = sisällössä ei muutosta viimeisimpään pyyntöön)
+
+### 247
+
+vastauksen koko tavuina (B)
+
+### -
+
+viittauslähde, joka on tyhjä (arvona voisi olla esimerkiksi https://google.com, jos pyynnön tekijä siirtyi sivustolle toisen sivuston linkkiä käyttämällä)
+
+### Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+
+käyttäjäagentti: kertoo pyynnön olevan tehty Linux OS:llä ja käyttäen Firefox-selainta
+
+
+Aikaa kulunut: 1:40
+ 
 
 ## Lähdeluettelo
 
