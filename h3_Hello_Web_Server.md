@@ -13,6 +13,10 @@ Komento promptasi salasanan syöttöruudun, johon annoin salasanan ja painoin `E
 
 Kokeilin sivun vastaamisen Firefox-selaimella osoitteella http://localhost sekä https://127.0.0.1
 
+ ![Add file: Upload](h3_Kuvat/h3_Kuva1.png)
+ 
+ ![Add file: Upload](h3_Kuvat/h3_Kuva2.png)
+
 Aikaa kulunut: 0:05
 
 ## Loki weppipalvelimella olevan sivun lataamisesta:
@@ -27,19 +31,17 @@ Yritin lukea lokit seuraavalla komennolla:
 
 `$sudo tail -3 var/log/apache2/access.log`
 
- ![Add file: Upload](h3_Kuvat/h3_Kuva2.png)
-
 Komento ei antanut ollenkaan tuloksia. Tarkistin muut lokivaihtoehdot komennolla:
 
 `$ sudo ls var/log/apache2`
 
- ![Add file: Upload](h3_Kuva2.png)
+ ![Add file: Upload](h3_Kuva5.png)
 
  Kokeilin lokia other_vhosts_access.logia (koska access.log.1 on vanhemmat lokit/historia):
 
 `$ sudo tail -3 var/log/apache2/other_vhosts_access.log`
 
- ![Add file: Upload](h3_Kuva2.png)
+ ![Add file: Upload](h3_Kuva4.png)
 
 Komento antoi toivotusti kolme viimeistä lokia nähtäville.
 
