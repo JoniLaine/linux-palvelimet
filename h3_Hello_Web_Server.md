@@ -13,9 +13,9 @@ Komento promptasi salasanan syöttöruudun, johon annoin salasanan ja painoin `E
 
 Kokeilin sivun vastaamisen Firefox-selaimella osoitteella http://localhost sekä https://127.0.0.1
 
- ![Add file: Upload](h3_Kuvat/h3_Kuva1.png)
+ ![Add file: Upload](h3_Kuva1.png)
  
- ![Add file: Upload](h3_Kuvat/h3_Kuva2.png)
+ ![Add file: Upload](h3_Kuva2.png)
 
 Aikaa kulunut: 0:05
 
@@ -25,6 +25,7 @@ Latasin sivustoni kolme kertaa uudestaan Firefox-selaimessa.
 Palasin terminaaliin ja varmistin olevasi kotihakemistossa komennoilla:
 
 `$ cd /`
+
 `$ pwd`
 
 Yritin lukea lokit seuraavalla komennolla:
