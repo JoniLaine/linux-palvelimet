@@ -81,15 +81,15 @@ Palvelimen nimi.
 
 #### 80
 
-Palvelimen portti, johon pyyntö lähetetään.
+Palvelimen portti, johon pyyntö lähetetään. Kyseinen portti 80, on tarkoitettu erityisesti http-liikenteelle ja on kyseistä protokollaa käyttävän liikenteen oletusportti.
 
 #### 127.0.0.1
 
-Palvelimelle pyynnön tehneen clientin IP-osoite (127.0.0.1 viittaa samaan laitteeseen kuin missä palvelin sijaitsee)
+Palvelimelle pyynnön tehneen clientin IP-osoite (127.0.0.1 viittaa samaan laitteeseen kuin missä palvelin sijaitsee).
 
 #### [30/jan/2025:18:59:33 +0200]
 
-pyynnön tekoaika (30. tammikuuta 2025; kello 18:59:33 UTC +2) 
+Pyynnön tekoaika (30. tammikuuta 2025; kello 18:59:33 UTC +2).
 
 #### GET  / HTTP/1.1
 
@@ -112,7 +112,7 @@ Viittauslähde, joka on tyhjä tässä tapauksessa. Arvona olisi voinut olla esi
 Käyttäjäagentin jälki (User Agent), joka tässä tapauksessa kertoo pyynnön olevan tehty Linux OS:llä (Linux x86_64) ja käyttäen Firefox-selainta (Firefox/128.0), sekä kummankin versiot. Rivin alun Mozilla/5.0 viittaa Mozilla-selaimeen, joka on nykyään tunnettu nimeltään Firefox. X11 viittaa Unix-pohjaiseen OS:ään, joka on tässä tapauksessa Linux. Rv:128.0 on selaimen versio, joka mainitaan myös jäljen käyttäjäagentin antamassa päätteessä toistamiseen. Gecko/20100101, kertoo kyseessä olevan Mozillan kehittämästä Gecko renderöintimoottorista, joka pystyy mm. verkkosivujen näyttämiseen; 20100101 on tämän kyseisen Geckon versionumero.
 
 
-Aikaa kulunut: 1:40
+Aikaa kulunut: 1:50
  
 
 ## Lähdeluettelo
