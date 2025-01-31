@@ -48,7 +48,7 @@ Komento antoi toivotusti kolme viimeistä lokia nähtäville.
 
 Aikaa kulunut: 0:20
 
-## Nimipohjainen- vs. IP-pohjainen virtuaali isäntä (host)
+## Nimipohjainen - vs. IP-pohjainen virtuaali-isäntä (host)
 
 -	IP-pohjaiset virtuaali hostit määrittävät virtuaali-isännän IP-osoitteen avulla ja tarvitsevat siksi oman IP:n jokaisella hostille
 -	Nimi-pohjainen virtuaali host saa clientilta http-otsikon mahdollistaen näin useamman hostin jakaa saman IP:n
