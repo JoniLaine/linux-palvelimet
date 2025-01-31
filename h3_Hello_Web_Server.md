@@ -21,7 +21,7 @@ Aikaa kulunut: 0:05
 
 ## Loki weppipalvelimella olevan sivun lataamisesta:
 
-Latasin sivustoni kolme kertaa uudestaan Firefox-selaimessa.
+Latasin sivustoni kaksi kertaa uudestaan Firefox-selaimessa.
 Palasin terminaaliin ja varmistin olevasi kotihakemistossa komennoilla:
 
 `$ cd /`
