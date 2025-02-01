@@ -229,7 +229,7 @@ Tein komennon päästäkseni antamaan tarvittavat tiedot hattu.example.com.conf 
 
  Lisäsin tiedostoon sisällöksi:
 
- ![Add file: Upload](h3_Kuva16.png)
+ ![Add file: Upload](h3_Kuva15.png)
 
 Annoin seuraavat komennot tallentaakseni ja sulkeakseni tiedoston:
 
@@ -251,7 +251,7 @@ Siirryin hattu.example.com kansioon seuraavilla komennoilla:
 
 ja annoin tiedostolle haluamani HTML-sisällön:
 
- ![Add file: Upload](h3_Kuva18.png)
+ ![Add file: Upload](h3_Kuva17.png)
 
 Annoin seuraavat komennot tallentaakseni ja sulkeakseni tiedoston:
 
@@ -263,7 +263,7 @@ Annoin seuraavat komennot tallentaakseni ja sulkeakseni tiedoston:
 
 Sain seuraavan vriheen ladattuani selaimella sivun uudestaan:
 
- ![Add file: Upload](h3_Kuva19.png)
+ ![Add file: Upload](h3_Kuva18.png)
 
 Menin tarkistamaan jälleeen virhelokin:
 
@@ -273,11 +273,11 @@ Menin tarkistamaan jälleeen virhelokin:
 
 `$ sudo tail -1 apache2/error.log`
 
- ![Add file: Upload](h3_Kuva20.png)
+ ![Add file: Upload](h3_Kuva19.png)
 
 En ollut täysin varma, mitä kyseinen virhe tarkoitti, joten kävin läpi aiemmin tekemäni vaiheet, joissa huomasin kirjoitusvirheen tiedostossa hattu.example.com.conf ja kävin korjaamassa tämän. Vian syy ei ollut kyseinen virhe, mutta korjasin tämän kuitenkin, kun sen huomasin.
 
-![Add file: Upload](h3_Kuva21.png)
+![Add file: Upload](h3_Kuva20.png)
 
 Siirryin seuraavaksi korjaamaan hosts-tiedoston sisällön viittaamaan oiekaan sivuun:
 
@@ -289,7 +289,7 @@ Siirryin seuraavaksi korjaamaan hosts-tiedoston sisällön viittaamaan oiekaan s
 
 Vaihdoin uuden URL:in tiedostoon:
 
-![Add file: Upload](h3_Kuva22.png)
+![Add file: Upload](h3_Kuva21.png)
 
 Käynnistin Apachen uudestaan:
 
@@ -298,11 +298,11 @@ Käynnistin Apachen uudestaan:
 Ja latasin Firefox-selaimessa sivun uudestaan. Sivu ei edelleenkään toiminut vaan antoi samaa virhettä.
 Luin jälleen Apachen errron.login, mutta se ei valitettvasti tuottanut juurikaan iloa, enkä löytänyt syytä virheelle.
 
-![Add file: Upload](h3_Kuva23.png)
+![Add file: Upload](h3_Kuva22.png)
 
 Kokeilin tässä vaiheessa huvikseni kokeilla siirtyä selaimessa suoraan sivulle http://hattu.example.com ja huomasin sen toimivan oikein:
 
-![Add file: Upload](h3_Kuva24.png)
+![Add file: Upload](h3_Kuva23.png)
 
 
 
