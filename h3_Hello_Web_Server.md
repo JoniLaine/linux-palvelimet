@@ -220,7 +220,7 @@ Menin tarkistamaan virhelokin sisällön:
 
 `$ sudo tail -1 apache2/error.log`
 
-![Add file: Upload](h3_Kuva17.png)
+![Add file: Upload](h3_Kuva19.png)
 
 Huomasin, että index.html ei ollut määritelty ja että myös hattu.example.com.conf tiedosto oli tyhjä.
 Tein komennon päästäkseni antamaan tarvittavat tiedot hattu.example.com.conf tiedostolle:
@@ -229,7 +229,7 @@ Tein komennon päästäkseni antamaan tarvittavat tiedot hattu.example.com.conf 
 
  Lisäsin tiedostoon sisällöksi:
 
- ![Add file: Upload](h3_Kuva18.png)
+ ![Add file: Upload](h3_Kuva17.png)
 
 Annoin seuraavat komennot tallentaakseni ja sulkeakseni tiedoston:
 
