@@ -374,7 +374,7 @@ Sisällön tyyppi (teksti/html).
 
  ![Add file: Upload](h3_Kuva26.png)
 
-Curl -komento näyttää terminaalissa sivun (tässä tapauksessa oletussivun localhost) sisällön.
+CURL -komento näyttää terminaalissa sivun (tässä tapauksessa oletussivun localhost) sisällön.
 
 Aikaa kulunut: 4:40
 
