@@ -7,7 +7,7 @@ Aikaa kulunut: 0:00
 Apache-weppipalvelin oli valmiina asennettuna koneelle.
 Testasin weppipalvelimen vastaamisen terminaalissa komennolla:
 
-´$systemctl restart apache2´
+`$systemctl restart apache2`
 
 Komento promptasi salasanan syöttöruudun, johon annoin salasanan ja painoin `Enter`.
 
