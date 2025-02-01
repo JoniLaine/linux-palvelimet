@@ -181,7 +181,6 @@ Siirryin takaisin juurivalikkoon ja menin tarkistamaan public_sites kansion tila
 
  ![Add file: Upload](h3_Kuva15.png)
 
-
 Tarkistin varmuudeksi, että vanha sivu oli epäaktivoitu ja uusi aktivoitu:
 
  ![Add file: Upload](h3_Kuva16.png)
@@ -261,11 +260,11 @@ Annoin seuraavat komennot tallentaakseni ja sulkeakseni tiedoston:
 
 `ctrl + X`
 
-Sain seuraavan vriheen ladattuani selaimella sivun uudestaan:
+Sain seuraavan virheen ladattuani selaimella sivun uudestaan:
 
  ![Add file: Upload](h3_Kuva20.png)
 
-Menin tarkistamaan jälleeen virhelokin:
+Menin tarkistamaan jälleen virhelokin:
 
 `$ cd /`
 
@@ -279,7 +278,7 @@ En ollut täysin varma, mitä kyseinen virhe tarkoitti, joten kävin läpi aiemm
 
 ![Add file: Upload](h3_Kuva20.png)
 
-Siirryin seuraavaksi korjaamaan hosts-tiedoston sisällön viittaamaan oiekaan sivuun:
+Siirryin seuraavaksi korjaamaan hosts-tiedoston sisällön viittaamaan oikeaan sivuun:
 
 `$ cd /`
  
@@ -296,7 +295,12 @@ Käynnistin Apachen uudestaan:
 `$ systemctl restart apache2`
 
 Ja latasin Firefox-selaimessa sivun uudestaan. Sivu ei edelleenkään toiminut vaan antoi samaa virhettä.
-Luin jälleen Apachen errron.login, mutta se ei valitettavsti tuottanut juurikaan iloa, enkä löytänyt syytä virheelle.
+
+Aikaa kulunut: 2:50
+
+**Tämän jälkeen alkoi armoton vianselvitys, jonka suosittelen jättämään välistä ja siirtymään suoraan ratkaisuun, joka on viimeisellä rivillä. Sillä voi säätyä paljolta ylimääräiseltä vaivalta.**
+
+Luin jälleen Apachen error.login, mutta se ei valitettavsti tuottanut juurikaan iloa, enkä löytänyt syytä virheelle.
 
 ![Add file: Upload](h3_Kuva21.png)
 
@@ -314,8 +318,7 @@ Päätin sulkea koko Firefox-selaimen ja avata sen uudestaan. Tämän jälkeen m
 
  ![Add file: Upload](h3_Kuva25.png)
 
-
-
+Aikaa Kulunut: 4:00
 
 
 
