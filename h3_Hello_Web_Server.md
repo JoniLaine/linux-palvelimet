@@ -308,6 +308,14 @@ Lopputulema oli siis, että ylemmän kuvan mukaisesti suora URL sivulle toimi, m
 
  ![Add file: Upload](h3_Kuva24.png)
 
+Koska olin tarkistanut, että ainoastaan hattu.example.com.conf, hattu.example.com, index.htlm sekä hosts-tiedosto olivat kaikki sisällöltään oikein ja ainoastaan sivusto hattu.example.com oli aktiivisena lähdin kokeilemaan selaimessa asiaa eteenpäin. Yritin päivittää sivun pitäen pohjassa shift-painiketta, mutta edelleeenkään http://localhost ei vastannut vaan antoi samaa `404` virhettä. Kokeilin että sekä http://hattu.example.com että http://127.0.0.1 vastasivat kumpikin oikein.
+
+Päätin sulkea koko Firefox-selaimen ja avata sen uudestaan. Tämän jälkeen myös http://localhost näytti sivun oikein:
+
+ ![Add file: Upload](h3_Kuva25.png)
+
+
+
 
 
 
