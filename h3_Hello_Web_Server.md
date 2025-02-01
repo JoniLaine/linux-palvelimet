@@ -320,9 +320,66 @@ Päätin sulkea koko Firefox-selaimen ja avata sen uudestaan. Tämän jälkeen m
 
 Aikaa Kulunut: 4:00
 
+## cURL -I ja cURL
+
+### Mitä `curl -I` kertoo?
+
+`$ curl -Icurl -I  localhost`
+
+ ![Add file: Upload](h3_Kuva27.png)
+
+ CURL- I hakee vastausotsakkeiden perusteella yksinkertaisemman analyysin sisällöstä ja on yleensä riittävä testejä varten.
+
+### Otsakkeiden selitteet:
+
+**HTTP/1.1 200 OK**
+
+HTTP-versio (`1.1`) ja tilakoodi (`200 OK`).
+
+**Date: Sat, 01 Feb 2025 16:56:28 GMT**
+
+Aikaleima, joka kertoo, milloin palvelin lähetti vastauksen.
+
+**Server: Apache/2.4.62 (Debian)**
+
+Palvelimen ohjelmiston nimi ja versio.
+
+**Last-Modified: Sat, 01 Feb 2025 13:10:38 GMT**
+
+Viimeisin sivun muokkausaika.
+
+**ETag: "1a3-62d1462b41fd0"**
+
+Entity Tag, selaimet käyttävät otsaketta välimuistin hallintaan. Resurssin (sivun) muuttuessa myös ETag muuttuu.
+
+**Accept-Ranges: bytes**
+
+Otsake ilmoittaa resurssin osittaisen latauksen olevan mahdollista. Palvelimelle voi lähettää esimerkikis pyynnön otsakkeella `Range: bytes= 0-30`, jolloin palvelin antaa osittaisen vastauksen, joka sisältää sivuston tavut väliltä 0-30 (`206 Partial Content`).
+
+**Content-Length: 419**
+
+Sisällön pituus tavuina (B).
+
+**Vary: Accept-Encoding**
+
+Selain voi lähettää Accept-Encoding otsakkeen palvelimelle ja ilmoittaa näin palvelimelle, mitä pakkausmenetelmää voi käyttää sivun vastauksessa.
+
+**Content-Type: text/html**
+
+Sisällön tyyppi (teksti/html).
+
+### Mitä `curl` tekee?
+
+`$ curl localhost`
+
+ ![Add file: Upload](h3_Kuva26.png)
+
+Curl -komento näyttää terminaalissa sivun (tässä tapauksessa oletussivun localhost) sisällön.
 
 
 ## Lähdeluettelo
 
 - Apache HTTP Server Project, Name based virtual host support: [Name based virtual host support](https://httpd.apache.org/docs/2.4/vhosts/name-based.html)
 -	Tero Karvinen 2018: [Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address](https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/)
+- Baeldung Linux: [Guide to the Linux curl Command with examples](https://www.baeldung.com/linux/curl-guide)
+- Hostinger Tutorials: [What is the cURL-command? Understanding the syntax, options and examples](https://www.hostinger.com/tutorials/curl-command)
