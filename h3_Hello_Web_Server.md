@@ -324,7 +324,7 @@ Aikaa Kulunut: 4:00
 
 ### Mitä `curl -I` kertoo?
 
-`$ curl -Icurl -I  localhost`
+`$ curl -I  localhost`
 
  ![Add file: Upload](h3_Kuva27.png)
 
