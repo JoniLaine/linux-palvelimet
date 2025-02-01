@@ -376,6 +376,8 @@ Sisällön tyyppi (teksti/html).
 
 Curl -komento näyttää terminaalissa sivun (tässä tapauksessa oletussivun localhost) sisällön.
 
+Aikaa kulunut: 4:40
+
 
 ## Lähdeluettelo
 
