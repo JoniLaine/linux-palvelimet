@@ -115,7 +115,7 @@ X11 viittaa Unix-pohjaiseen OS:ään, joka on tässä tapauksessa Linux. Rv:128.
 
 Aikaa kulunut: 1:50
 
-## Uusi etusivu hattu.example.com
+## Uusi etusivu hattu.example.com sekä validi HTML5-sivu
 
 Siirryin hakemistoo, `public_sites` ja loin tarvittavan hakemiston komennnolla:
 
