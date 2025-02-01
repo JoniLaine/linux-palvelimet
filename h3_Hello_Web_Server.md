@@ -289,16 +289,16 @@ Siirryin seuraavaksi korjaamaan hosts-tiedoston sisällön viittaamaan oiekaan s
 
 Vaihdoin uuden URL:in tiedostoon:
 
-![Add file: Upload](h3_Kuva21.png)
+![Add file: Upload](h3_Kuva22.png)
 
 Käynnistin Apachen uudestaan:
 
 `$ systemctl restart apache2`
 
 Ja latasin Firefox-selaimessa sivun uudestaan. Sivu ei edelleenkään toiminut vaan antoi samaa virhettä.
-Luin jälleen Apachen errron.login, mutta se ei valitettvasti tuottanut juurikaan iloa, enkä löytänyt syytä virheelle.
+Luin jälleen Apachen errron.login, mutta se ei valitettavsti tuottanut juurikaan iloa, enkä löytänyt syytä virheelle.
 
-![Add file: Upload](h3_Kuva22.png)
+![Add file: Upload](h3_Kuva21.png)
 
 Kokeilin tässä vaiheessa huvikseni kokeilla siirtyä selaimessa suoraan sivulle http://hattu.example.com ja huomasin sen toimivan oikein:
 
