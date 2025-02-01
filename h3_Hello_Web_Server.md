@@ -121,11 +121,11 @@ Siirryin hakemistoo, `public_sites` ja loin tarvittavan hakemiston komennnolla:
 
 `$ cd mkdir hattu.example.com`
 
- ![Add file: Upload](h3_Kuva6.png)
+ ![Add file: Upload](h3_Kuva8.png)
 
  Ja tarkistin käyttöikeudet käyttäjälle joni:
 
-  ![Add file: Upload](h3_Kuva7.png)
+  ![Add file: Upload](h3_Kuva9.png)
 
 Tein seuraavat komennot:
 
@@ -149,13 +149,13 @@ Käynnistin Apachen uudestaan:
 
 `$ cd systemctl restart apache2`
 
-  ![Add file: Upload](h3_Kuva8.png)
+  ![Add file: Upload](h3_Kuva10.png)
 
 Loin hattu.example.com.conf tiedoston komennolla:
 
 `$ cd nano hattu.example.com.conf`
 
-  ![Add file: Upload](h3_Kuva9.png)
+  ![Add file: Upload](h3_Kuva11.png)
 
 Tein komennot tallentaakseni ja sulkeakseni tiedoston:
 
@@ -169,7 +169,7 @@ Aktivoin hattu.example.com sivun ja käynnistin Apachen uudestaan:
 
 `$ cd sudo systemctl restart apache2`
 
-  ![Add file: Upload](h3_Kuva10.png)
+  ![Add file: Upload](h3_Kuva12.png)
 
 Siirryin takaisin juurivalikkoon ja menin tarkistamaan public_sites kansion tilanteen:
 
@@ -179,12 +179,12 @@ Siirryin takaisin juurivalikkoon ja menin tarkistamaan public_sites kansion tila
 
 `$ ls`
 
- ![Add file: Upload](h3_Kuva11.png)
+ ![Add file: Upload](h3_Kuva13.png)
 
 
 Tarkistin varmuudeksi, että vanha sivu oli epäaktivoitu ja uusi aktivoitu:
 
- ![Add file: Upload](h3_Kuva12.png)
+ ![Add file: Upload](h3_Kuva14.png)
 
 Seuraavaksi siirryin kirjoittamaan sisällön hattu.example.com tiedostoon:
 
@@ -196,7 +196,7 @@ Seuraavaksi siirryin kirjoittamaan sisällön hattu.example.com tiedostoon:
 
 Valitsin Virtuaalikoneen välilehdeltä Devices > Shared clipboard > Host To Guest, koska olin kirjoittanut hattu.example.com sivulle HTML5 scriptin, jonka olin testannut käyttäen validaattoria https://validator.w3.org/, ja kopioin tekstin host-koneelta hatty.example.com tiedostoon virtuaalikoneelle.
 
-![Add file: Upload](h3_Kuva13.png)
+![Add file: Upload](h3_Kuva15.png)
 
 Annoin seuraavat komennot tallentaakseni ja sulkeakseni tiedoston ja käynnistin Apachen uudestaan:
 
@@ -210,7 +210,7 @@ Annoin seuraavat komennot tallentaakseni ja sulkeakseni tiedoston ja käynnistin
 
 Latasin Firefox-selaimen http://localhost sivun uudelleen ja sain seuraavan virheen:
 
-![Add file: Upload](h3_Kuva14.png)
+![Add file: Upload](h3_Kuva16.png)
 
 Menin tarkistamaan virhelokin sisällön:
 
@@ -220,7 +220,7 @@ Menin tarkistamaan virhelokin sisällön:
 
 `$ sudo tail -1 apache2/error.log`
 
-![Add file: Upload](h3_Kuva15.png)
+![Add file: Upload](h3_Kuva17.png)
 
 Huomasin, että index.html ei ollut määritelty ja että myös hattu.example.com.conf tiedosto oli tyhjä.
 Tein komennon päästäkseni antamaan tarvittavat tiedot hattu.example.com.conf tiedostolle:
@@ -229,7 +229,7 @@ Tein komennon päästäkseni antamaan tarvittavat tiedot hattu.example.com.conf 
 
  Lisäsin tiedostoon sisällöksi:
 
- ![Add file: Upload](h3_Kuva15.png)
+ ![Add file: Upload](h3_Kuva18.png)
 
 Annoin seuraavat komennot tallentaakseni ja sulkeakseni tiedoston:
 
@@ -251,7 +251,7 @@ Siirryin hattu.example.com kansioon seuraavilla komennoilla:
 
 ja annoin tiedostolle haluamani HTML-sisällön:
 
- ![Add file: Upload](h3_Kuva16.png)
+ ![Add file: Upload](h3_Kuva19.png)
 
 Annoin seuraavat komennot tallentaakseni ja sulkeakseni tiedoston:
 
@@ -263,7 +263,7 @@ Annoin seuraavat komennot tallentaakseni ja sulkeakseni tiedoston:
 
 Sain seuraavan vriheen ladattuani selaimella sivun uudestaan:
 
- ![Add file: Upload](h3_Kuva17.png)
+ ![Add file: Upload](h3_Kuva20.png)
 
 Menin tarkistamaan jälleeen virhelokin:
 
@@ -277,7 +277,7 @@ Menin tarkistamaan jälleeen virhelokin:
 
 En ollut täysin varma, mitä kyseinen virhe tarkoitti, joten kävin läpi aiemmin tekemäni vaiheet, joissa huomasin kirjoitusvirheen tiedostossa hattu.example.com.conf ja kävin korjaamassa tämän. Vian syy ei ollut kyseinen virhe, mutta korjasin tämän kuitenkin, kun sen huomasin.
 
-![Add file: Upload](h3_Kuva19.png)
+![Add file: Upload](h3_Kuva20.png)
 
 Siirryin seuraavaksi korjaamaan hosts-tiedoston sisällön viittaamaan oiekaan sivuun:
 
