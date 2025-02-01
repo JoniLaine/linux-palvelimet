@@ -321,5 +321,5 @@ Päätin sulkea koko Firefox-selaimen ja avata sen uudestaan. Tämän jälkeen m
 
 ## Lähdeluettelo
 
-- Apache HTTP Server Project, Name based virtual host support: Name-based Virtual Host Support - Apache HTTP Server Version 2.4
--	Karvinen 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address
+- Apache HTTP Server Project, Name based virtual host support: [Name based virtual host support](https://httpd.apache.org/docs/2.4/vhosts/name-based.html)
+-	Tero Karvinen 2018: [Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address](https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/)
