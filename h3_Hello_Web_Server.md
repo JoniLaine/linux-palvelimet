@@ -210,7 +210,7 @@ Annoin seuraavat komennot tallentaakseni ja sulkeakseni tiedoston ja käynnistin
 
 Latasin Firefox-selaimen http://localhost sivun uudelleen ja sain seuraavan virheen:
 
-![Add file: Upload](h3_Kuva16.png)
+![Add file: Upload](h3_Kuva18.png)
 
 Menin tarkistamaan virhelokin sisällön:
 
