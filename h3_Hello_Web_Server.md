@@ -149,13 +149,13 @@ Käynnistin Apachen uudestaan:
 
 `$ cd systemctl restart apache2`
 
-  ![Add file: Upload](h3_Kuva10.png)
+  ![Add file: Upload](h3_Kuva11.png)
 
 Loin hattu.example.com.conf tiedoston komennolla:
 
 `$ cd nano hattu.example.com.conf`
 
-  ![Add file: Upload](h3_Kuva11.png)
+  ![Add file: Upload](h3_Kuva12.png)
 
 Tein komennot tallentaakseni ja sulkeakseni tiedoston:
 
@@ -169,7 +169,7 @@ Aktivoin hattu.example.com sivun ja käynnistin Apachen uudestaan:
 
 `$ cd sudo systemctl restart apache2`
 
-  ![Add file: Upload](h3_Kuva12.png)
+  ![Add file: Upload](h3_Kuva14.png)
 
 Siirryin takaisin juurivalikkoon ja menin tarkistamaan public_sites kansion tilanteen:
 
@@ -179,12 +179,12 @@ Siirryin takaisin juurivalikkoon ja menin tarkistamaan public_sites kansion tila
 
 `$ ls`
 
- ![Add file: Upload](h3_Kuva13.png)
+ ![Add file: Upload](h3_Kuva15.png)
 
 
 Tarkistin varmuudeksi, että vanha sivu oli epäaktivoitu ja uusi aktivoitu:
 
- ![Add file: Upload](h3_Kuva14.png)
+ ![Add file: Upload](h3_Kuva16.png)
 
 Seuraavaksi siirryin kirjoittamaan sisällön hattu.example.com tiedostoon:
 
@@ -192,11 +192,11 @@ Seuraavaksi siirryin kirjoittamaan sisällön hattu.example.com tiedostoon:
 
 `$ cd etc/apache2/`
 
-`$ nano hattu.examle.com`
+`$ nano hattu.example.com`
 
 Valitsin Virtuaalikoneen välilehdeltä Devices > Shared clipboard > Host To Guest, koska olin kirjoittanut hattu.example.com sivulle HTML5 scriptin, jonka olin testannut käyttäen validaattoria https://validator.w3.org/, ja kopioin tekstin host-koneelta hatty.example.com tiedostoon virtuaalikoneelle.
 
-![Add file: Upload](h3_Kuva15.png)
+![Add file: Upload](h3_Kuva17.png)
 
 Annoin seuraavat komennot tallentaakseni ja sulkeakseni tiedoston ja käynnistin Apachen uudestaan:
 
