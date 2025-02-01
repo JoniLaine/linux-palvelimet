@@ -304,6 +304,11 @@ Kokeilin tässä vaiheessa huvikseni kokeilla siirtyä selaimessa suoraan sivull
 
 ![Add file: Upload](h3_Kuva23.png)
 
+Lopputulema oli siis, että ylemmän kuvan mukaisesti suora URL sivulle toimi, mutta http://localhost antoi nyt virheen `404`:
+
+ ![Add file: Upload](h3_Kuva24.png)
+
+
 
 
 ## Lähdeluettelo
