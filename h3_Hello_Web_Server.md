@@ -114,7 +114,197 @@ X11 viittaa Unix-pohjaiseen OS:ään, joka on tässä tapauksessa Linux. Rv:128.
 
 
 Aikaa kulunut: 1:50
+
+## Uusi etusivu hattu.example.com
+
+Siirryin hakemistoo, `public_sites` ja loin tarvittavan hakemiston komennnolla:
+
+`$ cd mkdir hattu.example.com`
+
+ ![Add file: Upload](h3_Kuva6.png)
+
+ Ja tarkistin käyttöikeudet käyttäjälle joni:
+
+  ![Add file: Upload](h3_Kuva7.png)
+
+Tein seuraavat komennot:
+
+`$ cd /`
+
+`$ cd etc/apache2/`
+
+Tarkistin kansioiden nimet:
+
+`$ cd ls`
+
+Ja siirryin tarvitsemaani sijaintiin:
+
+`$ cd sites-enabled`
+
+Ja suljin aiemman sivuston:
+
+`$  sudo a2dissite sivu.example.com.conf`
+
+Käynnistin Apachen uudestaan:
+
+`$ cd systemctl restart apache2`
+
+  ![Add file: Upload](h3_Kuva8.png)
+
+Loin hattu.example.com.conf tiedoston komennolla:
+
+`$ cd nano hattu.example.com.conf`
+
+  ![Add file: Upload](h3_Kuva9.png)
+
+Tein komennot tallentaakseni ja sulkeakseni tiedoston:
+
+`ctrl + O` 
+`Enter` 
+`ctrl + X`
+
+Aktivoin hattu.example.com sivun ja käynnistin Apachen uudestaan:
+
+`$ cd sudo a2ensute hattu.example.com`
+
+`$ cd sudo systemctl restart apache2`
+
+  ![Add file: Upload](h3_Kuva10.png)
+
+Siirryin takaisin juurivalikkoon ja menin tarkistamaan public_sites kansion tilanteen:
+
+`$ cd home/joni`
+
+`$ cd public_sites`
+
+`$ ls`
+
+ ![Add file: Upload](h3_Kuva11.png)
+
+
+Tarkistin varmuudeksi, että vanha sivu oli epäaktivoitu ja uusi aktivoitu:
+
+ ![Add file: Upload](h3_Kuva12.png)
+
+Seuraavaksi siirryin kirjoittamaan sisällön hattu.example.com tiedostoon:
+
+`$ cd`
+
+`$ cd etc/apache2/`
+
+`$ nano hattu.examle.com`
+
+Valitsin Virtuaalikoneen välilehdeltä Devices > Shared clipboard > Host To Guest, koska olin kirjoittanut hattu.example.com sivulle HTML5 scriptin, jonka olin testannut käyttäen validaattoria https://validator.w3.org/, ja kopioin tekstin host-koneelta hatty.example.com tiedostoon virtuaalikoneelle.
+
+![Add file: Upload](h3_Kuva13.png)
+
+Annoin seuraavat komennot tallentaakseni ja sulkeakseni tiedoston ja käynnistin Apachen uudestaan:
+
+`ctrl + O`
+
+`Enter`
+
+`ctrl + X`
+
+`$ systemctl restart apache2`
+
+Latasin Firefox-selaimen http://localhost sivun uudelleen ja sain seuraavan virheen:
+
+![Add file: Upload](h3_Kuva14.png)
+
+Menin tarkistamaan virhelokin sisällön:
+
+`$ cd /`
+
+`$ cd var/ log`
+
+`$ sudo tail -1 apache2/error.log`
+
+![Add file: Upload](h3_Kuva15.png)
+
+Huomasin, että index.html ei ollut määritelty ja että myös hattu.example.com.conf tiedosto oli tyhjä.
+Tein komennon päästäkseni antamaan tarvittavat tiedot hattu.example.com.conf tiedostolle:
+
+`$ sudo nano /etc/apache2/hattu.example.com.conf`
+
+ Lisäsin tiedostoon sisällöksi:
+
+ ![Add file: Upload](h3_Kuva16.png)
+
+Annoin seuraavat komennot tallentaakseni ja sulkeakseni tiedoston:
+
+`ctrl + O`
+
+`Enter`
+
+`ctrl + X`
+
+Siirryin hattu.example.com kansioon seuraavilla komennoilla:
+
+`$ cd /`
+
+`$ cd public_sites`
+
+`$ cd hattu.example.com`
+
+`$ nano index.html`
+
+ja annoin tiedostolle haluamani HTML-sisällön:
+
+ ![Add file: Upload](h3_Kuva18.png)
+
+Annoin seuraavat komennot tallentaakseni ja sulkeakseni tiedoston:
+
+`ctrl + O`
+
+`Enter`
+
+`ctrl + X`
+
+Sain seuraavan vriheen ladattuani selaimella sivun uudestaan:
+
+ ![Add file: Upload](h3_Kuva19.png)
+
+Menin tarkistamaan jälleeen virhelokin:
+
+`$ cd /`
+
+`$  cd var/log/`
+
+`$ sudo tail -1 apache2/error.log`
+
+ ![Add file: Upload](h3_Kuva20.png)
+
+En ollut täysin varma, mitä kyseinen virhe tarkoitti, joten kävin läpi aiemmin tekemäni vaiheet, joissa huomasin kirjoitusvirheen tiedostossa hattu.example.com.conf ja kävin korjaamassa tämän. Vian syy ei ollut kyseinen virhe, mutta korjasin tämän kuitenkin, kun sen huomasin.
+
+![Add file: Upload](h3_Kuva21.png)
+
+Siirryin seuraavaksi korjaamaan hosts-tiedoston sisällön viittaamaan oiekaan sivuun:
+
+`$ cd /`
  
+`$ cd /etc/`
+
+`$ sudo nano hosts`
+
+Vaihdoin uuden URL:in tiedostoon:
+
+![Add file: Upload](h3_Kuva22.png)
+
+Käynnistin Apachen uudestaan:
+
+`$ systemctl restart apache2`
+
+Ja latasin Firefox-selaimessa sivun uudestaan. Sivu ei edelleenkään toiminut vaan antoi samaa virhettä.
+Luin jälleen Apachen errron.login, mutta se ei valitettvasti tuottanut juurikaan iloa, enkä löytänyt syytä virheelle.
+
+![Add file: Upload](h3_Kuva23.png)
+
+Kokeilin tässä vaiheessa huvikseni kokeilla siirtyä selaimessa suoraan sivulle http://hattu.example.com ja huomasin sen toimivan oikein:
+
+![Add file: Upload](h3_Kuva24.png)
+
+
 
 ## Lähdeluettelo
 
