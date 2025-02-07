@@ -215,9 +215,11 @@ Varmistettuani sudo-oikeuksien olevan kunnossa lukitsin root-käyttäjän tunnuk
 
 `$ exit`
 
-???
-
  ![Add file: Upload](h4_Kuva29.png)
+
+ ???
+
+  ![Add file: Upload](h4_Kuva30.png)
 
 Tarkistin tässä kohtaa virtuaalipalvelimen nimen komennolla:
 
@@ -225,11 +227,9 @@ Tarkistin tässä kohtaa virtuaalipalvelimen nimen komennolla:
 
 `$ hostname`
 
- ![Add file: Upload](h4_Kuva30.png)
-
  Ja päivitin kaikki ohjelmat:
 
-`$ sudo apt-get uodate`
+`$ sudo apt-get update`
  
  ![Add file: Upload](h4_Kuva31.png)
 
