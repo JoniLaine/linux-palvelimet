@@ -271,6 +271,14 @@ Kokeilin sivun toimivuutta IP-osoitteessa 94.237.36.30 sekä host-koneellani ett
 
 ![Add file: Upload](h4_Kuva38.png)
 
+Kun oletussivu oli toiminnassa, lisäsin sinne vielä oman lyhyen esimerkkitekstin tervehdykseksi sivulla vieraileville:
+
+`$ echo Maailma tulee | sudo tee /var/www/html/index.html`
+
+![Add file: Upload](h4_Kuva40.png)
+
+Ja tarkistin sivun näyttävän nyt alla olevan mukaiselta:
+
 ![Add file: Upload](h4_Kuva41.png)
 
 Aikaa kulunut: 2:30
