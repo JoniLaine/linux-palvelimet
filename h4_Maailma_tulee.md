@@ -184,6 +184,7 @@ Kokeilin sivun toimivuutta IP-osoitteessa 94.237.36.30 ja sain näkyviin Apachen
 
 Aikaa kulunut: 2:30
 
+![Add file: Upload](h4_Kuva41.png)
 
 
 ## Lähdeluettelo
