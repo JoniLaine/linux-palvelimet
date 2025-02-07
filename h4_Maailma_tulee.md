@@ -8,9 +8,6 @@ Aikaa kulunut: 0:00
 
 ##	a) Oman virtuaalipalvelimen vuokraus
 
-##	c) Asenna weppipalvelin omalle virtuaalipalvelimellesi. Korvaa testisivu. Kokeile, että se näkyy julkisesti. Kokeile myös eri koneelta, esim kännykältä. (Jos haluat tehdä oikeat weppisivut, tarvitset Name Based Virtual Hostin)
-
-
 Valitsin näkymästä ensimmäisenä Start Free Trial ja annoin sinne pyydetyt omat tiedot. Tämän jälkeen UpCloud lähetti vahvistuskoodin sähköpostiini ja kävin vahvistamassa tämän ja loin tunnuksen.
 Kirjauduin palveluun juuri luomillani tunnuksilla.
 
@@ -270,6 +267,9 @@ Näiden vaiheiden jälkeen hain sivun IP-osoitetiedot:
 Kokeilin sivun toimivuutta IP-osoitteessa 94.237.36.30 sekä host-koneellani että puhelimellani ja sain näkyviin Apachen oletus (default) sivun:
 
 ![Add file: Upload](h4_Kuva38.png)
+
+
+##	c) Oma weppipalvelin, oman sisällön lisäys sekä sivun julkisuuden tarkastaminen
 
 Kun oletussivu oli toiminnassa, lisäsin sinne vielä oman lyhyen esimerkkitekstin tervehdykseksi sivulla vieraileville:
 
