@@ -261,17 +261,19 @@ Tämä ei mennyt läpi odotetusti. JOten annoin komennot:
 
 ![Add file: Upload](h4_Kuva36.png)
 
+Näiden vaiheiden jälkeen hain sivun IP-osoitetiedot:
+
+`$ hostname -I`
+
 ![Add file: Upload](h4_Kuva37.png)
 
-Kokeilin sivun toimivuutta IP-osoitteessa 94.237.36.30 ja sain näkyviin Apachen oletus (default) sivun:
+Kokeilin sivun toimivuutta IP-osoitteessa 94.237.36.30 sekä host-koneellani että puhelimellani ja sain näkyviin Apachen oletus (default) sivun:
 
 ![Add file: Upload](h4_Kuva38.png)
 
-
-Aikaa kulunut: 2:30
-
 ![Add file: Upload](h4_Kuva41.png)
 
+Aikaa kulunut: 2:30
 
 ## Lähdeluettelo
 
