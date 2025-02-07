@@ -90,8 +90,10 @@ Odottaessa siirryin jo valmiiksi virtuaalikoneella oikeaan sijaintiin ja varmist
 
  ![Add file: Upload](h4_Kuva14.png)
 
-Serverin valmistuttua (vei noin 3minuuttia) klikkasin kuvan mukaista See how to connect linkkiä:
-Kuva15
+Serverin valmistuttua (vei noin 3 minuuttia) klikkasin kuvan mukaista See how to connect linkkiä:
+
+ ![Add file: Upload](h4_Kuva15.png)
+
 Ja seurasin ohjeita linkin takana valitsemalla ohjeeksi virtuaalikoneeni käyttöjärjestelmälle sopivan ohjeen (from linux):
 
  ![Add file: Upload](h4_Kuva16.png)
