@@ -7,7 +7,7 @@ Aikaa kulunut: 0:00
 Aikaa kulunut: 0:00
 
 ##	a) Oman virtuaalipalvelimen vuokraus
-##	b) Tee alkutoimet omalla virtuaalipalvelimellasi: tulimuuri päälle, root-tunnus kiinni, ohjelmien päivitys.
+
 ##	c) Asenna weppipalvelin omalle virtuaalipalvelimellesi. Korvaa testisivu. Kokeile, että se näkyy julkisesti. Kokeile myös eri koneelta, esim kännykältä. (Jos haluat tehdä oikeat weppisivut, tarvitset Name Based Virtual Hostin)
 
 
@@ -107,47 +107,133 @@ Eteeni tuli varmistus, haluanko varmasti yhdistää ja jatkaa. Tarkistin IP-osoi
  
 Ja lopuksi valitsin `Y` ja `Enter`
 
-Lisäsin käyttäjän vielä sudo-ryhmään:
+Aikaa kulunut: 0:45
+
+##	b) Tee alkutoimet omalla virtuaalipalvelimellasi: tulimuuri päälle, root-tunnus kiinni, ohjelmien päivitys.
+
+Lisäsin käyttäjän joni sudo-ryhmään komennoilla:
 
 `$ sudo adduser joni sudo`
 
 `Enter`
 
-Ja kirjauduin pois root-käyttäjältä:
+Ja kirjauduin pois root-käyttäjältä komennolla:
 
 `$exit`
 
+Yritin saada SSH yhteyden komennolla, mutta tämä ei näyttänyt onnistuvan toivotusti ja palautti käyttäjäksi root-käyttäjän:
+
+`$ ssh joni@94.237.36.30`
+
  ![Add file: Upload](h4_Kuva18.png)
+
+ Päätin kokeilla miltä SSH:n tilanne näytti root-käyttäjän kautta komennolla:
+
+ `$ ssh root@94.237.36.30`
  
  ![Add file: Upload](h4_Kuva19.png)
- 
- ![Add file: Upload](h4_Kuva20.png)
+
+ Rootin puolella kokeiltaessa ssh-avain löytyi.
 
  Palasin root-tasolle komennolla:
 
 `$ cd`
 
+Ja käytttöoikeustasot seuraavasti:
+
+(Huom: tämä oli ilmeisesti tarpeeton komento tähän väliin, joten tätä ei tarvitse tehdä: `$ cp -n -r /root/.ssh /home/joni/`)
+
+`$ cd /home/joni/`
+
+`$ ls -la`
+
  ![Add file: Upload](h4_Kuva21.png)
+
+ Huomasin, että käyttäjällä joni ei ollut tarvittavia oikeuksia .ssh:n puolelle, joten lisäsin nämä komennolla:
+
+ `$ chown joni:joni .ssh -R`
  
  ![Add file: Upload](h4_Kuva22.png)
+
+Ja tarkistin käyttöoikeuksien muuttuneen oikein:
+
+`$ ls -la`
  
  ![Add file: Upload](h4_Kuva23.png)
+
+ Suljin root-yhteyden komennolla:
+
+`$ exit`
+
+`Enter`
+
+Ja kokeilin käyttäjän joni kautta yhetyden muodostamista uudestaan:
+
+`$ ssh joni@94.237.36.30`
      
  ![Add file: Upload](h4_Kuva24.png)
-  
+
+Annoin saman komennon toistamiseen ja sain kuvan mukaisen virheen. Aloin epäillä, että annetun virheen lisäksi sudo-oikeudet eivät ehkä ole kuitenkaan kunnossa, jotta voisin poistaa root-käyttäjän, joten tein testin asiasta käyttämällä `echo sudo` -komentoa:
+
+`$ ssh joni@94.237.36.30`
+
+`$ echo sudo testi`
+
+Tämä plajasti, että luomani salasana oli ilmeisesti liian hvyä, koska en enää itsekään osannut kirjoittaa sitä oikein.
+ 
  ![Add file: Upload](h4_Kuva25.png)
-   
- ![Add file: Upload](h4_Kuva26.png)
+
+ Palasin jälleen root-puolelle komennolla:
+
+ `$ ssh root@94.237.36.30`
+
+ Ja vaihdoin joni käyttäjän salasanan (tämä vaati lukituksen avaamista, koska epäonnistuneita kertoja oli kolme):
+
+`$ passwd -u joni`
+
+Ja syötin uuden salasanan kahdesti sekä kirjauduin ulos root-puolelta:
+
+`$ exit`
 
  ![Add file: Upload](h4_Kuva27.png)
+
+ Annoin uudestaan komennon:
+
+`$ ssh joni@94.237.36.30`
+
+Ja syötin uuden testin sudo-oikeuksien tarkistamiseksi:
+
+`$ echo sudo testi2`
+
+Jonka jälkeen syötin uuden salasanani ja sain toivotun tuloksen:
  
  ![Add file: Upload](h4_Kuva28.png)
 
+Varmistettuani sudo-oikeuksien olevan kunnossa lukitsin root-käyttäjän tunnukset ja suljin yhteyden:
+
+`$ sudo usermod --lock root`
+
+`$ exit`
+
+???
+
  ![Add file: Upload](h4_Kuva29.png)
 
+Tarkistin tässä kohtaa virtuaalipalvelimen nimen komennolla:
+
+(Tämä vaihe osoittautui turhaksi tältä erää: `$ sudo rm /root/.ssh -r`)
+
+`$ hostname`
+
  ![Add file: Upload](h4_Kuva30.png)
+
+ Ja päivitin kaikki ohjelmat:
+
+`$ sudo apt-get uodate`
  
  ![Add file: Upload](h4_Kuva31.png)
+
+ ???
  
  ![Add file: Upload](h4_Kuva32.png)
 
