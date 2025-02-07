@@ -98,7 +98,7 @@ Ja seurasin ohjeita linkin takana valitsemalla ohjeeksi virtuaalikoneeni k채ytt�
 
  ![Add file: Upload](h4_Kuva16.png)
 
-Eteeni tuli varmistus, haluanko varmasti yhdist채채 ja jatkaa. Tarkistin IP-osoitteen ja kirjoitin komentoriville `yes` ja painoin `Enter`
+T채ytin tietoihin ainoastaan koko nimen, muut ohitin `Enter`:ll채. Lopuksi tuli varmistus, haluanko varmasti yhdist채채 ja jatkaa. Tarkistin IP-osoitteen ja kirjoitin komentoriville `yes` ja painoin `Enter`
 
  ![Add file: Upload](h4_Kuva17.png)
  
