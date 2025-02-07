@@ -7,6 +7,9 @@ Aikaa kulunut: 0:00
 Aikaa kulunut: 0:00
 
 ##	a) Oman virtuaalipalvelimen vuokraus
+##	b) Tee alkutoimet omalla virtuaalipalvelimellasi: tulimuuri päälle, root-tunnus kiinni, ohjelmien päivitys.
+##	c) Asenna weppipalvelin omalle virtuaalipalvelimellesi. Korvaa testisivu. Kokeile, että se näkyy julkisesti. Kokeile myös eri koneelta, esim kännykältä. (Jos haluat tehdä oikeat weppisivut, tarvitset Name Based Virtual Hostin)
+
 
 Valitsin näkymästä ensimmäisenä Start Free Trial ja annoin sinne pyydetyt omat tiedot. Tämän jälkeen UpCloud lähetti vahvistuskoodin sähköpostiini ja kävin vahvistamassa tämän ja loin tunnuksen.
 Kirjauduin palveluun juuri luomillani tunnuksilla.
@@ -114,7 +117,77 @@ Ja kirjauduin pois root-käyttäjältä:
 
 `$exit`
 
-Aikaa kulunut: 0:00
+ ![Add file: Upload](h4_Kuva18.png)
+ 
+ ![Add file: Upload](h4_Kuva19.png)
+ 
+ ![Add file: Upload](h4_Kuva20.png)
+
+ Palasin root-tasolle komennolla:
+
+`$ cd`
+
+ ![Add file: Upload](h4_Kuva21.png)
+ 
+ ![Add file: Upload](h4_Kuva22.png)
+ 
+ ![Add file: Upload](h4_Kuva23.png)
+     
+ ![Add file: Upload](h4_Kuva24.png)
+  
+ ![Add file: Upload](h4_Kuva25.png)
+   
+ ![Add file: Upload](h4_Kuva26.png)
+
+ ![Add file: Upload](h4_Kuva27.png)
+ 
+ ![Add file: Upload](h4_Kuva28.png)
+
+ ![Add file: Upload](h4_Kuva29.png)
+
+ ![Add file: Upload](h4_Kuva30.png)
+ 
+ ![Add file: Upload](h4_Kuva31.png)
+ 
+ ![Add file: Upload](h4_Kuva32.png)
+
+Annoin komennon:
+
+`$ sudo ufw allow`
+
+ja tämän jälkeen seuraavat komennot:
+
+![Add file: Upload](h4_Kuva33.png)
+
+Annoin valinnan `Y`:
+
+![Add file: Upload](h4_Kuva34.png)
+
+`$ sudo apt-get install unattended`
+
+Tämä ei mennyt läpi odotetusti. JOten annoin komennot:
+
+`$ sudo apt-get install apache2`
+
+`$ sudo apt-get install bash-completion`
+
+![Add file: Upload](h4_Kuva36.png)
+
+![Add file: Upload](h4_Kuva37.png)
+
+Kokeilin sivun toimivuutta IP-osoitteessa 94.237.36.30 ja sain näkyviin Apachen oletus (default) sivun:
+
+![Add file: Upload](h4_Kuva38.png)
+
+
+Aikaa kulunut: 2:30
+
+
+
+## Lähdeluettelo
+
+
+
 
 
 
