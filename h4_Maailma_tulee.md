@@ -155,11 +155,13 @@ Annoin komennon:
 
 `$ sudo ufw allow`
 
+Ja annoin valinnan `Y` kysyttäessä jatkotoimista.
+
 ja tämän jälkeen seuraavat komennot:
 
 ![Add file: Upload](h4_Kuva33.png)
 
-Annoin valinnan `Y`:
+
 
 ![Add file: Upload](h4_Kuva34.png)
 
