@@ -78,7 +78,7 @@ Palasin UpCloudin puolelle ja liitin julkisen avaimen Add an SSH key näkymään
 Ja valitsin Save he SSH key.
 Klikkasin Deploy ja odotin, että serveri valmistuu.
 
- ![Add file: Upload](h4_Kuva13.png)
+ ![Add file: Upload](h4_Kuva12.png)
 
 Odottaessa siirryin jo valmiiksi virtuaalikoneella oikeaan sijaintiin ja varmistin sijaintini komennoilla:
 
@@ -88,7 +88,7 @@ Odottaessa siirryin jo valmiiksi virtuaalikoneella oikeaan sijaintiin ja varmist
 
 `$  ls`
 
- ![Add file: Upload](h4_Kuva14.png)
+ ![Add file: Upload](h4_Kuva13.png)
 
 Serverin valmistuttua (vei noin 3 minuuttia) klikkasin kuvan mukaista See how to connect linkkiä:
 
