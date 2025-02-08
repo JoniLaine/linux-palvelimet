@@ -291,5 +291,12 @@ Aikaa kulunut: 2:45
 - Tero Karvinen, First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS: [First Steps on a New Virtual Private Server](https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/)
 
 
+## Tekijä
+
+### Joni Laine
+
+### Haaga-Helia, IT-Tradenomiopiskelija
+
+
 
 
