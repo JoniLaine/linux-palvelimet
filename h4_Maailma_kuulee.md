@@ -1,6 +1,6 @@
 # h4 Maailma kuulee
 
-Aikaa kulunut: 0:00
+**Aikaa kulunut: 0:00**
 
 ##	x) Tiivistettynä Susanna Lehdon ja Tero Karvisen artikkelit (lähdeluettelossa)
 
