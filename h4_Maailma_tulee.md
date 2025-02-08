@@ -104,9 +104,9 @@ Täytin tietoihin ainoastaan koko nimen, muut ohitin `Enter`:llä. Lopuksi tuli 
  
 Ja lopuksi valitsin `Y` ja `Enter`
 
-Aikaa kulunut: 0:45
+**Aikaa kulunut: 0:45**
 
-##	b) Tee alkutoimet omalla virtuaalipalvelimellasi: tulimuuri päälle, root-tunnus kiinni, ohjelmien päivitys.
+##	b) Alkutoimet: palomuuri, root-tunnuksen lukitseminen ja ohjelmien päivitys
 
 Lisäsin käyttäjän joni sudo-ryhmään komennoilla:
 
@@ -214,10 +214,6 @@ Varmistettuani sudo-oikeuksien olevan kunnossa lukitsin root-käyttäjän tunnuk
 
  ![Add file: Upload](h4_Kuva29.png)
 
- ???
-
-  ![Add file: Upload](h4_Kuva30.png)
-
 Tarkistin tässä kohtaa virtuaalipalvelimen nimen komennolla:
 
 (Tämä vaihe osoittautui turhaksi tältä erää: `$ sudo rm /root/.ssh -r`)
@@ -230,33 +226,41 @@ Tarkistin tässä kohtaa virtuaalipalvelimen nimen komennolla:
  
  ![Add file: Upload](h4_Kuva31.png)
 
- ???
- 
- ![Add file: Upload](h4_Kuva32.png)
-
-Annoin komennon:
+Seuraavaksi avasin tarvittavat portit palomuurissa. Annoin komennon:
 
 `$ sudo ufw allow`
 
 Ja annoin valinnan `Y` kysyttäessä jatkotoimista.
 
-ja tämän jälkeen seuraavat komennot:
+`$ sudo apt-get install unattended`
+
+Ja annoin komennot oikeiden porttien avaamiseksi ja palomuurin kytkemiseksi päälle:
+
+`$ sudo ufw allow 22/tcp`
+
+`$ sudo ufw enable`
 
 ![Add file: Upload](h4_Kuva33.png)
 
+`$ sudo ufw allow 80/tcp`
 
+![Add file: Upload](h4_Kuva36.png)
 
-![Add file: Upload](h4_Kuva34.png)
+Tarkistin tämän jälkeen avattujen porttien statuksen komennolla:
+
+`$ sudo ufw status verbose`
+
+Portit olivat kunnossa (`action: ALLOW IN` ja `from: anywhere` porteille 80 ja 22 sekä IPv4 ja IPv6 puolella).
+
+Asensin unattended-upgrades paketin automatisoidakseni päivitykset:
 
 `$ sudo apt-get install unattended`
 
-Tämä ei mennyt läpi odotetusti. JOten annoin komennot:
+Annoin seuraavat komennot varmistaakseni Apachen olevan asennettu myös virtuaalipalvelimen profiilille ja bash-completition -paketin olevan käytettävissä: 
 
 `$ sudo apt-get install apache2`
 
 `$ sudo apt-get install bash-completion`
-
-![Add file: Upload](h4_Kuva36.png)
 
 Näiden vaiheiden jälkeen hain sivun IP-osoitetiedot:
 
@@ -267,7 +271,6 @@ Näiden vaiheiden jälkeen hain sivun IP-osoitetiedot:
 Kokeilin sivun toimivuutta IP-osoitteessa 94.237.36.30 sekä host-koneellani että puhelimellani ja sain näkyviin Apachen oletus (default) sivun:
 
 ![Add file: Upload](h4_Kuva38.png)
-
 
 ##	c) Oma weppipalvelin, oman sisällön lisäys sekä sivun julkisuuden tarkastaminen
 
@@ -281,11 +284,11 @@ Ja tarkistin sivun näyttävän nyt alla olevan mukaiselta:
 
 ![Add file: Upload](h4_Kuva41.png)
 
-Aikaa kulunut: 2:30
+Aikaa kulunut: 2:45
 
 ## Lähdeluettelo
 
-
+- Tero Karvinen, First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS: [First Steps on a New Virtual Private Server](https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/)
 
 
 
