@@ -386,3 +386,10 @@ Aikaa kulunut: 4:40
 -	Tero Karvinen 2018: [Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address](https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/)
 - Baeldung Linux: [Guide to the Linux curl Command with examples](https://www.baeldung.com/linux/curl-guide)
 - Hostinger Tutorials: [What is the cURL-command? Understanding the syntax, options and examples](https://www.hostinger.com/tutorials/curl-command)
+
+
+## Tekijä
+
+### Joni Laine
+
+### Haaga-Helia, IT-Tradenomiopiskelija
