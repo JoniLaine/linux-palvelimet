@@ -2,9 +2,18 @@
 
 Aikaa kulunut: 0:00
 
-##	x) Lue ja tiivistä. Tiivistelmäksi riittää muutama ranskalainen viiva per artikkeli. 
+##	x) Tiivistettynä Susanna Lehdon ja Tero Karvisen artikkelit (lähdeluettelossa)
 
-Aikaa kulunut: 0:00
+- Virtuaalipalelimen käyttöönotto vaatii sopivan käyttöjärjestelmän, käyttäjätilin, palomuurin ja päivitykset ohjelmille
+- root-käyttäjä tulee lukita ja huolehtia oikealla käyttäjällä olevan vahva salasana
+- domain-nimi tulee yhdistää palvelimeen ja tämän toimivuus tulee testata selaimen puolella myös muissa laitteissa kuin host-laitteessa toiminnan varmistamiseksi
+- Tarvittavat portit on avattava ennen palomuurin kytkemistä päälle
+- Tietoturvasyistä Apachen oletussivu on hyvä korvata mahdollisimman pian muulla sisällöllä
+- Palvelimen ohjelmat tulee päivittää kirjautumalla ssh-yhteydellä palvelimelle ja hoitamalla päivitykset myös palvelimen puolelle
+
+**Aikaa kulunut: 0:45**
+
+**Aikaa kulunut: 0:00**
 
 ##	a) Oman virtuaalipalvelimen vuokraus
 
@@ -278,7 +287,7 @@ Ja tarkistin sivun näyttävän nyt alla olevan mukaiselta:
 
 ![Add file: Upload](h4_Kuva41.png)
 
-Aikaa kulunut: 2:45
+**Aikaa kulunut: 2:45**
 
 ## Lähdeluettelo
 
