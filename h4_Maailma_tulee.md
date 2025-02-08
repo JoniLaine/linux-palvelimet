@@ -214,13 +214,7 @@ Varmistettuani sudo-oikeuksien olevan kunnossa lukitsin root-käyttäjän tunnuk
 
  ![Add file: Upload](h4_Kuva29.png)
 
-Tarkistin tässä kohtaa virtuaalipalvelimen nimen komennolla:
-
-(Tämä vaihe osoittautui turhaksi tältä erää: `$ sudo rm /root/.ssh -r`)
-
-`$ hostname`
-
- Ja päivitin kaikki ohjelmat:
+ Päivitin kaikki ohjelmat komennolla:
 
 `$ sudo apt-get update`
  
