@@ -283,6 +283,8 @@ Aikaa kulunut: 2:45
 ## Lähdeluettelo
 
 - Tero Karvinen, First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS: [First Steps on a New Virtual Private Server](https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/)
+- Susanna Lehto, Teoriasta käytäntöön pilvipalveluiden avulla: [Teoriasta käytäntöön pilvipalveluiden avulla](https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/)
+
 
 
 ## Tekijä
