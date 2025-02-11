@@ -235,7 +235,7 @@ Seuraavaksi avasin tarvittavat portit palomuurissa. Annoin komennon:
 
 Ja annoin valinnan `Y` kysyttäessä jatkotoimista.
 
-`$ sudo apt-get install unattended`
+`$ sudo apt-get install unattended-upgrades`
 
 Ja annoin komennot oikeiden porttien avaamiseksi ja palomuurin kytkemiseksi päälle:
 
