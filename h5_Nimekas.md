@@ -8,6 +8,8 @@ Domainin lähtötilanteen DNS-tietueet:
 
 ![Add file: Upload](h5_Kuva1.png)
 
+Tämän jälkeen vahvistin antamani yhteystiedot uudella domainilla NameCheapissa vaatimuksen mukaisesti. Tähän vaiheeseen pääsi helposti seuraamalla NameCheap-portaalin antamaa ilmoitusta seuraamalla.
+
 ## b) Name Based Virtual Host näkyville uudessa nimessä
 
 A-tietueiden lisäämisen jälkeen oli juuri luomani domain ohjattu näyttämään aiemmin virtuaalikoneella luomani index.html:
