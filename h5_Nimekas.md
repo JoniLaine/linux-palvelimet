@@ -31,6 +31,26 @@ o	Jonkin suuren ja kaikkien tunteman palvelun tiedot.
 Aakkossalaattia sähköpostiin. Etsi palvelu, jonka DNS-tiedoissa on SPF ja DMARC.
 Selitä näiden kenttien osat ja vaikutukset yksityiskohtaisesti. Voit halutessasi käyttää tulkinnan apuna jotain ohjelmaa tai palvelua, kunhan selität ja tulkitset lopputuloksen myös itse.
 
+SPF-haku:
+
+![Add file: Upload](h5_Kuva5.png)
+
+SPF-tietue:
+
+`v=spf1 include:spf.protection.outlook.com include:mail.zendesk.com include:mailoutspf.cygrids.net -all`
+
+![Add file: Upload](h5_Kuva6.png)
+
+DMARC-haku:
+
+![Add file: Upload](h5_Kuva3.png)
+
+DMARC-tietue:
+
+`v=DMARC1; p=none;`
+
+![Add file: Upload](h5_Kuva4.png)
+
 
 ## Lähdeluettelo
 
