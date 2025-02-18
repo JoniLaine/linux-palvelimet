@@ -58,7 +58,12 @@ DMARC-tietue:
 
 ## Lähdeluettelo
 
-MXtoolbox (supertool): https://mxtoolbox.com/
+- MXtoolbox (supertool): https://mxtoolbox.com/
+
+- TNNet, Niko Niinijärvi 2024, DNS-hallinta - Mitä se on?: https://tnnet.fi/blogi/dns-hallinta-mita-se-on/
+
+- CloudFlare, What are DMARC, DKIM, and SPF?: https://www.cloudflare.com/en-gb/learning/email-security/dmarc-dkim-spf/
+
 
 
 ## Tekijä
