@@ -58,6 +58,8 @@ DMARC-tietue:
 
 ## Lähdeluettelo
 
+- Tero Karvinen: https://terokarvinen.com/linux-palvelimet/
+
 - MXtoolbox (supertool): https://mxtoolbox.com/
 
 - TNNet, Niko Niinijärvi 2024, DNS-hallinta - Mitä se on?: https://tnnet.fi/blogi/dns-hallinta-mita-se-on/
