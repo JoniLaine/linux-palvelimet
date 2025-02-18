@@ -55,6 +55,15 @@ DMARC-tietue:
 
 ![Add file: Upload](h5_Kuva4.png)
 
+Tietue on kokonaisuudessaan tarkoitettu sähköpostin verkkotunnuksen suojaamiseen väärennöksiltä ja varmistamaan sähköpostin tunnistus oikeaksi lähettäjäksi vastaanottavan palvelimen puolella.
+
+**v=DMARC1**
+
+DMARC1 on DMARC-protokollan versio.
+
+**p=none**
+
+Määrittää, mitä epäonnistuneille viesteille tehdään. Tässä tapauksessa `none` kertoo, että ainoastaan raportit viesteistä kerätään, mutta muita erityisiä toimia ei suoriteta.
 
 ## Lähdeluettelo
 
