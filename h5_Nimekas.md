@@ -10,6 +10,10 @@ Domainin lähtötilanteen DNS-tietueet:
 
 ## b) Name Based Virtual Host näkyville uudessa nimessä
 
+A-tietueiden lisäämisen jälkeen oli juuri luomani domain ohjattu näyttämään aiemmin virtuaalikoneella luomani index.html:
+
+![Add file: Upload](h5_Kuva2.png)
+
 ## c) Alasivujen luonti ja muokkaus näkyville nimellä
 
 ## d) Alidomainien luonti omalle nimelle
