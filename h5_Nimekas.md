@@ -111,6 +111,11 @@ Määrittää, mitä epäonnistuneille viesteille tehdään. Tässä tapauksessa
 
 - CloudFlare, What are DMARC, DKIM, and SPF?: https://www.cloudflare.com/en-gb/learning/email-security/dmarc-dkim-spf/
 
+- Host komento: https://linux.die.net/man/1/host
+
+- Dig komento: https://linux.die.net/man/1/dig
+
+
 
 
 ## Tekijä
