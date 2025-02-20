@@ -35,7 +35,7 @@ o	Jonkin suuren ja kaikkien tunteman palvelun tiedot.
 Aakkossalaattia sähköpostiin. Etsi palvelu, jonka DNS-tiedoissa on SPF ja DMARC.
 Selitä näiden kenttien osat ja vaikutukset yksityiskohtaisesti. Voit halutessasi käyttää tulkinnan apuna jotain ohjelmaa tai palvelua, kunhan selität ja tulkitset lopputuloksen myös itse.
 
-SPF-haku:
+### SPF-haku:
 
 ![Add file: Upload](h5_Kuva5.png)
 
@@ -45,7 +45,33 @@ SPF-tietue:
 
 ![Add file: Upload](h5_Kuva6.png)
 
-DMARC-haku:
+SPF-tietueen, eli Sender Policy Framen, tehtäv on määrittää palvelimet, jotka saavat käyttää domainia sähköpsotien lähettämiseen. 
+
+**v=spf1**
+
+SPF-tietueen versio.
+
+**include:**
+
+Tämän jälkeen aloitetaan luettelo sallituista palvelimista.
+
+**spf.protection.outlook.com**
+
+Sallii Outlookin.
+
+**include:mail.zendesk.com**
+
+Sallii Zendeskin.
+
+**include:mailoutspf.cygrids.net**
+
+Sallii Cygridsin.
+
+**-all**
+
+Päättää sallittujen palvelinten listan. Mikäli tämän jälkeen kirjoittaa uusia sallittuja palvelimia, eivät nämä saa lähetyslupaa.
+
+### DMARC-haku:
 
 ![Add file: Upload](h5_Kuva3.png)
 
@@ -64,6 +90,8 @@ DMARC1 on DMARC-protokollan versio.
 **p=none**
 
 Määrittää, mitä epäonnistuneille viesteille tehdään. Tässä tapauksessa `none` kertoo, että ainoastaan raportit viesteistä kerätään, mutta muita erityisiä toimia ei suoriteta.
+
+
 
 ## Lähdeluettelo
 
