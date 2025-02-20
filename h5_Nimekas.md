@@ -51,6 +51,20 @@ Ja sinne sisältöä:
 
 ![Add file: Upload](h5_Kuva23.png)
 
+![Add file: Upload](h5_Kuva24.png)
+
+![Add file: Upload](h5_Kuva25.png)
+
+![Add file: Upload](h5_Kuva26.png)
+
+![Add file: Upload](h5_Kuva27.png)
+
+![Add file: Upload](h5_Kuva28.png)
+
+![Add file: Upload](h5_Kuva29.png)
+
+![Add file: Upload](h5_Kuva30.png)
+
 ![Add file: Upload](h5_Kuva19.png)
 ## c) Alasivujen luonti ja muokkaus näkyville nimellä
 
