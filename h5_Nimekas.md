@@ -38,8 +38,20 @@ luodaan kotihakemistoon ikolainen.com:
 
 Ja sinne sisältöä:
 
+
+
+
 ![Add file: Upload](h5_Kuva17.png)
 
+![Add file: Upload](h5_Kuva21.png)
+
+![Add file: Upload](h5_Kuva20.png)
+
+![Add file: Upload](h5_Kuva22.png)
+
+![Add file: Upload](h5_Kuva23.png)
+
+![Add file: Upload](h5_Kuva19.png)
 ## c) Alasivujen luonti ja muokkaus näkyville nimellä
 
 ## d) Alidomainien luonti omalle nimelle
