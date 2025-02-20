@@ -16,6 +16,30 @@ A-tietueiden lisäämisen jälkeen oli juuri luomani domain ohjattu näyttämä�
 
 ![Add file: Upload](h5_Kuva2.png)
 
+![Add file: Upload](h5_Kuva13.png)
+
+Lisätty sisältö sivustolle:
+
+![Add file: Upload](h5_Kuva11.png)
+
+ikolainen.com.conf tiedoston sisällön muokkaus:
+
+![Add file: Upload](h5_Kuva15.png)
+
+ikolainen.com.conf tiedoston sisällöksi laitettu:
+
+![Add file: Upload](h5_Kuva14.png)
+
+luodaan kotihakemistoon ikolainen.com:
+
+![Add file: Upload](h5_Kuva16.png)
+
+![Add file: Upload](h5_Kuva18.png)
+
+Ja sinne sisältöä:
+
+![Add file: Upload](h5_Kuva17.png)
+
 ## c) Alasivujen luonti ja muokkaus näkyville nimellä
 
 ## d) Alidomainien luonti omalle nimelle
