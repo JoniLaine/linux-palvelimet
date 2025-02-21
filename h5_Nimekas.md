@@ -131,7 +131,7 @@ Käynnistin Apachen uudestaan ja päivitin selaimen pitäen `shift`-näppäintä
 
 `$ sudo systemctl restart apache2`
 
-![Add file: Upload](h5_Kuv32.png)
+![Add file: Upload](h5_Kuva32.png)
 
 ## c) Alasivujen luonti ja muokkaus näkyville nimellä
 
