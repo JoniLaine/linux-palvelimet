@@ -43,19 +43,12 @@ KUVA PUUTTUU!
 Siirryin takaisin SSH-yhteyteen ja lisäsin sisällön ikolainen.com.conf tiedostolle:
 
 `<VirtualHost *:80>
-
   ServerName ikolainen.com
-
   ServerAlias www.ikolainen.com
-  
   DocumentRoot /home/joni/public_sites/ikolainen.com
-  
   <Directory /home/joni/public_sites/ikolainen.com>
-  
     Require all granted
-  
   </Directory>
-
 </VirtualHost>`
 
 ![Add file: Upload](h5_Kuva21.png)
