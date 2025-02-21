@@ -87,7 +87,7 @@ Huomasin, että myös 000-default.conf oli yhä aktiivisena, joten suljin sen ja
 
 `$ sudo systemctl restart apache2`
 
-![Add file: Upload](h5_Kuva25.png)
+![Add file: Upload](h5_Kuva26.png)
 
 Tällä ei ollut kuitenkaan vaikutusta sivuston käyttäytymiseen vaan sain yhä saman `403 Forbidden` virheen.
 
@@ -95,13 +95,11 @@ Olin kokeillut sivun uudelleen lataamsiat useammalla laitteella, joten päätin 
 
 `$ sudo tail -f /var/log/apache2/error.log`
 
-![Add file: Upload](h5_Kuva26.png)
+![Add file: Upload](h5_Kuva27.png)
 
 Huomasin virheen viittaavan tiedostopolussa olevaan käyttöoikeusongelmaan.
 
 `-- search permissions are missing on a component of the path, refer: hhtp://ikolainen.com/`
-
-![Add file: Upload](h5_Kuva27.png)
 
 Palasin terminaaliin ja päätin tarkistaa, onko käyttäjällä `joni` tarvittavat oikeudet kunnossa:
 
@@ -133,7 +131,7 @@ Käynnistin Apachen uudestaan ja päivitin selaimen pitäen `shift`-näppäintä
 
 `$ sudo systemctl restart apache2`
 
-![Add file: Upload](h5_Kuva19.png)
+![Add file: Upload](h5_Kuv32.png)
 
 ## c) Alasivujen luonti ja muokkaus näkyville nimellä
 
