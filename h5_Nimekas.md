@@ -40,7 +40,11 @@ Ja sinne sisältöä:
 
 KUVA PUUTTUU!
 
-Siirryin takaisin SSH-yhteyteen ja lisäsin sisällön ikolainen.com.conf tiedostolle:
+Siirryin takaisin SSH-yhteyteen ja muokkasin ikolainen.com.conf tiedostoa komennolla:
+
+`$ sudoedit /etc/apache2/sites-available/ikolianen.com.conf`
+
+![Add file: Upload](h5_Kuva21.png)
 
 ```
 <VirtualHost *:80>
@@ -53,29 +57,84 @@ Siirryin takaisin SSH-yhteyteen ja lisäsin sisällön ikolainen.com.conf tiedos
 </VirtualHost>
 ```
 
-![Add file: Upload](h5_Kuva21.png)
+Tallensin ja suljin tiedoston valinnoilla  `citrl`+ `S` ja `ctrl` + `Q`.
+
+Aktivoin conf-tiedoston käyttöön komennolla:
+
+`$ sudo a2ensite ikolainen.com.conf`
+
+Ja käynnistyn Apachen uudestaan:
+
+`$ sudo systemctl restart apache2`
 
 ![Add file: Upload](h5_Kuva20.png)
 
+Päivitin selaimen pitämällä `shift`-painiketta pohjassa ja sain seuraavan tuloksen:
+
 ![Add file: Upload](h5_Kuva22.png)
+
+
 
 ![Add file: Upload](h5_Kuva23.png)
 
-![Add file: Upload](h5_Kuva24.png)
+Siirryin terminaalissa tarkistamaan, oliko oikea conf-tiedosto varmasti aktivoituna:
+
+`$ ls /etc/apache2/sites-enabled`
+
+Huomasin, että myös 000-default.conf oli yhä aktiivisena, joten suljin sen ja käynnistin Apachen uudestaan (unohdin ensimmäisellä yrittämällä käyttää komennossa sudo, ennen Apachen uudelleen käynnistämistä):
+
+`$ sudo a2dissite 000-default.conf`
+
+`$ sudo systemctl restart apache2`
 
 ![Add file: Upload](h5_Kuva25.png)
 
+Tällä ei ollut kuitenkaan vaikutusta sivuston käyttäytymiseen vaan sain yhä saman `403 Forbidden` virheen.
+
+Olin kokeillut sivun uudelleen lataamsiat useammalla laitteella, joten päätin tarkistaa virhelokin sisällön komennolla:
+
+`$ sudo tail -f /var/log/apache2/error.log`
+
 ![Add file: Upload](h5_Kuva26.png)
+
+Huomasin virheen viittaavan tiedostopolussa olevaan käyttöoikeusongelmaan.
+
+`-- search permissions are missing on a component of the path, refer: hhtp://ikolainen.com/`
 
 ![Add file: Upload](h5_Kuva27.png)
 
+Palasin terminaaliin ja päätin tarkistaa, onko käyttäjällä `joni` tarvittavat oikeudet kunnossa:
+
+`$ namei -l /home/joni/publics-sites/`
+
 ![Add file: Upload](h5_Kuva28.png)
 
-![Add file: Upload](h5_Kuva29.png)
+Huomasin käyttöoikeuksissa puutteen, joka on todennäköisesti aiheuttanut haasteita myös aiemmin käyttäjän kanssa ja aiheuttanut muun muassa salasanan kanssa ilmenneen ongelman aiemmassa osiossa h4.
 
-![Add file: Upload](h5_Kuva30.png)
+Käyttäjällä `joni` ei ollut tarvittavia oikeuksia:
+
+oikeuksien olisi tullut sallia myös luku ja suoritus ryhmälle (group) ja suoritus kaikille (tässä tapauksessa oikeuden puuttuminen esti Apachelta tiedoston suorittamisen).
+
+Korjasin käyttöoikeudet komennolla:
+
+`$ sudo chmod 755 /home/joni`
+
+sekä varmuudeksi myös:
+
+`$ sudo chmod 755 /home/joni/public_sites`
+
+ja taristin lopuksi käyttöoikeuksien korjaantuneen toivotusti:
+
+`$ namei -l /home/joni/public_sites`
+
+![Add file: Upload](h5_Kuva31.png)
+
+Käynnistin Apachen uudestaan ja päivitin selaimen pitäen `shift`-näppäintä pohjassa, jonka jälkeen sivusto toimi toivotusti:
+
+`$ sudo systemctl restart apache2`
 
 ![Add file: Upload](h5_Kuva19.png)
+
 ## c) Alasivujen luonti ja muokkaus näkyville nimellä
 
 ## d) Alidomainien luonti omalle nimelle
