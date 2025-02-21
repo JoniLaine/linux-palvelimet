@@ -38,10 +38,7 @@ luodaan kotihakemistoon ikolainen.com:
 
 Ja sinne sisältöä:
 
-
-
-
-![Add file: Upload](h5_Kuva17.png)
+KUVA PUUTTUU!
 
 ![Add file: Upload](h5_Kuva21.png)
 
