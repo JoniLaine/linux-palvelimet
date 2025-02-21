@@ -135,9 +135,9 @@ Käynnistin Apachen uudestaan ja päivitin selaimen pitäen `shift`-näppäintä
 
 ## d) Alidomainien luonti omalle nimelle
 
-Menin takaisin NameCheapin-portaaliin ja lisäsin kaksi vapaavalintaista alidomainia (joni.ikolainen.com ja test.ikolainen.com), joille asetun saman TTL:n kuin juurisivulle ja www-tietueelle (5min):
+Menin takaisin NameCheapin-portaaliin ja lisäsin kaksi vapaavalintaista alidomainia (testaus.ikolainen.com ja projektit.ikolainen.com), joille asetun saman TTL:n kuin juurisivulle ja www-tietueelle (5min):
 
-![Add file: Upload](h5_Kuva7.png)
+![Add file: Upload](h5_Kuva46.png)
 
 ## e) Tutki jonkin nimen DNS-tietoja 'host' ja 'dig' -komennoilla. Käytä kumpaakin komentoa kaikkiin nimiin ja vertaa tuloksia. Katso man-sivulta, miten komennot toimivat - esimerkiksi miten 'dig' näyttää kaikki kentät. Analysoi tulokset, keskity nimipalvelimelta tulleisiin kenttiin (dig näyttää paljon muutakin tietoa). Etsi tarvittaessa uusia lähteitä haastaviin kohtiin. Sähköpostin todentamiseen liittyvät SPF ja DMARC -tietojen yksityiskohdat on jätetty vapaaehtoiseksi lisätehtäväksi. Tutkittavat nimet:
 
