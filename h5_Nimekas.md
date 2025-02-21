@@ -20,9 +20,9 @@ A-tietueiden lisäämisen jälkeen oli juuri luomani domain ohjattu näyttämä�
 
 Lisätty sisältö sivustolle:
 
-![Add file: Upload](h5_Kuva11.png)
+KUVA PUUTTUU!
 
-ikolainen.com.conf tiedoston sisällön muokkaus:
+ikolainen.com.conf tiedoston luonti ja sisällön muokkaus:
 
 ![Add file: Upload](h5_Kuva15.png)
 
