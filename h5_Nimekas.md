@@ -42,7 +42,7 @@ KUVA PUUTTUU!
 
 Siirryin takaisin SSH-yhteyteen ja muokkasin ikolainen.com.conf tiedostoa komennolla:
 
-`$ sudoedit /etc/apache2/sites-available/ikolianen.com.conf`
+`$ sudoedit /etc/apache2/sites-available/ikolainen.com.conf`
 
 ![Add file: Upload](h5_Kuva21.png)
 
