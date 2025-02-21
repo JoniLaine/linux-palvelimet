@@ -4,17 +4,17 @@
 
 Käytin oman domain-nimen hankintaan NameCheap-palvelua. Valitsin vapaan nimen ikonlainen.com ja lisäsin NameCheapin portaalissa kaksi A-tietuetta (`@`, eli juuri, sekä `www`, joka osoitti samaan IP-osoitteeseen kuin `@`-tietue). Käytetty IP-osoite, oli aiemmassa h4-tehtävässä toteuttamani IP varaamallani palvelimella.
 
-Domainin lähtötilanteen DNS-tietueet:
+Domainin DNS-tietueet näiden lisäysten jälkeen:
 
 ![Add file: Upload](h5_Kuva1.png)
 
-Tämän jälkeen vahvistin antamani yhteystiedot uudella domainilla NameCheapissa vaatimuksen mukaisesti. Tähän vaiheeseen pääsi helposti seuraamalla NameCheap-portaalin antamaa ilmoitusta seuraamalla.
+Vahvistin antamani yhteystiedot uudella domainilla NameCheapissa vaatimuksen mukaisesti. Tähän vaiheeseen pääsi helposti seuraamalla NameCheap-portaalin antamaa ilmoitusta seuraamalla.
 
-## b) Name Based Virtual Host näkyville uudessa nimessä
-
-A-tietueiden lisäämisen jälkeen oli juuri luomani domain ohjattu näyttämään aiemmin virtuaalikoneella luomani index.html:
+A-tietueiden lisäämisen jälkeen oli juuri luomani domain ohjattu näyttämään aiemmin virtuaalikoneella luomani index.html ja ohjaus toimi sekä ikolainen.com, että www.ikolainen.com osoitteilla:
 
 ![Add file: Upload](h5_Kuva2.png)
+
+## b) Name Based Virtual Host näkyville uudessa nimessä
 
 ![Add file: Upload](h5_Kuva13.png)
 
