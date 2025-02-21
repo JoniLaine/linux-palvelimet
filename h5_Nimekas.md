@@ -10,7 +10,7 @@ Domainin DNS-tietueet näiden lisäysten jälkeen:
 
 Vahvistin antamani yhteystiedot uudella domainilla NameCheapissa vaatimuksen mukaisesti. Tähän vaiheeseen pääsi helposti seuraamalla NameCheap-portaalin antamaa ilmoitusta seuraamalla.
 
-A-tietueiden lisäämisen jälkeen oli juuri luomani domain ohjattu näyttämään aiemmin virtuaalikoneella luomani index.html ja ohjaus toimi sekä ikolainen.com, että www.ikolainen.com osoitteilla:
+A-tietueiden lisäämisen jälkeen oli juuri luomani domain ohjattu näyttämään aiemmin virtuaalikoneella luomani index.html ja ohjaus toimi sekä <ikolainen.com>, että www.ikolainen.com osoitteilla:
 
 ![Add file: Upload](h5_Kuva2.png)
 
