@@ -121,7 +121,7 @@ sekä varmuudeksi myös:
 
 `$ sudo chmod 755 /home/joni/public_sites`
 
-ja taristin lopuksi käyttöoikeuksien korjaantuneen toivotusti:
+ja tarkistin lopuksi käyttöoikeuksien korjaantuneen toivotusti:
 
 `$ namei -l /home/joni/public_sites`
 
