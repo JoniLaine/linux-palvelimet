@@ -69,11 +69,9 @@ Ja käynnistyn Apachen uudestaan:
 
 `$ sudo systemctl restart apache2`
 
-Päivitin selaimen pitämällä `shift`-painiketta pohjassa ja sain seuraavan tuloksen:
-
 ![Add file: Upload](h5_Kuva22.png)
 
-
+Päivitin selaimen pitämällä `shift`-painiketta pohjassa ja sain seuraavan tuloksen:
 
 ![Add file: Upload](h5_Kuva23.png)
 
