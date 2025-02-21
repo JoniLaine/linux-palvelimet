@@ -57,6 +57,8 @@ Siirryin takaisin SSH-yhteyteen ja muokkasin ikolainen.com.conf tiedostoa komenn
 </VirtualHost>
 ```
 
+![Add file: Upload](h5_Kuva20.png)
+
 Tallensin ja suljin tiedoston valinnoilla  `citrl`+ `S` ja `ctrl` + `Q`.
 
 Aktivoin conf-tiedoston käyttöön komennolla:
@@ -66,8 +68,6 @@ Aktivoin conf-tiedoston käyttöön komennolla:
 Ja käynnistyn Apachen uudestaan:
 
 `$ sudo systemctl restart apache2`
-
-![Add file: Upload](h5_Kuva20.png)
 
 Päivitin selaimen pitämällä `shift`-painiketta pohjassa ja sain seuraavan tuloksen:
 
