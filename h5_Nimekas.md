@@ -16,6 +16,50 @@ A-tietueiden lisäämisen jälkeen oli juuri luomani domain ohjattu näyttämä�
 
 ## b) Name Based Virtual Host näkyville uudessa nimessä
 
+Kirjautduin virtuaalipalvelimelleni ja loin uuden käyttäjän sivujen muokkausta varten:
+
+![Add file: Upload](h5_Kuva60.png)
+
+Loin uuden hakemiston ikolainen.com ja sisäsin omistajaoikeudet uudelle käyttäjälle `muokkaaja`.
+
+![Add file: Upload](h5_Kuva61.png)
+
+Lopuksi annoin vielä tarvittavat oikeudet käyttäjälle `muokkaaja` ja tarkistin näiden olevan nyt oiekin sivuston muokkaamista varten:
+
+![Add file: Upload](h5_Kuva62.png)
+
+Seuraavaksi loin nano-editorilla ikolainen.com.conf -tiedoston (käytin nanoa, koska micro-editor ei tukenut `copy-paste`-toimintoa hostin ja guestin välillä, ja konfigurointitiedosto oli valmiina kirjoitettuna host-koneellani):
+
+![Add file: Upload](h5_Kuva64.png)
+
+Liitin host-koneella olevan sisällön guest-koneelle tiedostoon:
+
+```
+<VirtualHost *:80>
+  ServerName ikolainen.com
+  ServerAlias www.ikolainen.com
+  DocumentRoot /home/joni/public_sites/ikolainen.com
+  <Directory /home/joni/public_sites/ikolainen.com>
+    Require all granted
+  </Directory>
+</VirtualHost>
+```
+
+![Add file: Upload](h5_Kuva63.png)
+
+Aktivoin sivun ja käynnistin uudestaan Apachen:
+
+`$ a2ensite ikolainen.com.conf`
+
+`$ sudo systemctl restart apache2`
+
+Ja tarkistin selaimessa sivun tilanteen:
+
+![Add file: Upload](h5_Kuva65.png)
+
+
+
+
 ![Add file: Upload](h5_Kuva13.png)
 
 Lisätty sisältö sivustolle:
