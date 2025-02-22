@@ -229,19 +229,23 @@ Käynnistin Apachen uudestaan ja päivitin selaimen pitäen `shift`-näppäintä
 
 Kopioin index.html sivun kahdeksi erilliseksi html-sivuksi (testaus ja projektit):
 
-![Add file: Upload](h5_Kuva68.png)
+`$ cp index.html testaus.html`
+
+`$ cp index.html projektit.html`
 
 ![Add file: Upload](h5_Kuva69.png)
 
-Muokkasin testaus.html ja projektit.html tiedostoja siten, että sivut olivat tunnistettavissa helpommin toisistaan. Muokkasin siis kummankin tiedoston otsikkoa sekä `nav`-osiota kertomaan selvästi, mikä sivu oli kyseessä.
-
 ![Add file: Upload](h5_Kuva70.png)
+
+Muokkasin testaus.html ja projektit.html tiedostoja siten, että sivut olivat tunnistettavissa helpommin toisistaan. Muokkasin siis kummankin tiedoston otsikkoa sekä `nav`-osiota kertomaan selvästi, mikä sivu oli kyseessä.
 
 Tarkistin, että linkkiviittaukset sivustojen välillä toimivat selaimessa:
 
 ![Add file: Upload](h5_Kuva71.png)
 
-![Add file: Upload](h5_Kuva50.png)
+![Add file: Upload](h5_Kuva72.png)
+
+![Add file: Upload](h5_Kuva73.png)
 
 ## d) Alidomainien luonti omalle nimelle
 
