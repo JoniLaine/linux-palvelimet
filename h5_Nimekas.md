@@ -1,6 +1,7 @@
 # h5 Nimekäs
 
 Tässä osiossa luodaan oma weppi-sivusto omalle domainille sekä luodaan alasivustoja sekä alidomaineja sivustolle.
+Huomioitavaa on, että osan kuvista jouduin ottamaan jälkitäteen uudestaan simuloidusti samasta tilanteesta, koska alkuperäisenä tekohetkenä otetut kuvat eivät enää löytyneet tai olivat jääneet tallentamatta alunperin. Osaan lokien aikaleimoista ei siis voi luottaa!
 
 Aikaa kulunut: 0:00
 
