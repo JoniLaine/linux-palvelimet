@@ -102,17 +102,32 @@ Tarkistin jälleen selaimessa sivuston päivitettyäni selaimen `shift` ja päiv
 
 ## c) Alasivujen luonti ja muokkaus näkyville nimellä
 
+Siirryin takaisin ssh-yhteyteen ja oikeaan valikkoon:
+
+`$ cd /var/www/ikolainen.com`
+
 Kopioin index.html sivun kahdeksi erilliseksi html-sivuksi (testaus ja projektit):
 
-`$ cp index.html testaus.html`
+`$ sudo cp index.html testaus.html`
 
-`$ cp index.html projektit.html`
+`$ sudo cp index.html projektit.html`
 
 ![Add file: Upload](h5_Kuva69.png)
 
+Lisäsin index.html tiedostoon `nav`-osuuden:
+
+`$ micro index.html`
+
+```
+<nav>
+  <a href="testaus.html">Testaus</a>
+  <a href="projektit.html">Projektit</a>
+</nav>
+```
+
 ![Add file: Upload](h5_Kuva70.png)
 
-Muokkasin testaus.html ja projektit.html tiedostoja siten, että sivut olivat tunnistettavissa helpommin toisistaan. Muokkasin siis kummankin tiedoston otsikkoa sekä `nav`-osiota kertomaan selvästi, mikä sivu oli kyseessä.
+Muokkasin testaus.html ja projektit.html tiedostot samalla tavalla siten, että sivut olivat tunnistettavissa helpommin toisistaan. Eli muokkasin kummankin tiedoston otsikkoa sekä `nav`-osiota kertomaan selvästi, mikä sivu oli kyseessä.
 
 Tarkistin, että linkkiviittaukset sivustojen välillä toimivat selaimessa:
 
