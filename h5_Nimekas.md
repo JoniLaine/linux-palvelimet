@@ -139,21 +139,23 @@ Tarkistin, että linkkiviittaukset sivustojen välillä toimivat selaimessa:
 
 ## d) Alidomainien luonti omalle nimelle
 
-Menin takaisin NameCheapin-portaaliin ja lisäsin kaksi vapaavalintaista alidomainia (joni.ikolainen.com ja test.ikolainen.com), joille asetun saman TTL:n kuin juurisivulle ja www-tietueelle (5min). Päätin tehdä testaus.ikolainen.com sivusta A-tietueen ja projektit.ikolainen.com sivusta CNAME-tietueen:
+Menin takaisin NameCheapin-portaaliin ja lisäsin kaksi vapaavalintaista alidomainia (testaus.ikolainen.com ja projektit.ikolainen.com), joille asetun saman TTL:n kuin juurisivulle ja www-tietueelle (5min). Päätin tehdä testaus.ikolainen.com sivusta A-tietueen ja projektit.ikolainen.com sivusta CNAME-tietueen:
 
 ![Add file: Upload](h5_Kuva48.png)
 
-## e) Tutki jonkin nimen DNS-tietoja 'host' ja 'dig' -komennoilla. Käytä kumpaakin komentoa kaikkiin nimiin ja vertaa tuloksia. Katso man-sivulta, miten komennot toimivat - esimerkiksi miten 'dig' näyttää kaikki kentät. Analysoi tulokset, keskity nimipalvelimelta tulleisiin kenttiin (dig näyttää paljon muutakin tietoa). Etsi tarvittaessa uusia lähteitä haastaviin kohtiin. Sähköpostin todentamiseen liittyvät SPF ja DMARC -tietojen yksityiskohdat on jätetty vapaaehtoiseksi lisätehtäväksi. Tutkittavat nimet:
+Kokeilin kummankin alidomainin ohjaavan sivustoni etusivulle selaimessa.
 
-o	Oma domain-nimesi. Vertaa tuloksia nimen vuokraajan (namecheap.com, name.com...) weppiliittymässä näkyviin asetuksiin.
+## e) Tutki jonkin nimen DNS-tietoja 'host' ja 'dig' -komennoilla. Käytä kumpaakin komentoa kaikkiin nimiin ja vertaa tuloksia. Katso man-sivulta, miten komennot toimivat - esimerkiksi miten 'dig' näyttää kaikki kentät. Analysoi tulokset, keskity nimipalvelimelta tulleisiin kenttiin (dig näyttää paljon muutakin tietoa). Tutkittavat nimet:
+
+**-	Oma domain-nimesi. Vertaa tuloksia nimen vuokraajan (namecheap.com, name.com...) weppiliittymässä näkyviin asetuksiin.**
 
 ![Add file: Upload](h5_Kuva8.png)
 
-o	Jonkin pikkuyrityksen, kerhon tai yksittäisen henkilön weppisivut. (Ei kuitenkaan kurssikaverin tällä viikolla vuokrattua nimeä).
+**-	Jonkin pikkuyrityksen, kerhon tai yksittäisen henkilön weppisivut.**
 
 ![Add file: Upload](h5_Kuva10.png)
 
-o	Jonkin suuren ja kaikkien tunteman palvelun tiedot.
+**- Jonkin suuren ja kaikkien tunteman palvelun tiedot.**
 
 ![Add file: Upload](h5_Kuva9.png)
 
