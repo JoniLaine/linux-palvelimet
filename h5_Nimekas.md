@@ -1,5 +1,7 @@
 # h5 Nimekäs
 
+Tässä osiossa luodaan oma weppi-sivusto omalle domainille sekä luodaan alasivustoja sekä alidomaineja sivustolle.
+
 ## 	a) Julkinen nimi osoittamaan omaan koneeseen
 
 Käytin oman domain-nimen hankintaan NameCheap-palvelua. Valitsin vapaan nimen ikonlainen.com ja lisäsin NameCheapin portaalissa kaksi A-tietuetta (`@`, eli juuri, sekä `www`, joka osoitti samaan IP-osoitteeseen kuin `@`-tietue). Käytetty IP-osoite, oli aiemmassa h4-tehtävässä toteuttamani IP varaamallani palvelimella.
@@ -145,9 +147,11 @@ Menin takaisin NameCheapin-portaaliin ja lisäsin kaksi vapaavalintaista alidoma
 
 Kokeilin kummankin alidomainin ohjaavan sivustoni etusivulle selaimessa.
 
-## e) Tutki jonkin nimen DNS-tietoja 'host' ja 'dig' -komennoilla. Käytä kumpaakin komentoa kaikkiin nimiin ja vertaa tuloksia. Katso man-sivulta, miten komennot toimivat - esimerkiksi miten 'dig' näyttää kaikki kentät. Analysoi tulokset, keskity nimipalvelimelta tulleisiin kenttiin (dig näyttää paljon muutakin tietoa). Tutkittavat nimet:
+## e) Nimien DNS-tietojen tutkiminen 'host' ja 'dig' -komennoilla sekä tulosten vertailu. Komentojen toiminta käyttäen man-sivua lähteenä. Tulosten analysointi keskittyen DNS:ään liittyviin tietoihin.
 
-**-	Oma domain-nimesi. Vertaa tuloksia nimen vuokraajan (namecheap.com, name.com...) weppiliittymässä näkyviin asetuksiin.**
+**Tutkittavat nimet:**
+
+**-	Oma domain-nimi. Vertaa tuloksia nimen vuokraajan (namecheap.com, name.com...) weppiliittymässä näkyviin asetuksiin.**
 
 ![Add file: Upload](h5_Kuva8.png)
 
