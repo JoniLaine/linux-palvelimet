@@ -61,6 +61,28 @@ Ja tarkistin selaimessa sivun tilanteen:
 
 ![Add file: Upload](h5_Kuva67.png)
 
+
+```
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Ikolainen-sivusto</title>
+</head>
+<body>
+    <header>
+        <h1>Tervetuloa etusivulle!</h1>
+    </header>
+    <main>
+        <p>Tänne tulee sisältöä.</p>
+    </main>
+    <footer>
+        <p>Tämä on Linux-palvelimet kurssille tehty sivusto.</p>
+    </footer>
+</body>
+</html>
+```
+
 ![Add file: Upload](h5_Kuva68.png)
 
 
