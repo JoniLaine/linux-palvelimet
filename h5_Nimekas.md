@@ -38,8 +38,8 @@ Liitin host-koneella olevan sisällön guest-koneelle tiedostoon:
 <VirtualHost *:80>
   ServerName ikolainen.com
   ServerAlias www.ikolainen.com
-  DocumentRoot /home/joni/public_sites/ikolainen.com
-  <Directory /home/joni/public_sites/ikolainen.com>
+  DocumentRoot /var/www/ikolainen.com
+  <Directory /var/www/ikolainen.com>
     Require all granted
   </Directory>
 </VirtualHost>
@@ -57,7 +57,11 @@ Ja tarkistin selaimessa sivun tilanteen:
 
 ![Add file: Upload](h5_Kuva65.png)
 
+![Add file: Upload](h5_Kuva66.png)
 
+![Add file: Upload](h5_Kuva67.png)
+
+![Add file: Upload](h5_Kuva68.png)
 
 
 ![Add file: Upload](h5_Kuva13.png)
