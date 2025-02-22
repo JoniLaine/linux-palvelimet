@@ -161,17 +161,37 @@ Aikaa kulunut: 2:55
 
 **Tutkittavat nimet:**
 
-**-	Oma domain-nimi. Vertaa tuloksia nimen vuokraajan (namecheap.com, name.com...) weppiliittymässä näkyviin asetuksiin.**
+**-	Oma domain-nimi.**
 
 ![Add file: Upload](h5_Kuva74.png)
 
+- `A`-tietue (ANSWER SECTION) näyttää IP-osoitteen, johon ikolainen.com viittaa
+
+Haussa `$ dig ikolainen.com` näkyi myös viittaus sähköpostipalvelimeen, joten hain vielä näkyviin MX-tietueet erikseen haulla `$ dig ikolainen.com MX`:
+
+![Add file: Upload](h5_Kuva75.png)
+
+Samalla tavalla olisi mahdollista hakea myös muita teituetietoja, kuten CNAME, TXT jne.
+
 **-	Jonkin pikkuyrityksen, kerhon tai yksittäisen henkilön weppisivut.**
 
+Käytin hakuun Jaajo Linnomaan sivua jaajo.fi:
+
 ![Add file: Upload](h5_Kuva10.png)
+
+Hauilla löytyi sivuston IP-osoite `A`-tietueena. Hain myös erikseen `MX`-tiedot ja löysin CNAME muodossa tiedot viitaten Hugedomains.com:iin sekä AmazonAWS:ään:
+
+![Add file: Upload](h5_Kuva76.png)
+
+`SOA`-tietueesta selvisi, että DNS-palvelut ovat kyseisellä domainilla Amazonissa.
 
 **- Jonkin suuren ja kaikkien tunteman palvelun tiedot.**
 
 ![Add file: Upload](h5_Kuva9.png)
+
+
+
+![Add file: Upload](h5_Kuva77.png)
 
 Aikaa kulunut: 3:45
 
