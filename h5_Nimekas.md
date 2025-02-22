@@ -16,7 +16,7 @@ A-tietueiden lisäämisen jälkeen oli juuri luomani domain ohjattu näyttämä�
 
 ## b) Name Based Virtual Host näkyville uudessa nimessä
 
-Kirjautduin virtuaalipalvelimelleni ja loin uuden käyttäjän sivujen muokkausta varten:
+Kirjauduin virtuaalipalvelimelleni ja loin uuden käyttäjän sivujen muokkausta varten:
 
 ![Add file: Upload](h5_Kuva60.png)
 
@@ -57,10 +57,23 @@ Ja tarkistin selaimessa sivun tilanteen:
 
 ![Add file: Upload](h5_Kuva65.png)
 
+Päätin seuraavaksi luoda ikolainen.com sivustolle index.html -tiedoston.
+
+`$ cd /var/www/`
+
+`$ ls`
+
+`$ cd ikolainen.com`
+
+`$ ls`
+
+`$ micro index.html`
+
 ![Add file: Upload](h5_Kuva66.png)
 
-![Add file: Upload](h5_Kuva67.png)
+Lisäsin HTML-sisältöä tiedostoon:
 
+![Add file: Upload](h5_Kuva67.png)
 
 ```
 <!DOCTYPE html>
@@ -83,8 +96,11 @@ Ja tarkistin selaimessa sivun tilanteen:
 </html>
 ```
 
+Tarkistin jälleen selaimessa sivuston päivitettyäni selaimen `shift` ja päivitä valinnoilla:
+
 ![Add file: Upload](h5_Kuva68.png)
 
+Tarkistin host-koneen selaimella, että sivusto näkyi nyt muokatussa muodossa:
 
 ![Add file: Upload](h5_Kuva13.png)
 
