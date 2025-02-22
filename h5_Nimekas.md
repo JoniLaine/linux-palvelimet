@@ -86,9 +86,9 @@ Lisäsin HTML-sisältöä tiedostoon:
     <header>
         <h1>Tervetuloa etusivulle!</h1>
     </header>
-    <main>
+    <body>
         <p>Tänne tulee sisältöä.</p>
-    </main>
+    </body>
     <footer>
         <p>Tämä on Linux-palvelimet kurssille tehty sivusto.</p>
     </footer>
@@ -102,6 +102,12 @@ Tarkistin jälleen selaimessa sivuston päivitettyäni selaimen `shift` ja päiv
 
 
 
+.
+.
+.
+.
+.
+.
 
 
 ![Add file: Upload](h5_Kuva13.png)
@@ -222,6 +228,18 @@ Käynnistin Apachen uudestaan ja päivitin selaimen pitäen `shift`-näppäintä
 ## c) Alasivujen luonti ja muokkaus näkyville nimellä
 
 Kopioin index.html sivun kahdeksi erilliseksi html-sivuksi (testaus ja projektit):
+
+![Add file: Upload](h5_Kuva68.png)
+
+![Add file: Upload](h5_Kuva69.png)
+
+Muokkasin testaus.html ja projektit.html tiedostoja siten, että sivut olivat tunnistettavissa helpommin toisistaan. Muokkasin siis kummankin tiedoston otsikkoa sekä `nav`-osiota kertomaan selvästi, mikä sivu oli kyseessä.
+
+![Add file: Upload](h5_Kuva70.png)
+
+Tarkistin, että linkkiviittaukset sivustojen välillä toimivat selaimessa:
+
+![Add file: Upload](h5_Kuva71.png)
 
 ![Add file: Upload](h5_Kuva50.png)
 
