@@ -2,6 +2,8 @@
 
 Tässä osiossa luodaan oma weppi-sivusto omalle domainille sekä luodaan alasivustoja sekä alidomaineja sivustolle.
 
+Aikaa kulunut: 0:00
+
 ## 	a) Julkinen nimi osoittamaan omaan koneeseen
 
 Käytin oman domain-nimen hankintaan NameCheap-palvelua. Valitsin vapaan nimen ikonlainen.com ja lisäsin NameCheapin portaalissa kaksi A-tietuetta (`@`, eli juuri, sekä `www`, joka osoitti samaan IP-osoitteeseen kuin `@`-tietue). Käytetty IP-osoite, oli aiemmassa h4-tehtävässä toteuttamani IP varaamallani palvelimella.
@@ -15,6 +17,8 @@ Vahvistin antamani yhteystiedot uudella domainilla NameCheapissa vaatimuksen muk
 A-tietueiden lisäämisen jälkeen oli juuri luomani domain ohjattu näyttämään aiemmin virtuaalikoneella luomani index.html ja ohjaus toimi sekä [ikolainen.com](http://ikolainen.com) että www.ikolainen.com osoitteilla:
 
 ![Add file: Upload](h5_Kuva2.png)
+
+Aikaa kulunut: 0:30
 
 ## b) Name Based Virtual Host näkyville uudessa nimessä
 
@@ -102,6 +106,8 @@ Tarkistin jälleen selaimessa sivuston päivitettyäni selaimen `shift` ja päiv
 
 ![Add file: Upload](h5_Kuva68.png)
 
+Aikaa kulunut 2:15
+
 ## c) Alasivujen luonti ja muokkaus näkyville nimellä
 
 Siirryin takaisin ssh-yhteyteen ja oikeaan valikkoon:
@@ -139,6 +145,8 @@ Tarkistin, että linkkiviittaukset sivustojen välillä toimivat selaimessa:
 
 ![Add file: Upload](h5_Kuva73.png)
 
+Aikaa kulunut: 2:45
+
 ## d) Alidomainien luonti omalle nimelle
 
 Menin takaisin NameCheapin-portaaliin ja lisäsin kaksi vapaavalintaista alidomainia (testaus.ikolainen.com ja projektit.ikolainen.com), joille asetun saman TTL:n kuin juurisivulle ja www-tietueelle (5min). Päätin tehdä testaus.ikolainen.com sivusta A-tietueen ja projektit.ikolainen.com sivusta CNAME-tietueen:
@@ -147,13 +155,15 @@ Menin takaisin NameCheapin-portaaliin ja lisäsin kaksi vapaavalintaista alidoma
 
 Kokeilin kummankin alidomainin ohjaavan sivustoni etusivulle selaimessa.
 
+Aikaa kulunut: 2:55
+
 ## e) Nimien DNS-tietojen tutkiminen 'host' ja 'dig' -komennoilla sekä tulosten vertailu. Komentojen toiminta käyttäen man-sivua lähteenä. Tulosten analysointi keskittyen DNS:ään liittyviin tietoihin.
 
 **Tutkittavat nimet:**
 
 **-	Oma domain-nimi. Vertaa tuloksia nimen vuokraajan (namecheap.com, name.com...) weppiliittymässä näkyviin asetuksiin.**
 
-![Add file: Upload](h5_Kuva8.png)
+![Add file: Upload](h5_Kuva74.png)
 
 **-	Jonkin pikkuyrityksen, kerhon tai yksittäisen henkilön weppisivut.**
 
@@ -162,6 +172,8 @@ Kokeilin kummankin alidomainin ohjaavan sivustoni etusivulle selaimessa.
 **- Jonkin suuren ja kaikkien tunteman palvelun tiedot.**
 
 ![Add file: Upload](h5_Kuva9.png)
+
+Aikaa kulunut: 3:45
 
 ##  f) Vapaaehtoinen bonus: 
 
@@ -224,7 +236,7 @@ DMARC1 on DMARC-protokollan versio.
 
 Määrittää, mitä epäonnistuneille viesteille tehdään. Tässä tapauksessa `none` kertoo, että ainoastaan raportit viesteistä kerätään, mutta muita erityisiä toimia ei suoriteta.
 
-
+Aikaa kulunut: 4:30
 
 ## Lähdeluettelo
 
