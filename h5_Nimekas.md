@@ -187,9 +187,13 @@ Hauilla löytyi sivuston IP-osoite `A`-tietueena. Hain myös erikseen `MX`-tiedo
 
 **- Jonkin suuren ja kaikkien tunteman palvelun tiedot.**
 
+Käytin hakuun facebook.com sivua:
+
 ![Add file: Upload](h5_Kuva9.png)
 
+Jälleen IP-osoite oli saatavilla `host`-komennolla sekä `A`-tietueen tiedoissa.
 
+`MX`-tietueesta löytyi minulle yllättävä uusi tieto, että Facebookilla on oma sähköpostipalvelimensa käytössä.
 
 ![Add file: Upload](h5_Kuva77.png)
 
