@@ -100,7 +100,9 @@ Tarkistin jälleen selaimessa sivuston päivitettyäni selaimen `shift` ja päiv
 
 ![Add file: Upload](h5_Kuva68.png)
 
-Tarkistin host-koneen selaimella, että sivusto näkyi nyt muokatussa muodossa:
+
+
+
 
 ![Add file: Upload](h5_Kuva13.png)
 
