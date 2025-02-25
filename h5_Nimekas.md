@@ -215,7 +215,7 @@ SPF-tietue:
 
 ![Add file: Upload](h5_Kuva6.png)
 
-SPF-tietueen, eli Sender Policy Framen, tehtäv on määrittää palvelimet, jotka saavat käyttää domainia sähköpsotien lähettämiseen. 
+SPF-tietueen, eli Sender Policy Framen, tehtävä on määrittää palvelimet, jotka saavat käyttää domainia sähköpostien lähettämiseen. 
 
 **v=spf1**
 
