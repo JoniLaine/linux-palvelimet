@@ -287,3 +287,7 @@ Aikaa kulunut: 4:30
 ### Haaga-Helia, IT-Tradenomiopiskelija
 
 Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 tai uudempi) mukaisesti. (http://www.gnu.org/licenses/gpl.html)
+
+## Muutoshistoria
+
+25.2.2025 Korjattu havaitut kirjoitusvirheet.
