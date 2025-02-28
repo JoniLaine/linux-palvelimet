@@ -1,5 +1,7 @@
 # h6 Salataampa
 
+Tässä osiossa luodaan SSL-salaus (hhtps) weppisivustolle.
+
 Aikaa kulunut: 0:00
 
 ## x) Lue ja tiivistä. Tiivistelmäksi riittää muutama ranskalainen viiva per artikkeli. (Tässä alakohdassa ei tarvitse tehdä testejä tietokoneella)
