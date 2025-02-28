@@ -32,7 +32,17 @@ lego --accept-tos --email="joni.tk.laine@gmail.com" --domains="ikolainen.com" --
 
 ![Add file: Upload](h6_Kuva106.png)
 
+![Add file: Upload](h6_Kuva107.png)
 
+![Add file: Upload](h6_Kuva108.png)
+
+![Add file: Upload](h6_Kuva109.png)
+
+![Add file: Upload](h6_Kuva110.png)
+
+![Add file: Upload](h6_Kuva111.png)
+
+![Add file: Upload](h6_Kuva112.png)
 
 ## b) A-rating. Testaa oma sivusi TLS jollain yleisellä laadunvarmistustyökalulla, esim. SSLLabs (Käytä vain tavanomaisia tarkistustyökaluja, ei tunkeutumistestausta eikä siihen liittyviä työkaluja)
 
