@@ -24,6 +24,14 @@ Ja latasin oikean SSL-sertifikaatin.
 
 ![Add file: Upload](h6_Kuva103.png)
 
+![Add file: Upload](h6_Kuva104.png)
+
+![Add file: Upload](h6_Kuva105.png)
+
+lego --accept-tos --email="joni.tk.laine@gmail.com" --domains="ikolainen.com" --domains="www.ikolainen.fi" --http --http.webroot="/home/joni/public_sites/ikolainen.com/" --path="/home/joni/lego/" --pem run
+
+![Add file: Upload](h6_Kuva106.png)
+
 
 
 ## b) A-rating. Testaa oma sivusi TLS jollain yleisellä laadunvarmistustyökalulla, esim. SSLLabs (Käytä vain tavanomaisia tarkistustyökaluja, ei tunkeutumistestausta eikä siihen liittyviä työkaluja)
