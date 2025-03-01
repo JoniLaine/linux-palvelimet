@@ -64,12 +64,11 @@ lego --accept-tos --email="joni.tk.laine@gmail.com" --domains="ikolainen.com" --
 
 ```
 
+![Add file: Upload](h6_Kuva105.png)
+
 ![Add file: Upload](h6_Kuva103.png)
 
 
-![Add file: Upload](h6_Kuva104.png)
-
-![Add file: Upload](h6_Kuva105.png)
 
 lego --accept-tos --email="joni.tk.laine@gmail.com" --domains="ikolainen.com" --domains="www.ikolainen.fi" --http --http.webroot="/home/joni/public_sites/ikolainen.com/" --path="/home/joni/lego/" --pem run
 
