@@ -113,13 +113,13 @@ Yritin käynnistää uudestaan Apachen:
 
 `$ sudo systemctl restart apache2`
 
-![Add file: Upload](h6_Kuva110.png)
-
 Sain kuvan mukaisen virheilmoituksen ja muistin, etten ikinä ottanut käyttöön avaamaani yhteyttä, joten annoin seuraavat komennot:
 
 `$ sudo a2enmod ssl`
 
 `$ sudo apache2ctl configtest`
+
+![Add file: Upload](h6_Kuva110.png)
 
 Tulos oli OK joten käynnistin Apachen vielä uudestaan:
 
