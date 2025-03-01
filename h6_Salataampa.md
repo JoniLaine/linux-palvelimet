@@ -29,7 +29,7 @@ Loin testiympäristön SSL-sertifikaatin toimivuuden varmistamiseksi. Tämän va
 Käytin testiympäristön luonnissa komentoa:
 
 ```
-lego --server=https://acme-staging-v02.api.letsencrypt.org/directory --accept-tos --email="joni.tk.laine@gmail.com" --domains="ikolainen.com" --domains="www.ikolainen.fi" --http --http.webroot="/home/joni/public_sites/ikolainen.com/" --path="/home/joni/lego/" --pem run
+lego --server=https://acme-staging-v02.api.letsencrypt.org/directory --accept-tos --email="joni.tk.laine@gmail.com" --domains="ikolainen.com" --domains="www.ikolainen.com" --http --http.webroot="/home/joni/public_sites/ikolainen.com/" --path="/home/joni/lego/" --pem run
 
 ```
 
@@ -60,7 +60,7 @@ Loin uuden lego-kansion komennolla:
 Latasin oikean sertifikaatin komennolla:
 
 ```
-lego --accept-tos --email="joni.tk.laine@gmail.com" --domains="ikolainen.com" --domains="www.ikolainen.fi" --http --http.webroot="/home/joni/public_sites/ikolainen.com/" --path="/home/joni/lego/" --pem run
+lego --accept-tos --email="joni.tk.laine@gmail.com" --domains="ikolainen.com" --domains="www.ikolainen.com" --http --http.webroot="/home/joni/public_sites/ikolainen.com/" --path="/home/joni/lego/" --pem run
 
 ```
 
