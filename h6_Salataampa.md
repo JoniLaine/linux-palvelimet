@@ -8,7 +8,7 @@ Aikaa kulunut: 0:00
 
 ## a) Let's. Hanki ja asenna palvelimellesi ilmainen TLS-sertifikaatti Let's Encryptilta. Osoita, että se toimii.
 
-Kirjouduin SSH-käyttäjälle, asensin Legon ja sille oman kansion komennoilla:
+Kirjauduin SSH-käyttäjälle, asensin Legon ja sille oman kansion komennoilla:
 
 `$ cd /home/joni/`
 
@@ -24,17 +24,48 @@ Ja tarkistin kansion olevan luotu:
 
 ![Add file: Upload](h6_Kuva100.png)
 
-Testiympäristö SSL-sertifikaatille.
+Loin testiympäristön SSL-sertifikaatin toimivuuden varmistamiseksi. Tämän vaiheen tein, koska `Let's encrypt` rajoittaa yritysten määrän viiteen (5) yritykseen, jonka jälkeen uuden yrityksen saa tehdä vasta tietyn ajan kuluttua. Dokumentaation mukaan aikaraja olisi yksi (1) tunti.
+
+Käytin testiympäristön luonnissa komentoa:
+
+```
+lego --server=https://acme-staging-v02.api.letsencrypt.org/directory --accept-tos --email="joni.tk.laine@gmail.com" --domains="ikolainen.com" --domains="www.ikolainen.fi" --http --http.webroot="/home/joni/public_sites/ikolainen.com/" --path="/home/joni/lego/" --pem run
+
+```
+
+Sähköpostiksi annoin oman sähköpostini ja domaintiedoiksi aiemmin luomani domainin tiedot. Sertifikaatin sijainniksi annoin polun omalle ikolainen.com tiedostolle. Lopussa näkyvä `run`-komento ajoi annetun käskyn.
 
 ![Add file: Upload](h6_Kuva101.png)
 
-Toimii. Nyt voin kokeilla poistaa tämän testiversion:
+Yllä oleva kuva näyttää sertifikaation luonnin onnistuneen. Kokeilin siis nimetä kyseisen tiedoston uudelleen toiselle nimelle, jotta pääsen kokeilemaan todellisen sertifikaatin luontia.
+
+Käytin komentoja:
+
+`$ cd /home/joni/`
+
+`$ pwd`
+
+`$ mv -n lego testilego`
+
+`$ ls`
 
 ![Add file: Upload](h6_Kuva102.png)
 
-Ja latasin oikean SSL-sertifikaatin.
+Loin uuden lego-kansion komennolla:
+
+`$ mkdir lego`
+
+![Add file: Upload](h6_Kuva104.png)
+
+Latasin oikean sertifikaatin komennolla:
+
+```
+lego --accept-tos --email="joni.tk.laine@gmail.com" --domains="ikolainen.com" --domains="www.ikolainen.fi" --http --http.webroot="/home/joni/public_sites/ikolainen.com/" --path="/home/joni/lego/" --pem run
+
+```
 
 ![Add file: Upload](h6_Kuva103.png)
+
 
 ![Add file: Upload](h6_Kuva104.png)
 
@@ -43,6 +74,8 @@ Ja latasin oikean SSL-sertifikaatin.
 lego --accept-tos --email="joni.tk.laine@gmail.com" --domains="ikolainen.com" --domains="www.ikolainen.fi" --http --http.webroot="/home/joni/public_sites/ikolainen.com/" --path="/home/joni/lego/" --pem run
 
 ![Add file: Upload](h6_Kuva106.png)
+
+
 
 ![Add file: Upload](h6_Kuva107.png)
 
