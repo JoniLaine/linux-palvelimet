@@ -109,10 +109,26 @@ Kävin muokkaamassa juuri avatun portin ikolainen.com.conf-tiedostoon tarvittava
 
 ![Add file: Upload](h6_Kuva108.png)
 
+Yritin käynnistää uudestaan Apachen:
+
+`$ sudo systemctl restart apache2`
 
 ![Add file: Upload](h6_Kuva110.png)
 
+Sain kuvan mukaisen virheilmoituksen ja muistin, etten ikinä ottanut käyttöön avaamaani yhteyttä, joten annoin seuraavat komennot:
+
+`$ sudo a2enmod ssl`
+
+`$ sudo apache2ctl configtest`
+
+Tulos oli OK joten käynnistin Apachen vielä uudestaan:
+
+`$ sudo systemctl restart apache2`
+
 ![Add file: Upload](h6_Kuva111.png)
+
+Ja kokeilin toiminta selaimessa lataamalla sivun pitämällä pohjassa `shift`-näppäintä:
+
 
 ![Add file: Upload](h6_Kuva112.png)
 
