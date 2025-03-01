@@ -83,6 +83,14 @@ Avasin portin SSl-yhteyttä varten (443) komennolla:
 
 ![Add file: Upload](h6_Kuva107.png)
 
+Tarkistin komennon toimineen:
+
+`$ /etc/apache2/sites-available`
+
+`$ sudo ufw status`
+
+![Add file: Upload](h6_Kuva109.png)
+
 Kävin muokkaamassa juuri avatun portin ikolainen.com.conf-tiedostoon tarvittavan lisäyksen SSL-yhteyttä varten:
 
 ```
@@ -101,7 +109,6 @@ Kävin muokkaamassa juuri avatun portin ikolainen.com.conf-tiedostoon tarvittava
 
 ![Add file: Upload](h6_Kuva108.png)
 
-![Add file: Upload](h6_Kuva109.png)
 
 ![Add file: Upload](h6_Kuva110.png)
 
