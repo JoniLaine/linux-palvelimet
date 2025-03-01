@@ -8,7 +8,19 @@ Aikaa kulunut: 0:00
 
 ## a) Let's. Hanki ja asenna palvelimellesi ilmainen TLS-sertifikaatti Let's Encryptilta. Osoita, että se toimii.
 
-Asennetaan Lego ja sille kansio.
+Kirjouduin SSH-käyttäjälle, asensin Legon ja sille oman kansion komennoilla:
+
+`$ cd /home/joni/`
+
+`$ sudo apt-get install lego`
+
+`$ cd`
+
+`$ mkdir lego`
+
+Ja tarkistin kansion olevan luotu:
+
+`$ ls`
 
 ![Add file: Upload](h6_Kuva100.png)
 
