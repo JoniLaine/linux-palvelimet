@@ -97,13 +97,13 @@ Kävin muokkaamassa juuri avatun portin ikolainen.com.conf-tiedostoon tarvittava
 <VirtualHost *:443>
   ServerName ikolainen.com
   ServerAlias www.ikolainen.com
+  SSLEngine On
+  SSLCertificateFile '/home/joni/lego/certificates/ikolainen.com.crt'
+  SSLCertificateKeyFile '/home/joni/lego/certificates/ikolainen.com.key'
   DocumentRoot /home/joni/public_sites/ikolainen.com
   <Directory /home/joni/public_sites/ikolainen.com>
     Require all granted
   </Directory>
-    SSLEngine On
-    SSLCertificateFile '/home/joni/lego/certificates/ikolainen.com.crt'
-    SSLCertificateKeyFile '/home/joni/lego/certificates/ikolainen.com.key'
 </VirtualHost>
 ```
 
