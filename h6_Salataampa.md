@@ -94,8 +94,8 @@ Kävin muokkaamassa juuri avatun portin ikolainen.com.conf-tiedostoon tarvittava
     Require all granted
   </Directory>
     SSLEngine On
-    SSLCertificateFile '/home/giang/lego/certificates/giangle.fi.crt'
-    SSLCertificateKeyFile '/home/giang/lego/certificates/giangle.fi.key'
+    SSLCertificateFile '/home/joni/lego/certificates/ikolainen.com.crt'
+    SSLCertificateKeyFile '/home/joni/lego/certificates/ikolainen.com.key'
 </VirtualHost>
 ```
 
