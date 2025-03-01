@@ -66,17 +66,38 @@ lego --accept-tos --email="joni.tk.laine@gmail.com" --domains="ikolainen.com" --
 
 ![Add file: Upload](h6_Kuva105.png)
 
+Sertifikaatin luonti näytti onnistuneen, muttta tarkistin tilanteen vielä käyttämällä alla olevaa kometoa:
+
+`$ find /home/joni/lego/`
+
 ![Add file: Upload](h6_Kuva103.png)
 
 
-
-lego --accept-tos --email="joni.tk.laine@gmail.com" --domains="ikolainen.com" --domains="www.ikolainen.fi" --http --http.webroot="/home/joni/public_sites/ikolainen.com/" --path="/home/joni/lego/" --pem run
-
 ![Add file: Upload](h6_Kuva106.png)
 
+Avasin portin SSl-yhteyttä varten (443) komennolla:
 
+`$ cd /etc/apache2/sites-available/`
+
+`$ sudo ufw allow 443/tcp`
 
 ![Add file: Upload](h6_Kuva107.png)
+
+Kävin muokkaamassa juuri avatun portin ikolainen.com.conf-tiedostoon tarvittavan lisäyksen SSL-yhteyttä varten:
+
+```
+<VirtualHost *:443>
+  ServerName ikolainen.com
+  ServerAlias www.ikolainen.com
+  DocumentRoot /home/joni/public_sites/ikolainen.com
+  <Directory /home/joni/public_sites/ikolainen.com>
+    Require all granted
+  </Directory>
+    SSLEngine On
+    SSLCertificateFile '/home/giang/lego/certificates/giangle.fi.crt'
+    SSLCertificateKeyFile '/home/giang/lego/certificates/giangle.fi.key'
+</VirtualHost>
+```
 
 ![Add file: Upload](h6_Kuva108.png)
 
