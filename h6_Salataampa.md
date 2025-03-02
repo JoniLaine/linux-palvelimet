@@ -146,6 +146,7 @@ Aikaa kulunut: 1:45
 
 ![Add file: Upload](h6_Kuva114.png)
 
+Aikaa kulunut: 1:50
 
 ## Lähdeluettelo
 
