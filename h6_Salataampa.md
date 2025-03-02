@@ -140,10 +140,11 @@ Ja kokeilin toiminta selaimessa lataamalla sivun pitämällä pohjassa `shift`-n
 
 Aikaa kulunut: 1:45
 
-## b) A-rating. Testaa oma sivusi TLS jollain yleisellä laadunvarmistustyökalulla, esim. SSLLabs (Käytä vain tavanomaisia tarkistustyökaluja, ei tunkeutumistestausta eikä siihen liittyviä työkaluja)
+## b) A-rating. Oman sivun TLS testaus laadunvarmistustyökalulla (SSLLabs)
 
-## c) Vapaaehtoinen: Tee weppilomake, jossa on käyttäjätunnus ja salasana. Käytä salaamatonta http-yhteyttä. Sieppaa liikennettä (esim. Wireshark, ngrep). Mitä havaitset? Mitä vaikutuksia tällä on tietoturvaan?
+![Add file: Upload](h6_Kuva113.png)
 
+![Add file: Upload](h6_Kuva114.png)
 
 
 ## Lähdeluettelo
@@ -152,6 +153,7 @@ Aikaa kulunut: 1:45
 - https://letsencrypt.org/how-it-works/
 - https://go-acme.github.io/lego/usage/cli/obtain-a-certificate/index.html#using-an-existing-running-web-server
 - https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#configexample
+- https://www.ssllabs.com/
 
 
 
