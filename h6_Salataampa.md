@@ -4,7 +4,14 @@ Tässä osiossa luodaan SSL-salaus (hhtps) weppisivustolle.
 
 Aikaa kulunut: 0:00
 
-## x) Lue ja tiivistä. Tiivistelmäksi riittää muutama ranskalainen viiva per artikkeli. (Tässä alakohdassa ei tarvitse tehdä testejä tietokoneella)
+## x) Tiivistettynä. Katso lähdeluettelo artikkeleista.
+
+- CSR sisältää julkisen avaimen ja on allekirjoitettu vastaavalla yksityisellä avaimella. Agentti allekirjoittaa koko CSR:n valtuutetulla avainparilla, jotta (tässä tapauksessa käytetty) Let’s Encrypt CA tietää, että agentti on valtuutettu.
+- Agentti on ohjelmisto, joka hallinnoi sertifikaatteja verkkopalvelimella.
+- Hakemiston, tulee olla julkisesti näkyvissä domainilla, jotta validointi onnistuu.
+- Portti 443 mahdollistaa SSL-yhteyden.
+
+Aikaa kulunut: 0:45
 
 ## a) Let's. Hanki ja asenna palvelimellesi ilmainen TLS-sertifikaatti Let's Encryptilta. Osoita, että se toimii.
 
@@ -129,8 +136,9 @@ Tulos oli OK joten käynnistin Apachen vielä uudestaan:
 
 Ja kokeilin toiminta selaimessa lataamalla sivun pitämällä pohjassa `shift`-näppäintä:
 
-
 ![Add file: Upload](h6_Kuva112.png)
+
+Aikaa kulunut: 1:45
 
 ## b) A-rating. Testaa oma sivusi TLS jollain yleisellä laadunvarmistustyökalulla, esim. SSLLabs (Käytä vain tavanomaisia tarkistustyökaluja, ei tunkeutumistestausta eikä siihen liittyviä työkaluja)
 
@@ -141,7 +149,9 @@ Ja kokeilin toiminta selaimessa lataamalla sivun pitämällä pohjassa `shift`-n
 ## Lähdeluettelo
 
 - Tero Karvinen, Linux Palvelimet 2025: https://terokarvinen.com/linux-palvelimet/
-
+- https://letsencrypt.org/how-it-works/
+- https://go-acme.github.io/lego/usage/cli/obtain-a-certificate/index.html#using-an-existing-running-web-server
+- https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#configexample
 
 
 
