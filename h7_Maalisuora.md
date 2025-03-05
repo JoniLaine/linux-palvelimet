@@ -20,7 +20,7 @@ Loin Hello.java tiedoston micro-editorilla komennolla:
 
 ![Add file: Upload](h7_Kuva3.png)
 
-Kirjoitin tiedoston sisälle lyhyen Hei maailma -javaskriptin:
+Kirjoitin tiedoston sisälle lyhyen Hei maailma -javaskriptin. Huomioitavaa on, että luokan (class) nimi tulee olla sama kuin tiedoston nimi:
 
 ```
 class Hello {
