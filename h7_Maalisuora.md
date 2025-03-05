@@ -1,5 +1,7 @@
 # h7 Maalisuora
 
+Aikaa kulunut: 0:00
+
 ## a) Kirjoita ja aja "Hei maailma" kolmella kielellä.
 
 Aloitin valitsemalla kieliksi Javan, Pythonin ja 
@@ -50,6 +52,8 @@ Nämä näyttivät olevan kunnossa, jotta voisin suorittaa juuri tehdyn Hello.ja
 ![Add file: Upload](h7_Kuva6.png)
 
 Tämä toimi hienosti, joten siirryin Pythonin pariin.
+
+Aikaa kulunut: 0:20
   
 ## b) Lähdeviitteet. Tarkista ja tarvittaessa lisää lähdeviitteet kaikkiin raportteihisi h1 alkaen.
 Tarkista, että olet viitannut lähteisiin: tehtäväsivuun, kurssiin, muiden opiskelijoiden raportteihin, man-sivuihin, kotisivuihin ja ylipäänsä kaikkiin käyttämiisi lähteisiin. 
