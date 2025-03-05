@@ -63,7 +63,7 @@ Lähdin asentamaan Pythonin-tulkkia, mutta muistin komennon annon jälkeen tehne
 
 Loin Python-kielellä lyhyen Hello.python -skriptin komennolla:
 
-`$ micro Helllo.python`
+`$ micro Hello.python`
 
 ![Add file: Upload](h7_Kuva8.png)
 
@@ -74,6 +74,20 @@ print("Hei maailma")
 ```
 
 ![Add file: Upload](h7_Kuva9.png)
+
+Tarkistin käyttöoikeudet tässä välissä luodulle tiedostolle (kuvassa alimmainen uusi tiedosto):
+
+![Add file: Upload](h7_Kuva10.png)
+
+Oikeudet olivat kunnossa, joten kokeilin skriptin toiminnan:
+
+`$ python3 Hello.python`
+
+![Add file: Upload](h7_Kuva11.png)
+
+Tämäkin toimi hienosti, joten siirryin C-kielen pariin.
+
+Aikaa kulunut: 0:30
   
 ## b) Lähdeviitteet. Tarkista ja tarvittaessa lisää lähdeviitteet kaikkiin raportteihisi h1 alkaen.
 Tarkista, että olet viitannut lähteisiin: tehtäväsivuun, kurssiin, muiden opiskelijoiden raportteihin, man-sivuihin, kotisivuihin ja ylipäänsä kaikkiin käyttämiisi lähteisiin. 
