@@ -4,7 +4,7 @@ Aikaa kulunut: 0:00
 
 ## a) Kirjoita ja aja "Hei maailma" kolmella kielellä.
 
-Aloitin valitsemalla kieliksi Javan, Pythonin ja 
+Aloitin valitsemalla ohjelmointikieliksi Javan, Pythonin ja C:n.
 
 Asensin ensimmäisenä virtuaalikoneen käyttäjälle Java Development Kit (JDK) -paketin komennolla:
 
@@ -54,6 +54,26 @@ Nämä näyttivät olevan kunnossa, jotta voisin suorittaa juuri tehdyn Hello.ja
 Tämä toimi hienosti, joten siirryin Pythonin pariin.
 
 Aikaa kulunut: 0:20
+
+Lähdin asentamaan Pythonin-tulkkia, mutta muistin komennon annon jälkeen tehneeni tämän jo luennon aikana edeltävänä päivänä tauon aikana:
+
+`$ sudo apt-get install python3`
+
+![Add file: Upload](h7_Kuva7.png)
+
+Loin Python-kielellä lyhyen Hello.python -skriptin komennolla:
+
+`$ micro Helllo.python`
+
+![Add file: Upload](h7_Kuva8.png)
+
+Ja sisällöksi koodin:
+
+```
+print("Hei maailma")
+```
+
+![Add file: Upload](h7_Kuva9.png)
   
 ## b) Lähdeviitteet. Tarkista ja tarvittaessa lisää lähdeviitteet kaikkiin raportteihisi h1 alkaen.
 Tarkista, että olet viitannut lähteisiin: tehtäväsivuun, kurssiin, muiden opiskelijoiden raportteihin, man-sivuihin, kotisivuihin ja ylipäänsä kaikkiin käyttämiisi lähteisiin. 
