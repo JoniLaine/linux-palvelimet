@@ -124,7 +124,7 @@ Oikeudet olivat jälleen kunnossa, joten kokeilin tiedoston ajamista:
 
 ![Add file: Upload](h7_Kuva16.png)
 
-Huomasin, että C-kielen tulkki ei tunnistanut pystynyt lukemaan skriptiä, joten käänsin tiedoston tulkille sopivaan luettavaan muotoon ja nimesin se uudestaan Hello-nimiseksi:
+Huomasin, että C-kielen tulkki ei tunnistanut tai pystynyt lukemaan skriptiä, joten käänsin tiedoston tulkille sopivaan luettavaan muotoon ja nimesin se uudestaan Hello-nimiseksi:
 
 `$ gcc Hello.c -o Hello`
 
@@ -133,6 +133,41 @@ Ja tarkistin lopputuloksen:
 `$ ls -l`
 
 ![Add file: Upload](h7_Kuva17.png)
+
+C-kieli vaati toimiakseen myös x-oikeudet erikseen. Nämä olivat nyt kunnnossa, joten kokeilin ajaa tehdyn skriptin tällä kertaa viittaamalla suoraan käännettyyn kooditiedostoon:
+
+`$ ./Hello`
+
+![Add file: Upload](h7_Kuva18.png)
+
+Komento toimi, mutat antoi hieman sottaisen tulostusjäljen, joten lisäsin vielä tiedostoon puuttuvan rivivaihdon loppuun avaamalla alkuperäisen Hello.c tiedoston uudestaan micro-editorissa:
+
+`$ micro Hello.c`
+
+Ja lisäsin koodiin tarvittavan `\n`:
+
+```
+`$ #include <stdio.h>
+
+int main() {
+  printf("Hei maailma\n");
+  return 0;
+}
+```
+
+![Add file: Upload](h7_Kuva19.png)
+
+Käänsin Hello.c tiedoston uudestaan C-tulkille ja kokeilin ajaa skriptin uudestaan:
+
+`$ gcc Hello.c -o Hello`
+
+`$ ./Hello`
+
+![Add file: Upload](h7_Kuva20.png)
+
+Nyt lopputulos oli siistimpi ja toimi hyvin.
+
+Aikaa kulunut: 0:50
   
 ## b) Lähdeviitteet. Tarkista ja tarvittaessa lisää lähdeviitteet kaikkiin raportteihisi h1 alkaen.
 Tarkista, että olet viitannut lähteisiin: tehtäväsivuun, kurssiin, muiden opiskelijoiden raportteihin, man-sivuihin, kotisivuihin ja ylipäänsä kaikkiin käyttämiisi lähteisiin. 
