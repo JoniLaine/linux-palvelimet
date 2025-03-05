@@ -39,7 +39,17 @@ Muutin Hello.java luettavaan muotoon java-tulkille komennolla:
 
 Ja tarkistin tässä kohtaa käyttöoikeudet:
 
+`$ ls -l`
+
 ![Add file: Upload](h7_Kuva4.png)
+
+![Add file: Upload](h7_Kuva5.png)
+
+Nämä näyttivät olevan kunnossa, jotta voisin suorittaa juuri tehdyn Hello.java skriptin. Annoin komennon kokeillakseni tätä:
+
+![Add file: Upload](h7_Kuva6.png)
+
+Tämä toimi hienosti, joten siirryin Pythonin pariin.
   
 ## b) Lähdeviitteet. Tarkista ja tarvittaessa lisää lähdeviitteet kaikkiin raportteihisi h1 alkaen.
 Tarkista, että olet viitannut lähteisiin: tehtäväsivuun, kurssiin, muiden opiskelijoiden raportteihin, man-sivuihin, kotisivuihin ja ylipäänsä kaikkiin käyttämiisi lähteisiin. 
