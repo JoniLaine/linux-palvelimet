@@ -88,6 +88,51 @@ Oikeudet olivat kunnossa, joten kokeilin skriptin toiminnan:
 Tämäkin toimi hienosti, joten siirryin C-kielen pariin.
 
 Aikaa kulunut: 0:30
+
+Aloitin asentamalla C-kielen vaatiman paketin (GNU Compiler Collection) virtuaalikoneelle:
+
+`$ sudo apt-get install gcc`
+
+Annoin salasanan ja huomasin, että paketti oli jo asennettu virtuaalikoneelle ja vielä käyttäjän (itseni) toimesta. En muistanut syytä, miksi olisin tämän asentanut aiemmin koneelle jo valmiiksi, mutta uudelleen asentamisen yrittämisestä ei toisaalta ollut haittaakaan.
+
+![Add file: Upload](h7_Kuva12.png)
+
+Loin C-kielen skriptin komennolla:
+
+`$ micro Hello.c`
+
+![Add file: Upload](h7_Kuva13.png)
+
+Ja sisällöksi yksinkertaisen koodin:
+
+```
+`$ #include <stdio.h>
+
+int main() {
+  printf("Hei maailma");
+  return 0;
+}
+```
+
+![Add file: Upload](h7_Kuva14.png)
+
+Tallensin ja suljin tiedoston ja tarkistin jälleen käyttöoikeudet:
+
+![Add file: Upload](h7_Kuva15.png)
+
+Oikeudet olivat jälleen kunnossa, joten kokeilin tiedoston ajamista:
+
+![Add file: Upload](h7_Kuva16.png)
+
+Huomasin, että C-kielen tulkki ei tunnistanut pystynyt lukemaan skriptiä, joten käänsin tiedoston tulkille sopivaan luettavaan muotoon ja nimesin se uudestaan Hello-nimiseksi:
+
+`$ gcc Hello.c -o Hello`
+
+Ja tarkistin lopputuloksen:
+
+`$ ls -l`
+
+![Add file: Upload](h7_Kuva17.png)
   
 ## b) Lähdeviitteet. Tarkista ja tarvittaessa lisää lähdeviitteet kaikkiin raportteihisi h1 alkaen.
 Tarkista, että olet viitannut lähteisiin: tehtäväsivuun, kurssiin, muiden opiskelijoiden raportteihin, man-sivuihin, kotisivuihin ja ylipäänsä kaikkiin käyttämiisi lähteisiin. 
