@@ -187,6 +187,7 @@ Koneella ei saa olla mitään muita demoneja tai ohjelmia asennettuna kuin nuo j
 ## Lähdeluettelo
 
 - Tero Karvinen, Linux Palvelimet 2025: https://terokarvinen.com/linux-palvelimet/
+- Ask Ubuntu: https://askubuntu.com/questions/831/what-does-it-mean-that-a-package-is-set-to-manually-installed
 
 
 ## Tekijä
