@@ -173,10 +173,7 @@ Nyt lopputulos oli siistimpi ja toimi hyvin.
 
 Aikaa kulunut: 0:50
   
-## b) Lähdeviitteet. Tarkista ja tarvittaessa lisää lähdeviitteet kaikkiin raportteihisi h1 alkaen.
-Tarkista, että olet viitannut lähteisiin: tehtäväsivuun, kurssiin, muiden opiskelijoiden raportteihin, man-sivuihin, kotisivuihin ja ylipäänsä kaikkiin käyttämiisi lähteisiin. 
-  Lähdeviite tulee olla jokaisessa raportissa tai sivussa, jossa lähdettä on käytetty. Kaikki tehtävät perustuvat tämän sivun tehtävänantoihin, joten ainakin tämä viite on syytä löytyä. (Tästä alakohdasta ei tarvitse kirjoittaa vaiheittaista raporttia)
-
+## b) Lähteiden tarkistus. Ei erikseen raportoitava.
 
 ## c) Laita Linuxiin uusi, itse tekemäsi komento niin, että kaikki käyttäjät voivat ajaa sitä.
 
@@ -192,9 +189,8 @@ Koneella ei saa olla mitään muita demoneja tai ohjelmia asennettuna kuin nuo j
 
 - Tero Karvinen, Linux Palvelimet 2025: https://terokarvinen.com/linux-palvelimet/
 - Ask Ubuntu: https://askubuntu.com/questions/831/what-does-it-mean-that-a-package-is-set-to-manually-installed
+- Tero Karvinen, Shell Scripting: https://terokarvinen.com/2007/12/04/shell-scripting-4/
 - Oman skriptin tekoon etsitty ohjelmavinki: https://medium.com/@gurpreet.singh_89/15-fun-linux-command-line-programs-to-spice-up-your-terminal-abf30af73de1
-- Copilot, käytetty haku: "mikä on debian terminaalissa C-kielen tulkin nimi?", tulos: GCC (GNU Compiler Collection)
-- GCC:n käytön tutkintaan: https://linuxize.com/post/how-to-install-gcc-compiler-on-debian-10/
 
 
 ## Tekijä
