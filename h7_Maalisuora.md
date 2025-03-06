@@ -219,11 +219,11 @@ Sain ilmoituksen käyttöoikeuksien puutteesta, joten tarkistin nämä:
 
 `$ ls -l`
 
-
+![Add file: Upload](h7_Kuva24.png)
 
 Kyseisen tiedoston käyttöoikeudet eivät riittäneet, eikä omalla käyttäjälläni ollut suoritus (`x`) oikeuksia:
 
-
+![Add file: Upload](h7_Kuva25.png)
 
 Lisäsin suoritusoikeudet kaikille käyttäjille kyseiseen tiedostoon:
 
@@ -234,13 +234,6 @@ Ja tarkistin näiden olevan nyt oikein:
 `$ ls -l`
 
 ![Add file: Upload](h7_Kuva31.png)
-
-
-
-![Add file: Upload](h7_Kuva24.png)
-
-
-![Add file: Upload](h7_Kuva25.png)
 
 Lisäsin suoritusoikeudet kaikille käyttäjille kyseiseen tiedostoon:
 
