@@ -1,5 +1,7 @@
 # h3 Hello Web Server
 
+Huomioitavaa: raportissa on käytetty aikaa pituusmääreenä virheellisesti kellonajan ja päivämäärän sijaan.
+
 Aikaa kulunut: 0:00
 
 ## Weppipalvelin localhost-osoitteessa ja Apache
@@ -298,7 +300,7 @@ Ja latasin Firefox-selaimessa sivun uudestaan. Sivu ei edelleenkään toiminut v
 
 Aikaa kulunut: 2:50
 
-**Tämän jälkeen alkoi armoton vianselvitys, jonka suosittelen jättämään välistä ja siirtymään suoraan ratkaisuun, joka on viimeisellä rivillä. Sillä voi säätyä paljolta ylimääräiseltä vaivalta.**
+**Tämän jälkeen alkoi armoton vianselvitys, jonka suosittelen jättämään välistä ja siirtymään suoraan ratkaisuun. Sillä voi säätyä paljolta ylimääräiseltä vaivalta. Ratkaisu on merkitty paksunnetusti tekstillä "RATKAISU""**
 
 Luin jälleen Apachen error.login, mutta se ei valitettavsti tuottanut juurikaan iloa, enkä löytänyt syytä virheelle.
 
@@ -313,6 +315,8 @@ Lopputulema oli siis, että ylemmän kuvan mukaisesti suora URL sivulle toimi, m
  ![Add file: Upload](h3_Kuva24.png)
 
 Koska olin tarkistanut, että ainoastaan hattu.example.com.conf, hattu.example.com, index.htlm sekä hosts-tiedosto olivat kaikki sisällöltään oikein ja ainoastaan sivusto hattu.example.com oli aktiivisena lähdin kokeilemaan selaimessa asiaa eteenpäin. Yritin päivittää sivun pitäen pohjassa shift-painiketta, mutta edelleenkään http://localhost ei vastannut vaan antoi samaa `404` virhettä. Kokeilin että sekä http://hattu.example.com että http://127.0.0.1 vastasivat kumpikin oikein.
+
+**RATKAISU**
 
 Päätin sulkea koko Firefox-selaimen ja avata sen uudestaan. Tämän jälkeen myös http://localhost näytti sivun oikein:
 
@@ -382,14 +386,25 @@ Aikaa kulunut: 4:40
 ## Lähdeluettelo
 
 - Tero Karvinen: [Linux-palvelimet](https://terokarvinen.com/linux-palvelimet/)
+  
 - Apache HTTP Server Project, Name based virtual host support: [Name based virtual host support](https://httpd.apache.org/docs/2.4/vhosts/name-based.html)
+  
 -	Tero Karvinen 2018: [Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address](https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/)
+  
 - Baeldung Linux: [Guide to the Linux curl Command with examples](https://www.baeldung.com/linux/curl-guide)
+  
 - Hostinger Tutorials: [What is the cURL-command? Understanding the syntax, options and examples](https://www.hostinger.com/tutorials/curl-command)
+  
 
+## Muokkaukset
+
+- 6.3.2025: Muokattu tekijä-osio vastaavaksi muiden raporttien kanssa; Selkeytetty turhan vianetsinnän muotoilua siten, että lukija löytää helpommin, missä ratkaisu on; Siistitty lähdeluettelon ulkoasua
+  
 
 ## Tekijä
 
 ### Joni Laine
 
 ### Haaga-Helia, IT-Tradenomiopiskelija
+
+Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 tai uudempi) mukaisesti. (http://www.gnu.org/licenses/gpl.html)
