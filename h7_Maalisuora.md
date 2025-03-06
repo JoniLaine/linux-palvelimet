@@ -233,16 +233,6 @@ Ja tarkistin näiden olevan nyt oikein:
 
 `$ ls -l`
 
-![Add file: Upload](h7_Kuva31.png)
-
-Lisäsin suoritusoikeudet kaikille käyttäjille kyseiseen tiedostoon:
-
-`$ chmod ugo+x /home/joni/omakomento`
-
-Ja tarkistin näiden olevan nyt oikein:
-
-`$ ls -l`
-
 ![Add file: Upload](h7_Kuva26.png)
 
 ![Add file: Upload](h7_Kuva31.png)
