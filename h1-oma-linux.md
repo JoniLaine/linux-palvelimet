@@ -110,11 +110,26 @@ Klikattu nappia Start Using Debian GNU/Linux, jonka jälkeen kone on valmis käy
 
 # Lähdeluettelo
 
+- Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 tai uudempi) mukaisesti. (http://www.gnu.org/licenses/gpl.html)
+
+- Tero Karvinen, Raportin kirjoittaminen: (https://terokarvinen.com/2006/raportin-kirjoittaminen-4/)
+
+- GNU Operating System, What is Free Software?: (https://www.gnu.org/philosophy/free-sw.html)
+
+
+# Muokkaukset
+
+- 6.3.2025: lisätty tekijätiedot sekä siistitty lähdeluettelon ulkoasua
+  
+
+## Tekijä
+
+### Joni Laine
+
+### Haaga-Helia, IT-Tradenomiopiskelija
+
 Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 tai uudempi) mukaisesti. (http://www.gnu.org/licenses/gpl.html)
 
-Tero Karvinen, Raportin kirjoittaminen: (https://terokarvinen.com/2006/raportin-kirjoittaminen-4/)
-
-GNU Operating System, What is Free Software?: (https://www.gnu.org/philosophy/free-sw.html)
 
 
  
