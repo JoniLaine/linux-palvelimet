@@ -175,19 +175,90 @@ Aikaa kulunut: 0:50
   
 ## b) Lähteiden tarkistus. Ei erikseen raportoitava.
 
+Aikaa kulunut: 1:20
+
 ## c) Laita Linuxiin uusi, itse tekemäsi komento niin, että kaikki käyttäjät voivat ajaa sitä.
 
-Asensin:
+Etsin ensin jonkin hauskalta vaikuttavan ohjelman, jonka lisäsin skriptiini muutaman peruskomennon lisäksi. 
+Päädyin kokeilemaan löytämääni `fortune`-ohjelmaa, joka kertoisi satunnaisia viisauksia, ennustuksia ja vastaavia.
+Asensin ohjelman komennolla:
+
+`$ sudo apt-get install fortune`
+
+Ja vahvistin asennuksen valinnalla `y` + `Enter`.
 
 ![Add file: Upload](h7_Kuva21.png)
 
+Loin micro-editorilla oman skriptin nimeltä "omakomento":
+
+`$ micro omakomento`
+
+Ja lisäsin äsken asennetun fortunen sekä myös sisäänrakennetut `whoami` ja `uptime` -ohjelmat:
+
+```
+#!/usr/bin/bash
+
+fortune
+
+whoami
+
+uptime
+```
+
+Skriptin alussa oleva #! (shebang tai hashbang) määrittää, että skriptin suorittamiseen käytetään `bash`-tulkkia ja tätä voivat käyttää myös muut käyttäjät, vaikka heillä ei olisi asennettuna bash-tulkkia itselleen.
+
+Kokeilin tekemäni skriptin toimintaa (kuvassa ensimmäisessä komennossa minulla kävi virhe ja käytin takakenoa ensin kauttamerkin sijaan):
+
+`$ ./omakomento`
+
+Sain ilmoituksen käyttöoikeuksien puutteesta, joten tarkistin nämä:
+
+`$ ls -l`
+
 ![Add file: Upload](h7_Kuva22.png)
+
+Kyseisen tiedoston käyttöoikeudet eivät riittäneet, eikä omalla käyttäjälläni ollut suoritus (`x`) oikeuksia:
 
 ![Add file: Upload](h7_Kuva23.png)
 
+Lisäsin suoritusoikeudet kaikille käyttäjille kyseiseen tiedostoon:
+
+`$ chmod ugo+x /home/joni/omakomento`
+
+Ja tarkistin näiden olevan nyt oikein:
+
+`$ ls -l`
+
+![Add file: Upload](h7_Kuva31.png)
+
+Tämän jälkeen kopioin tiedoston hakemistoon `/usr/local/bin/` :
+
+`$ sudo cp -v omakomento /usr/local/bin/`
+
 ![Add file: Upload](h7_Kuva24.png)
 
+Siirryin kotihakemistoon ja kokeilin ajaa juuri tehdyn ohjelman:
+
+`$ cd /var/`
+
+`$ omakomento`
+
 ![Add file: Upload](h7_Kuva25.png)
+
+Sain hienosti ohjelman toimimaan ja näkyville fortunen ennustuksen, oman käyttäjänimeni sekä koneen käynnissäoloajan.
+Seuraavaksi lähdin kokeilemaan, että muut käyttäjät pystyvät myös ajamaan ohjelman. Koska minulla ei ollut valmiina koneella toista käyttäjää, loin tätä varten uuden etstikäyttäjän:
+
+`$ sudo adduser testi`
+
+Valitsin salasanan uudelle käyttäjälle ja annoin testiä varten tarvittavat tiedot.
+
+Tein turhan komennon tässä välissä (`$ users`), mutta huomasin ajatusvirheen vasta seuraavassa vaiheessa.
+
+Lisäsin testi-käyttäjän käyttäjäryhmään, toistin yllämainitun turhan komennon `$ users`, ja tarkistin testi-käyttäjän nyt näkyvän ryhmässä:
+
+`$ sudo usermod -aG users testi`
+
+`$ groups testi`
 
 ![Add file: Upload](h7_Kuva26.png)
 
@@ -196,6 +267,14 @@ Asensin:
 ![Add file: Upload](h7_Kuva28.png)
 
 ![Add file: Upload](h7_Kuva29.png)
+
+Kirjauduin luodulle testi-käyttäjälle, siirryin oikeaan hakemistoon ja kokeilin ajaa tällä käyttäjällä tekemääni ohjelmaa:
+
+`$ su - testi`
+
+`$ cd /var/`
+
+`$ omakomento`
 
 ![Add file: Upload](h7_Kuva30.png)
 
