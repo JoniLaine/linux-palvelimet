@@ -1,5 +1,7 @@
 # h6 Salataampa
 
+Huomioitavaa: raportissa on käytetty aikaa pituusmääreenä virheellisesti kellonajan ja päivämäärän sijaan.
+
 Tässä osiossa luodaan SSL-salaus (hhtps) weppisivustolle.
 
 Aikaa kulunut: 0:00
@@ -148,6 +150,7 @@ Aikaa kulunut: 1:45
 
 Aikaa kulunut: 1:50
 
+
 ## Lähdeluettelo
 
 - Tero Karvinen, Linux Palvelimet 2025: https://terokarvinen.com/linux-palvelimet/
@@ -158,6 +161,9 @@ Aikaa kulunut: 1:50
 - https://github.com/gianglex/Linux-palvelimet/blob/main/h6/h6-salataampa.md
 
 
+## Muokkaukset
+
+- 3.6.2025: Lisätty huomio raportin alkuun virheellisestä aikamääreen käytöstä
 
 
 ## Tekijä
