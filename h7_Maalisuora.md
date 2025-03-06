@@ -1,5 +1,7 @@
 # h7 Maalisuora
 
+Huomioitavaa: raportissa on käytetty aikaa pituusmääreenä virheellisesti kellonajan ja päivämäärän sijaan.
+
 Tässä osiossa luodaan kolmella ohjelmointikielellä tiedostot, sekä suoritetaan nämä tiedostot. Lisäksi luodaan oma komento, jonka kaikki koneella olevat käyttäjät pystyvät suorittamaan.
 
 Aikaa kulunut: 0:00
@@ -191,6 +193,8 @@ Koneella ei saa olla mitään muita demoneja tai ohjelmia asennettuna kuin nuo j
 - Tero Karvinen, Linux Palvelimet 2025: https://terokarvinen.com/linux-palvelimet/
 - Ask Ubuntu: https://askubuntu.com/questions/831/what-does-it-mean-that-a-package-is-set-to-manually-installed
 - Oman skriptin tekoon etsitty ohjelmavinki: https://medium.com/@gurpreet.singh_89/15-fun-linux-command-line-programs-to-spice-up-your-terminal-abf30af73de1
+- Copilot, käytetty haku: "mikä on debian terminaalissa C-kielen tulkin nimi?", tulos: GCC (GNU Compiler Collection)
+- GCC:n käytön tutkintaan: https://linuxize.com/post/how-to-install-gcc-compiler-on-debian-10/
 
 
 ## Tekijä
