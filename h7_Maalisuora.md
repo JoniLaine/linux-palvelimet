@@ -177,6 +177,28 @@ Aikaa kulunut: 0:50
 
 ## c) Laita Linuxiin uusi, itse tekemäsi komento niin, että kaikki käyttäjät voivat ajaa sitä.
 
+Asensin:
+
+![Add file: Upload](h7_Kuva21.png)
+
+![Add file: Upload](h7_Kuva22.png)
+
+![Add file: Upload](h7_Kuva23.png)
+
+![Add file: Upload](h7_Kuva24.png)
+
+![Add file: Upload](h7_Kuva25.png)
+
+![Add file: Upload](h7_Kuva26.png)
+
+![Add file: Upload](h7_Kuva27.png)
+
+![Add file: Upload](h7_Kuva28.png)
+
+![Add file: Upload](h7_Kuva29.png)
+
+![Add file: Upload](h7_Kuva30.png)
+
 ## d) Ratkaise vanha arvioitava laboratorioharjoitus soveltuvin osin.
 
 ## e) Asenna itsellesi tyhjä virtuaalikone arvioitavaa labraa varten. Suosittelen Debian 12-Bookworm amd64, riittävästi RAM ja kovalevyä. Koneella saa olla päivitetyt ohjelmistot (apt-get dist-upgrade), tulimuuri (esim. ufw). 
