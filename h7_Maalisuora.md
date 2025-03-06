@@ -236,14 +236,21 @@ Ja tarkistin näiden olevan nyt oikein:
 ![Add file: Upload](h7_Kuva24.png)
 
 
-
 ![Add file: Upload](h7_Kuva25.png)
 
+Lisäsin suoritusoikeudet kaikille käyttäjille kyseiseen tiedostoon:
 
+`$ chmod ugo+x /home/joni/omakomento`
+
+Ja tarkistin näiden olevan nyt oikein:
+
+`$ ls -l`
 
 ![Add file: Upload](h7_Kuva26.png)
 
-Tämän jälkeen kopioin tiedoston hakemistoon `/usr/local/bin/` :
+![Add file: Upload](h7_Kuva31.png)
+
+Nyt käyttöoikeudet olivat oikein määritetty, joten kopioin tiedoston hakemistoon `/usr/local/bin/` :
 
 `$ sudo cp -v omakomento /usr/local/bin/`
 
