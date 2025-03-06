@@ -1,5 +1,7 @@
 # h4 Maailma kuulee
 
+Huomioitavaa: raportissa on käytetty aikaa pituusmääreenä virheellisesti kellonajan ja päivämäärän sijaan.
+
 **Aikaa kulunut: 0:00**
 
 ##	x) Tiivistettynä Susanna Lehdon ja Tero Karvisen artikkelit (lähdeluettelossa)
@@ -125,7 +127,7 @@ Lisäsin käyttäjän joni sudo-ryhmään komennoilla:
 
 Ja kirjauduin pois root-käyttäjältä komennolla:
 
-`$exit`
+`$ exit`
 
 Yritin saada SSH yhteyden komennolla, mutta tämä ei näyttänyt onnistuvan toivotusti ja palautti käyttäjäksi root-käyttäjän:
 
@@ -289,11 +291,17 @@ Ja tarkistin sivun näyttävän nyt alla olevan mukaiselta:
 
 **Aikaa kulunut: 2:45**
 
+
 ## Lähdeluettelo
 
 - Tero Karvinen, First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS: [First Steps on a New Virtual Private Server](https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/)
+  
 - Susanna Lehto, Teoriasta käytäntöön pilvipalveluiden avulla: [Teoriasta käytäntöön pilvipalveluiden avulla](https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/)
 
+
+## Muokkaukset
+
+- 6.3.2025: Lisätty huomio raportin alkuun virheellisestä aikamerkintätavasta
 
 
 ## Tekijä
@@ -301,6 +309,8 @@ Ja tarkistin sivun näyttävän nyt alla olevan mukaiselta:
 ### Joni Laine
 
 ### Haaga-Helia, IT-Tradenomiopiskelija
+
+Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 tai uudempi) mukaisesti. (http://www.gnu.org/licenses/gpl.html)
 
 
 
