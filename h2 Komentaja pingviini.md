@@ -1,5 +1,7 @@
 # h2 Komentaja pingviini
 
+Huomioitavaa: raportissa on käytetty aikaa pituusmääreenä virheellisesti kellonajan ja päivämäärän sijaan.
+
 Työn aloitus: 0:00
 
 ## Command line basics revisited 
@@ -379,9 +381,30 @@ Aikaa kulunut: 5:00
 
 - GitHub: [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
+- Vaihtoehtoja löydetty kolmeen asennettavaaan ohjelmaan: https://forums.debian.net/viewtopic.php?t=126446
+
+- rsync-ohjelmasta haetut syntaksit: https://linuxize.com/post/how-to-use-rsync-for-local-and-remote-data-transfer-and-synchronization/
+
+- locate-ohjelmasta haetut syntaksit: https://www.thegeekstuff.com/2012/03/locate-command-examples/
+
+- Copilot, käytetty hakua: "onko ohjelmaa terminaaliin joka auttaisi hahmottamaan paremmin hakemiston rakenteen?" ja saatu vastauksessa muun muassa tree-ohjelma.
+
+- Tree syntaksin tutkimiseen käytetty: https://idroot.us/tree-command-linux/
+
+- Tmux syntaksin ymmärtämiseen käytetty: https://www.geeksforgeeks.org/tmux-in-linux/
+
+
+## Muokkaukset
+
+- 6.3.2025: Muokattu tekijätiedot yhteneväiseksi muiden raporttien kanssa; lisätty huomioitavaa-osio raportin alkuun koskien virheellisesti merkittyä aikaa; Tarkistettu lähdeluettelo ja korjattu puutteet koskien kolmen ohjelman valintaa.
+  
+
+
 ## Tekijä
 
 ### Joni Laine
 
 ### Haaga-Helia, IT-Tradenomiopiskelija
+
+Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 tai uudempi) mukaisesti. (http://www.gnu.org/licenses/gpl.html)
 
