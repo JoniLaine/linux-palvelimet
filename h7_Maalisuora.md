@@ -1,12 +1,14 @@
 # h7 Maalisuora
 
+Tässä osiossa luodaan kolmella ohjelmointikielellä tiedostot, sekä suoritetaan nämä tiedostot. Lisäksi luodaan oma komento, jonka kaikki koneella olevat käyttäjät pystyvät suorittamaan.
+
 Aikaa kulunut: 0:00
 
 ## a) Kirjoita ja aja "Hei maailma" kolmella kielellä.
 
-Aloitin valitsemalla ohjelmointikieliksi Javan, Pythonin ja C:n.
+Aloitin valitsemalla ohjelmointikieliksi Javan, Pythonin ja C:n. Nämä valikoituivat käytettäviksi kieliksi, koska kaikista edellämainituista itselläni oli kokemusta ohjelmoinnissa vähintään alkeiden verran.
 
-Asensin ensimmäisenä virtuaalikoneen käyttäjälle Java Development Kit (JDK) -paketin komennolla:
+Asensin ensimmäisenä virtuaalikoneen käyttäjälle Java Development Kit (JDK) -paketin, koska pakettia tarvitsee Java-sisällön käsittelyyn:
 
 `$ sudo apt-get install openjdk-17-jdk`
 
@@ -188,6 +190,7 @@ Koneella ei saa olla mitään muita demoneja tai ohjelmia asennettuna kuin nuo j
 
 - Tero Karvinen, Linux Palvelimet 2025: https://terokarvinen.com/linux-palvelimet/
 - Ask Ubuntu: https://askubuntu.com/questions/831/what-does-it-mean-that-a-package-is-set-to-manually-installed
+- Oman skriptin tekoon etsitty ohjelmavinki: https://medium.com/@gurpreet.singh_89/15-fun-linux-command-line-programs-to-spice-up-your-terminal-abf30af73de1
 
 
 ## Tekijä
