@@ -280,6 +280,8 @@ Kirjauduin luodulle testi-käyttäjälle, siirryin oikeaan hakemistoon ja kokeil
 
 Hienosti toimi. (Ja myös fortunen antama ennuste mahdollisuudesta edetä tänään osui oikeaan ainakin tässä tehtävässä.)
 
+Aikaa kulunut: 1:50
+
 ## d) Ratkaise vanha arvioitava laboratorioharjoitus soveltuvin osin.
 
 ## e) Asenna itsellesi tyhjä virtuaalikone arvioitavaa labraa varten. Suosittelen Debian 12-Bookworm amd64, riittävästi RAM ja kovalevyä. Koneella saa olla päivitetyt ohjelmistot (apt-get dist-upgrade), tulimuuri (esim. ufw). 
