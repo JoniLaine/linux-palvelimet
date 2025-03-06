@@ -193,6 +193,8 @@ Loin micro-editorilla oman skriptin nimeltä "omakomento":
 
 `$ micro omakomento`
 
+![Add file: Upload](h7_Kuva22.png)
+
 Ja lisäsin äsken asennetun fortunen sekä myös sisäänrakennetut `whoami` ja `uptime` -ohjelmat:
 
 ```
@@ -205,6 +207,8 @@ whoami
 uptime
 ```
 
+![Add file: Upload](h7_Kuva23.png)
+
 Skriptin alussa oleva #! (shebang tai hashbang) määrittää, että skriptin suorittamiseen käytetään `bash`-tulkkia ja tätä voivat käyttää myös muut käyttäjät, vaikka heillä ei olisi asennettuna bash-tulkkia itselleen.
 
 Kokeilin tekemäni skriptin toimintaa (kuvassa ensimmäisessä komennossa minulla kävi virhe ja käytin takakenoa ensin kauttamerkin sijaan):
@@ -215,11 +219,11 @@ Sain ilmoituksen käyttöoikeuksien puutteesta, joten tarkistin nämä:
 
 `$ ls -l`
 
-![Add file: Upload](h7_Kuva22.png)
+
 
 Kyseisen tiedoston käyttöoikeudet eivät riittäneet, eikä omalla käyttäjälläni ollut suoritus (`x`) oikeuksia:
 
-![Add file: Upload](h7_Kuva23.png)
+
 
 Lisäsin suoritusoikeudet kaikille käyttäjille kyseiseen tiedostoon:
 
