@@ -155,6 +155,7 @@ Aikaa kulunut: 1:50
 - https://go-acme.github.io/lego/usage/cli/obtain-a-certificate/index.html#using-an-existing-running-web-server
 - https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#configexample
 - https://www.ssllabs.com/
+- https://github.com/gianglex/Linux-palvelimet/blob/main/h6/h6-salataampa.md
 
 
 
