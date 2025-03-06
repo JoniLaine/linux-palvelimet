@@ -231,11 +231,23 @@ Ja tarkistin näiden olevan nyt oikein:
 
 ![Add file: Upload](h7_Kuva31.png)
 
+
+
+![Add file: Upload](h7_Kuva24.png)
+
+
+
+![Add file: Upload](h7_Kuva25.png)
+
+
+
+![Add file: Upload](h7_Kuva26.png)
+
 Tämän jälkeen kopioin tiedoston hakemistoon `/usr/local/bin/` :
 
 `$ sudo cp -v omakomento /usr/local/bin/`
 
-![Add file: Upload](h7_Kuva24.png)
+![Add file: Upload](h7_Kuva27.png)
 
 Siirryin kotihakemistoon ja kokeilin ajaa juuri tehdyn ohjelman:
 
@@ -243,7 +255,7 @@ Siirryin kotihakemistoon ja kokeilin ajaa juuri tehdyn ohjelman:
 
 `$ omakomento`
 
-![Add file: Upload](h7_Kuva25.png)
+![Add file: Upload](h7_Kuva28.png)
 
 Sain hienosti ohjelman toimimaan ja näkyville fortunen ennustuksen, oman käyttäjänimeni sekä koneen käynnissäoloajan.
 Seuraavaksi lähdin kokeilemaan, että muut käyttäjät pystyvät myös ajamaan ohjelman. Koska minulla ei ollut valmiina koneella toista käyttäjää, loin tätä varten uuden etstikäyttäjän:
@@ -259,12 +271,6 @@ Lisäsin testi-käyttäjän käyttäjäryhmään, toistin yllämainitun turhan k
 `$ sudo usermod -aG users testi`
 
 `$ groups testi`
-
-![Add file: Upload](h7_Kuva26.png)
-
-![Add file: Upload](h7_Kuva27.png)
-
-![Add file: Upload](h7_Kuva28.png)
 
 ![Add file: Upload](h7_Kuva29.png)
 
