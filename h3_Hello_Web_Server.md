@@ -300,7 +300,7 @@ Ja latasin Firefox-selaimessa sivun uudestaan. Sivu ei edelleenkään toiminut v
 
 Aikaa kulunut: 2:50
 
-**Tämän jälkeen alkoi armoton vianselvitys, jonka suosittelen jättämään välistä ja siirtymään suoraan ratkaisuun. Sillä voi säätyä paljolta ylimääräiseltä vaivalta. Ratkaisu on merkitty paksunnetusti tekstillä "RATKAISU""**
+**Tämän jälkeen alkoi armoton vianselvitys, jonka suosittelen jättämään välistä ja siirtymään suoraan ratkaisuun. Sillä voi säätyä paljolta ylimääräiseltä vaivalta. Ratkaisu on merkitty paksunnetusti tekstillä "RATKAISU"**
 
 Luin jälleen Apachen error.login, mutta se ei valitettavsti tuottanut juurikaan iloa, enkä löytänyt syytä virheelle.
 
