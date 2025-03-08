@@ -394,6 +394,7 @@ Tästä osiosta ei ole erillistä raporttia.
 - Tero Karvinen, Shell Scripting: https://terokarvinen.com/2007/12/04/shell-scripting-4/
 - Oman skriptin tekoon etsitty ohjelmavinki: https://medium.com/@gurpreet.singh_89/15-fun-linux-command-line-programs-to-spice-up-your-terminal-abf30af73de1
 - Final lab: https://terokarvinen.com/2024/arvioitava-laboratorioharjoitus-2024-linux-palvelimet/
+- Oma materiaali: https://github.com/JoniLaine/linux-palvelimet/tree/main
 
 
 ## Tekijä
