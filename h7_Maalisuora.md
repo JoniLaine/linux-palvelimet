@@ -320,49 +320,46 @@ Kopioin tiedoston hakemistoon, johon muut käyttäjät pääsevät käsiksi ja k
 
 ![Add file: Upload](h7_Kuva45.png)
 
-Asensin Apache2 virtuaalikoneelle:
-
 ![Add file: Upload](h7_Kuva46.png)
 
-
+Asensin Apache2 virtuaalikoneelle:
 
 ![Add file: Upload](h7_Kuva47.png)
 
-
-![Add file: Upload](h7_Kuv48.png)
-
+Loin public-sites hakemiston ja sinne tiedoston AIKakone.com:
 
 ![Add file: Upload](h7_Kuva49.png)
 
+Otin sivun käyttöön:
 
 ![Add file: Upload](h7_Kuva50.png)
 
-
-![Add file: Upload](h7_Kuva51.png)
-
+Otin pois aktiivisista sivustoista default-sivun:
 
 ![Add file: Upload](h7_Kuva52.png)
 
+Kokeilin avata sivun osoitteesta http://localhost:
 
 ![Add file: Upload](h7_Kuva53.png)
 
-
-![Add file: Upload](h7_Kuva54.png)
-
+Virhe antoi ylläolevan, mutta tiesin, että sivulla ei ole sisältöä joten loin seuraavan tiedoston:
 
 ![Add file: Upload](h7_Kuva55.png)
 
+![Add file: Upload](h7_Kuva54.png)
+
+Latasin sivun uudestaan ja tarkistin lokitiedot:
 
 ![Add file: Upload](h7_Kuva56.png)
 
+Loin konfiguraatiotiedoston alla olevilla spekseillä, mutta sijainto oli luultavasti väärä:
 
 ![Add file: Upload](h7_Kuva57.png)
 
+Käynnistin apachen uudestaan:
 
 ![Add file: Upload](h7_Kuva58.png)
 
-
-![Add file: Upload](h7_Kuva59.png)
 
 
 ![Add file: Upload](h7_Kuva60.png)
