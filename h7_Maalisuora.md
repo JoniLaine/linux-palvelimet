@@ -292,23 +292,38 @@ a) https://terokarvinen.com/2024/arvioitava-laboratorioharjoitus-2024-linux-palv
 b) Tiivistelmä koko työstä lopuksi
 - Vastaa tähän kohtaan aivan viimeisenä
 
+c) Ei kolmea sekoseiskaa
 
-![Add file: Upload](h7_Kuva40.png)
+Valitettavasti en ymmärtänyt tehtävänantoa. Raportti on kirjoitettu GitHubiin, joka on avoinna kaikille ollessaan public-julkaisu.
 
+d) howdy
+
+Lähdin tekemään "howdy"-nimistä komentoa, joka olisi kaikkien käyttäjien ajettavissa:
+
+`$ micro howdy`
 
 ![Add file: Upload](h7_Kuva41.png)
 
+Lisäsin sisällön ja hashbangin:
+
+![Add file: Upload](h7_Kuva40.png)
+
+Ja kokeilin ajaa komennon omalla käyttäjälläni:
 
 ![Add file: Upload](h7_Kuva42.png)
 
+Tämä toimi joten lisäsin myös kaikille muille käyttäjille `x`-oikeudet:
 
 ![Add file: Upload](h7_Kuva43.png)
 
+Kopioin tiedoston hakemistoon, johon muut käyttäjät pääsevät käsiksi ja kirjauduin testikäyttäjälle kokeillakseni sen toimivan myös testi-käyttäjän ajaessa tiedoston:
 
 ![Add file: Upload](h7_Kuva45.png)
 
+Asensin Apache2 virtuaalikoneelle:
 
 ![Add file: Upload](h7_Kuva46.png)
+
 
 
 ![Add file: Upload](h7_Kuva47.png)
