@@ -284,6 +284,19 @@ Aikaa kulunut: 1:50
 
 ## d) Ratkaise vanha arvioitava laboratorioharjoitus soveltuvin osin.
 
+a) https://terokarvinen.com/2024/arvioitava-laboratorioharjoitus-2024-linux-palvelimet/
+- Joni Laine
+- 2408717
+- https://github.com/JoniLaine/linux-palvelimet
+
+b) Tiivistelmä koko työstä lopuksi
+- Vastaa tähän kohtaan aivan viimeisenä
+
+c) d) 'howdy'
+
+
+
+
 ## e) Asenna itsellesi tyhjä virtuaalikone arvioitavaa labraa varten. Suosittelen Debian 12-Bookworm amd64, riittävästi RAM ja kovalevyä. Koneella saa olla päivitetyt ohjelmistot (apt-get dist-upgrade), tulimuuri (esim. ufw). 
 Koneella ei saa olla mitään muita demoneja tai ohjelmia asennettuna kuin nuo ja asennuksen mukana tulevat. Virtuaalikoneella ei saa olla luottamuksellisia tiedostoja, koska opettaja saattaa tarkastella sitä. 
 (Tästä d-osioista ei tarvitse kirjoittaa raporttia. 
@@ -296,6 +309,7 @@ Koneella ei saa olla mitään muita demoneja tai ohjelmia asennettuna kuin nuo j
 - Ask Ubuntu: https://askubuntu.com/questions/831/what-does-it-mean-that-a-package-is-set-to-manually-installed
 - Tero Karvinen, Shell Scripting: https://terokarvinen.com/2007/12/04/shell-scripting-4/
 - Oman skriptin tekoon etsitty ohjelmavinki: https://medium.com/@gurpreet.singh_89/15-fun-linux-command-line-programs-to-spice-up-your-terminal-abf30af73de1
+- Final lab: https://terokarvinen.com/2024/arvioitava-laboratorioharjoitus-2024-linux-palvelimet/
 
 
 ## Tekijä
