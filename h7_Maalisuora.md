@@ -292,9 +292,80 @@ a) https://terokarvinen.com/2024/arvioitava-laboratorioharjoitus-2024-linux-palv
 b) Tiivistelmä koko työstä lopuksi
 - Vastaa tähän kohtaan aivan viimeisenä
 
-c) d) 'howdy'
+
+![Add file: Upload](h7_Kuva40.png)
 
 
+![Add file: Upload](h7_Kuva41.png)
+
+
+![Add file: Upload](h7_Kuva42.png)
+
+
+![Add file: Upload](h7_Kuva43.png)
+
+
+![Add file: Upload](h7_Kuva45.png)
+
+
+![Add file: Upload](h7_Kuva46.png)
+
+
+![Add file: Upload](h7_Kuva47.png)
+
+
+![Add file: Upload](h7_Kuv48.png)
+
+
+![Add file: Upload](h7_Kuva49.png)
+
+
+![Add file: Upload](h7_Kuva50.png)
+
+
+![Add file: Upload](h7_Kuva51.png)
+
+
+![Add file: Upload](h7_Kuva52.png)
+
+
+![Add file: Upload](h7_Kuva53.png)
+
+
+![Add file: Upload](h7_Kuva54.png)
+
+
+![Add file: Upload](h7_Kuva55.png)
+
+
+![Add file: Upload](h7_Kuva56.png)
+
+
+![Add file: Upload](h7_Kuva57.png)
+
+
+![Add file: Upload](h7_Kuva58.png)
+
+
+![Add file: Upload](h7_Kuva59.png)
+
+
+![Add file: Upload](h7_Kuva60.png)
+
+
+![Add file: Upload](h7_Kuva61.png)
+
+
+![Add file: Upload](h7_Kuva62.png)
+
+
+![Add file: Upload](h7_Kuva63.png)
+
+
+![Add file: Upload](h7_Kuva64.png)
+
+
+![Add file: Upload](h7_Kuva65.png)
 
 
 ## e) Asenna itsellesi tyhjä virtuaalikone arvioitavaa labraa varten. Suosittelen Debian 12-Bookworm amd64, riittävästi RAM ja kovalevyä. Koneella saa olla päivitetyt ohjelmistot (apt-get dist-upgrade), tulimuuri (esim. ufw). 
