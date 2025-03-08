@@ -226,6 +226,17 @@ Menin tarkistamaan virhelokin sisällön:
 Huomasin, että index.html ei ollut määritelty ja että myös hattu.example.com.conf tiedosto oli tyhjä.
 Tein komennon päästäkseni antamaan tarvittavat tiedot hattu.example.com.conf tiedostolle:
 
+```
+<VirtualHost *:80>
+	ServerName hattu.example.com
+	ServerAlias www.hattu-example.com
+	DocumentRoot /home/joni/public_sites/hattu.example.com
+	<Directory /home/joni/public_sites/hattu.example.com>
+		Require all granted
+	</Directory>
+</VirtualHost>
+```
+
 `$ sudo nano /etc/apache2/hattu.example.com.conf`
 
  Lisäsin tiedostoon sisällöksi:
