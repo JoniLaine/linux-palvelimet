@@ -356,17 +356,19 @@ Loin konfiguraatiotiedoston alla olevilla spekseillä, mutta sijainto oli luulta
 
 ![Add file: Upload](h7_Kuva57.png)
 
-Käynnistin apachen uudestaan:
+Käynnistin apachen uudestaan, avasin selaimen uudestaan ja tarkistin virhelokin:
 
 ![Add file: Upload](h7_Kuva58.png)
 
-
+Kävin tarkistamassa käyttöoikeudet ja huomasin että x-oikeudet puuttuivat, joten lisäsin ne:
 
 ![Add file: Upload](h7_Kuva60.png)
 
+Kokeilin jälleen avata sivun selaimessa uudestaan ja sain saman virheen, joten luin virhelokin ja lisäsin koko polkuun x-oikeudet kaikille käyttäjille:
 
 ![Add file: Upload](h7_Kuva61.png)
 
+Sivu ei edelleenkään toiminut, joten päätin tehdä tällä välin uuden käyttäjän koneelle ja antaa käyttäjälle muokkausoikeudet ilman sudoa tekemälleni etusivulle:
 
 ![Add file: Upload](h7_Kuva62.png)
 
