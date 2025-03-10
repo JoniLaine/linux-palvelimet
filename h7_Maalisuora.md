@@ -372,11 +372,21 @@ Sivu ei edelleenkään toiminut, joten päätin tehdä tällä välin uuden käy
 
 ![Add file: Upload](h7_Kuva62.png)
 
-Tälläkään ei ollut vaikutusta. Saadut virheet eivät itselleni oikein avautuneet, mutta luultavasti nämä saan joskus ajan kanssa selvitettyä paremmin. Tältä erää toteutus ei onnistunut ja epämääräiset virheilmoitukset puuttuvista poluista yms. eivät tuoneet juurikaan iloa, koska hakemisto oli olemassa. Vika jäi pimentoon itsellä, mutta ehkä selviää joku päivä.
+Tälläkään ei ollut vaikutusta. Saadut virheet eivät itselleni oikein avautuneet, mutta luultavasti nämä saan joskus ajan kanssa selvitettyä paremmin. Tältä erää toteutus ei onnistunut ja epämääräiset virheilmoitukset puuttuvista poluista yms. eivät tuoneet juurikaan iloa, koska hakemisto oli olemassa mielestäni.
 
 ![Add file: Upload](h7_Kuva70.png)
 
-Aikaa kulunut: 5:15
+Kokeilin kuitenkin huvikseni vielä tarkistaa asian ja tällöin havaitsin, ett olin vahingossa luonut tiedoston enkä hakemistoa:
+
+![Add file: Upload](h7_Kuva80.png)
+
+![Add file: Upload](h7_Kuva81.png)
+
+![Add file: Upload](h7_Kuva82.png)
+
+![Add file: Upload](h7_Kuva83.png)
+
+Aikaa kulunut: 5:45
 
 ## e) Asenna itsellesi tyhjä virtuaalikone arvioitavaa labraa varten. Suosittelen Debian 12-Bookworm amd64, riittävästi RAM ja kovalevyä. Koneella saa olla päivitetyt ohjelmistot (apt-get dist-upgrade), tulimuuri (esim. ufw). 
 Koneella ei saa olla mitään muita demoneja tai ohjelmia asennettuna kuin nuo ja asennuksen mukana tulevat.
