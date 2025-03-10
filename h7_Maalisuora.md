@@ -391,7 +391,7 @@ Muokkasin index.html tiedostoa vielä siten, että se ei sisältänyt ääkkösi
 
 ![Add file: Upload](h7_Kuva83.png)
 
-SSH-yhetyttä varten en ehtinyt tehdä kuin avainparin, ajan loppuessa kesken, joten tehtävä jäi valitettavasti myös tähän pisteeseen. En myöskään ollut varma, kuinka saan UpCloudissa tehtyä avainparin yhdistämisen, kun itselläni oli jo olemassa toinen sivu ja virtuaalikone, johon tämä on yhdistetty, joten asiaan perehtyminen olisi todennäköisesti vienyt aikaa paljon. Tällöin en olisi saanut raporttia kirjoitettua mahdollisesti lainkaan, joten priorisoin tämän tekemisen tältä erää.
+SSH-yhteyttä varten en ehtinyt tehdä kuin avainparin (ja yrittää openssh-clientin asennust, mutta olinkin tämän tehnyt jo jossain kohtaa enkä tätä muistanut), ajan loppuessa kesken, joten tehtävä jäi valitettavasti myös tähän pisteeseen. En myöskään ollut varma, kuinka saan UpCloudissa tehtyä avainparin yhdistämisen, kun itselläni oli jo olemassa toinen sivu ja virtuaalikone, johon tämä on yhdistetty, joten asiaan perehtyminen olisi todennäköisesti vienyt aikaa paljon. Tällöin en olisi saanut raporttia kirjoitettua mahdollisesti lainkaan, joten priorisoin tämän tekemisen tältä erää.
 
 ![Add file: Upload](h7_Kuva85.png)
 
