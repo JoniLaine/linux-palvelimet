@@ -376,12 +376,13 @@ Tälläkään ei ollut vaikutusta. Saadut virheet eivät itselleni oikein avautu
 
 ![Add file: Upload](h7_Kuva70.png)
 
-Kokeilin kuitenkin huvikseni vielä tarkistaa asian ja tällöin havaitsin, ett olin vahingossa luonut tiedoston enkä hakemistoa:
+Kokeilin kuitenkin huvikseni vielä tarkistaa asian ja tällöin havaitsin, ett olin vahingossa luonut tiedoston enkä hakemistoa, joten hakemistossa AIKakone.com ei voinut olla index.html tiedostoa, joka osoittaisi tehdylle sivulle selaimessa paikallisesti:
 
 ![Add file: Upload](h7_Kuva80.png)
 
 ![Add file: Upload](h7_Kuva81.png)
 
+Poistin tiedoston AIKakone.com ja loin uudestaan samannimisen hakemiston, johon loin myös index.html tiedoston ja tälle sisältöä testausta varten.
 Avasin selaimen uudestaan ja kokeilin sivun toimintaa. Sivu toimi tällä kertaa, mutta olin epähuomiossa käyttänyt ääkkösiä, joten jälki oli melko huonoa:
 
 ![Add file: Upload](h7_Kuva82.png)
@@ -390,7 +391,13 @@ Muokkasin index.html tiedostoa vielä siten, että se ei sisältänyt ääkkösi
 
 ![Add file: Upload](h7_Kuva83.png)
 
-Aikaa kulunut: 5:45
+SSH-yhetyttä varten en ehtinyt tehdä kuin avainparin, ajan loppuessa kesken, joten tehtävä jäi valitettavasti myös tähän pisteeseen. En myöskään ollut varma, kuinka saan UpCloudissa tehtyä avainparin yhdistämisen, kun itselläni oli jo olemassa toinen sivu ja virtuaalikone, johon tämä on yhdistetty, joten asiaan perehtyminen olisi todennäköisesti vienyt aikaa paljon. Tällöin en olisi saanut raporttia kirjoitettua mahdollisesti lainkaan, joten priorisoin tämän tekemisen tältä erää.
+
+![Add file: Upload](h7_Kuva85.png)
+
+![Add file: Upload](h7_Kuva86.png)
+
+Aikaa kulunut: 6:00
 
 ## e) Asenna itsellesi tyhjä virtuaalikone arvioitavaa labraa varten. Suosittelen Debian 12-Bookworm amd64, riittävästi RAM ja kovalevyä. Koneella saa olla päivitetyt ohjelmistot (apt-get dist-upgrade), tulimuuri (esim. ufw). 
 Koneella ei saa olla mitään muita demoneja tai ohjelmia asennettuna kuin nuo ja asennuksen mukana tulevat.
