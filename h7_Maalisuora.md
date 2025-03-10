@@ -401,6 +401,7 @@ Tästä osiosta ei ole erillistä raporttia.
 - Oman skriptin tekoon etsitty ohjelmavinki: https://medium.com/@gurpreet.singh_89/15-fun-linux-command-line-programs-to-spice-up-your-terminal-abf30af73de1
 - Final lab: https://terokarvinen.com/2024/arvioitava-laboratorioharjoitus-2024-linux-palvelimet/
 - Oma materiaali: https://github.com/JoniLaine/linux-palvelimet/tree/main
+- Giang Lee: https://github.com/gianglex/Linux-palvelimet/blob/main/h3/h3-%20hello-web-server.md
 
 
 ## Tekijä
