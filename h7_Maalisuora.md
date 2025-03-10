@@ -382,7 +382,11 @@ Kokeilin kuitenkin huvikseni vielä tarkistaa asian ja tällöin havaitsin, ett 
 
 ![Add file: Upload](h7_Kuva81.png)
 
+Avasin selaimen uudestaan ja kokeilin sivun toimintaa. Sivu toimi tällä kertaa, mutta olin epähuomiossa käyttänyt ääkkösiä, joten jälki oli melko huonoa:
+
 ![Add file: Upload](h7_Kuva82.png)
+
+Muokkasin index.html tiedostoa vielä siten, että se ei sisältänyt ääkkösiä ja lisäsin `<h1></h1>` tekstin ympärille tehdäkseni siitä otsikon:
 
 ![Add file: Upload](h7_Kuva83.png)
 
